@@ -1,0 +1,194 @@
+[
+  {
+    "id": 11,
+    "categoria": "maestro",
+    "mensaje": "Confía en tu intuición, piensa solo lo que deseas, corrige tus pensamientos.",
+    "short": "intuicion"
+  },
+  {
+    "id": 22,
+    "categoria": "maestro",
+    "mensaje": "Estás en el sitio correcto, nutre tus deseos, pronto se manifestará. Sí, vas bien.",
+    "short": "alineate"
+  },
+  {
+    "id": 33,
+    "categoria": "maestro",
+    "mensaje": "Estás rodeado de amor. Sí, vas por buen camino, tienes la ayuda de tus guías.",
+    "short": "ayuda"
+  },
+  {
+    "id": 44,
+    "categoria": "maestro",
+    "mensaje": "Estás protegida por tus guías, pero no vas por buen camino. Reconduce tus pensamientos y deseos.",
+    "short": "protección"
+  },
+  {
+    "id": 55,
+    "categoria": "maestro",
+    "mensaje": "Se vienen cambios fuertes, sientete en paz, un ciclo llega a su fin.",
+    "short": "cambios"
+  },
+  {
+    "id": 66,
+    "categoria": "maestro",
+    "mensaje": "Te enfocas en lo material, vuelve a lo espiritual, a tus emociones.",
+    "short": "introspecta"
+  },
+  {
+    "id": 77,
+    "categoria": "maestro",
+    "mensaje": "Tu deseo se está haciendo realidad, ocurren milagros.",
+    "short": "suerte"
+  },
+  {
+    "id": 88,
+    "categoria": "maestro",
+    "mensaje": "Cosechas los frutos de tu esfuerzo, recogela y disfrutala. Abundancia.",
+    "short": "equilibrio"
+  },
+  {
+    "id": 99,
+    "categoria": "maestro",
+    "mensaje": "Fin de una fase, unión con los guías y el cosmos, el círculo de la vida.",
+    "short": "suelta"
+  },
+  {
+    "id": 111,
+    "categoria": "angeles",
+    "mensaje": " Únete al flujo de dar y recibir, se abren nuevos comienzos.",
+    "short": "FLUYE"
+  },
+  {
+    "id": 222,
+    "categoria": "angeles",
+    "mensaje": "Conexión entre mente, cuerpo y espíritu, escucha a tu intuición.",
+    "short": "INTUICIÓN"
+  },
+  {
+    "id": 333,
+    "categoria": "angeles",
+    "mensaje": " No estás sola, tus guías colaboran contigo dándote amor.",
+    "short": "AMOR"
+  },
+  {
+    "id": 444,
+    "categoria": "angeles",
+    "mensaje": "Pronto obtendrás claridad, estás protegida y segura, ¡vas bien!.",
+    "short": "CLARIDAD"
+  },
+  {
+    "id": 555,
+    "categoria": "angeles",
+    "mensaje": "Se viene un cambio espiritual de autodescubrimiento, ¡posibles milagros!.",
+    "short": "MILAGROS"
+  },
+  {
+    "id": 666,
+    "categoria": "angeles",
+    "mensaje": " Suelta miedos, abraza el cambio interno que se te viene, céntrate en lo místico.",
+    "short": "ESPÍRITU"
+  },
+  {
+    "id": 777,
+    "categoria": "angeles",
+    "mensaje": "La suerte está contigo, abundancia, alíneate contigo misma para evolucionar.",
+    "short": "SUERTE"
+  },
+  {
+    "id": 888,
+    "categoria": "angeles",
+    "mensaje": " ¡Se viene la cosecha! Ya está hecho.",
+    "short": "COSECHA"
+  },
+  {
+    "id": 999,
+    "categoria": "angeles",
+    "mensaje": " Transformación y plenitud, aprendiste la lección que debías, muévete hacia delante.",
+    "short": "PLENITUD"
+  },
+  {
+    "id": 1010,
+    "categoria": "espejo",
+    "mensaje": " Es tiempo de amor, apréciate porque a alguein le gustas.",
+    "short": "AMOR"
+  },
+  {
+    "id": 1111,
+    "categoria": "espejo",
+    "mensaje": " Nuevos comienzos, portal, ¡pide un deseo!",
+    "short": "PORTAL"
+  },
+  {
+    "id": 1212,
+    "categoria": "espejo",
+    "mensaje": " Unidad, virtud y amor, ¡te acercas a tu destino!",
+    "short": "DESTINO"
+  },
+  {
+    "id": 1313,
+    "categoria": "espejo",
+    "mensaje": " Crecimiento espiritual, poderes de manifestación intensificados, ¡se viene!",
+    "short": "MANIFIESTA"
+  },
+  {
+    "id": 1414,
+    "categoria": "espejo",
+    "mensaje": " Sé positiva, céntrate en tus objetivos, las bases de tu deseo se están creando.",
+    "short": "BASES"
+  },
+  {
+    "id": 1515,
+    "categoria": "espejo",
+    "mensaje": " Te aguarda un amor apasionado, ¡puede que te enamores!",
+    "short": "PASIÓN"
+  },
+  {
+    "id": 1616,
+    "categoria": "espejo",
+    "mensaje": " Aparecerán oportunidades y grandes experiencias, ¡súbete al carro!",
+    "short": "OPORTUNIDAD"
+  },
+  {
+    "id": 1717,
+    "categoria": "espejo",
+    "mensaje": " Tus ángeles te cuidan y te aman, se vienen comienzos positivos, ¡pídeles!",
+    "short": "AYUDA"
+  },
+  {
+    "id": 1818,
+    "categoria": "espejo",
+    "mensaje": " Algo está a punto de cambiar a tu favor, el éxito se acerca.",
+    "short": "ÉXITO"
+  },
+  {
+    "id": 1919,
+    "categoria": "espejo",
+    "mensaje": " Ten calma y sé paciente, debes dejar cosas en el pasado para volver a comenzar.",
+    "short": "PACIENCIA"
+  },
+  {
+    "id": 2020,
+    "categoria": "espejo",
+    "mensaje": " Transformación espiritual, despertar dedones, ¡expándete!",
+    "short": "EXPANSIÓN"
+  },
+  {
+    "id": 2121,
+    "categoria": "espejo",
+    "mensaje": " Crecimiento personal, todo tendrá sentido dentro de poco, ¡aguanta!",
+    "short": "RESISTE"
+  },
+  {
+    "id": 2222,
+    "categoria": "espejo",
+    "mensaje": " Tu alma gemela está cerca, pero proyecta tus pensamientos y sentimientos, ¡sé positiva!",
+    "short": "POSITIVA"
+  },
+  {
+    "id": 2323,
+    "categoria": "espejo",
+    "mensaje": " Cuida tus pasos, te estás desviando, reconduce tus deseos.",
+    "short": "CUIDADO"
+  }
+]

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".menu.AccountActivity">
+
+
+    <LinearLayout android:id="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/bg_header"
+            app:cardCornerRadius="100dp">
+            <ImageView android:id="@+id/ivProfile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                tools:src="@raw/libra"/>
+        </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView android:id="@+id/tvTitleProfile"
+            style="@style/tvTitle"
+            android:textSize="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="JOELDAIMON"/>
+        <Button android:id="@+id/btnPwd"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/util_contra"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+                <TextView android:id="@+id/tvFollowers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    tools:text="100"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:text="FOLLOWERS"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+                <TextView android:id="@+id/tvFollowing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    tools:text="100"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:text="SIGUIENDO"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+                <TextView android:id="@+id/tvFriends"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    tools:text="100"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:text="FRIENDS"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/llLevel"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llHeader"
+        android:gravity="bottom"
+        android:layout_marginTop="24dp">
+
+        <View android:id="@+id/vTarot"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/yellow"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"/>
+        <View android:id="@+id/vNumer"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/pink"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"/>
+        <View android:id="@+id/vAstro"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/teal_200"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"/>
+        <View android:id="@+id/vMagia"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/purple_500"
+            android:layout_marginHorizontal="4dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/llLevelNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llLevel"
+        android:layout_marginTop="4dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:gravity="center"
+            android:text="TAROT"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:gravity="center"
+            android:text="NUMER"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:gravity="center"
+            android:text="ASTRO"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:gravity="center"
+            android:text="MAGIA"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/llUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/llLevelNames"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="?colorSecondaryVariant"
+            app:cardCornerRadius="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
+                android:text="USUARIO"/>
+        </androidx.cardview.widget.CardView>
+        <EditText android:id="@+id/etUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="-10dp"
+            android:paddingStart="20dp"
+            tools:text="JoelDaimon"
+            android:enabled="false"
+            android:background="@color/subtitle_color"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/llCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/llUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="?colorSecondaryVariant"
+            app:cardCornerRadius="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
+                android:text="CORREO"/>
+        </androidx.cardview.widget.CardView>
+        <EditText  android:id="@+id/etCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="-10dp"
+            android:paddingStart="20dp"
+            tools:text="paco@paco.com"
+            android:background="@color/subtitle_color"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/llFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/llCorreo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="?colorSecondaryVariant"
+            app:cardCornerRadius="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
+                android:text="FECHA"/>
+        </androidx.cardview.widget.CardView>
+        <EditText  android:id="@+id/etFecha"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="-10dp"
+            android:paddingStart="20dp"
+            tools:text="17/02/1999"
+            android:background="@color/subtitle_color"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/llLugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/llFecha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="?colorSecondaryVariant"
+            app:cardCornerRadius="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
+                android:text="LUGAR"/>
+        </androidx.cardview.widget.CardView>
+        <EditText android:id="@+id/etLugar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="-10dp"
+            android:paddingStart="20dp"
+            tools:text="Valencia, España"
+            android:background="@color/subtitle_color"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/llHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/llLugar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="?colorSecondaryVariant"
+            app:cardCornerRadius="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
+                android:text="HORA"/>
+        </androidx.cardview.widget.CardView>
+        <EditText android:id="@+id/etHora"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="-10dp"
+            android:paddingStart="20dp"
+            tools:text="10:50"
+            android:background="@color/subtitle_color"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/llPwdChange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/llLevelNames"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="@string/util_contra_old"/>
+        <EditText android:id="@+id/etPwdOld"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:layout_marginStart="-10dp"
+            android:paddingStart="20dp"
+            android:background="@color/subtitle_color"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:text="@string/util_contra_new"/>
+        <EditText android:id="@+id/etPwdNew"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:layout_marginStart="-10dp"
+            android:paddingStart="20dp"
+            android:background="@color/subtitle_color"/>
+    </LinearLayout>
+
+    <Button android:id="@+id/btnSave"
+        style="@style/CompraBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="5dp"
+        android:text="@string/util_guardar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

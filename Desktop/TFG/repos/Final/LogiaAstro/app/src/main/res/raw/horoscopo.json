@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "sign": "Aries",
+    "element": "fuego",
+    "energy": "cardinal",
+    "tags": [
+      "Liderazgo",
+      "Impetuosidad",
+      "Business"
+    ],
+    "color": "Rojo",
+    "regent": "Marte",
+    "exaltation": "Sol",
+    "fall": "Saturn",
+    "tarotCard": "Emperador",
+    "image": "aries.png",
+    "summary": "You are being watched. The government has a secret system, a machine that spies on you every hour of every day. I know because I built it. I designed the Machine to detect acts of terror but it sees everything. Violent crimes involving ordinary people. People like you. Crimes the government considered \"irrelevant\". They wouldn't act so I decided I would. But I needed a partner. Someone with the skills to intervene. Hunted by the authorities, we work in secret. You'll never find us. But victim or perpetrator, if your number is up, we'll find you."
+  },
+  {
+    "id": 2,
+    "sign": "Tauro",
+    "element": "tierra",
+    "energy": "fijo",
+    "tags": [
+      "Serenidad",
+      "Pasión",
+      "Abundancia"
+    ],
+    "color": "Verde",
+    "regent": "Venus",
+    "exaltation": "Luna",
+    "fall": "none",
+    "tarotCard": "Sacerdote",
+    "image": "tauro.png",
+    "summary": "You are being watched. The government has a secret system, a machine that spies on you every hour of every day. I know because I built it. I designed the Machine to detect acts of terror but it sees everything. Violent crimes involving ordinary people. People like you. Crimes the government considered \"irrelevant\". They wouldn't act so I decided I would. But I needed a partner. Someone with the skills to intervene. Hunted by the authorities, we work in secret. You'll never find us. But victim or perpetrator, if your number is up, we'll find you."
+  },
+  {
+    "id": 3,
+    "sign": "Géminis",
+    "element": "aire",
+    "energy": "mutable",
+    "tags": [
+      "Diversión",
+      "Comunicación",
+      "Dispersión"
+    ],
+    "color": "Naranja",
+    "regent": "Mercurio",
+    "exaltation": "none",
+    "fall": "none",
+    "tarotCard": "Enamorados",
+    "image": "geminis.png",
+    "summary": "Based on the critically acclaimed series of novels from Kelley Armstrong. Set in Toronto and upper New York State, Bitten follows the adventures of 28-year-old Elena Michaels, the world's only female werewolf. An orphan, Elena thought she finally found her \"happily ever after\" with her new love Clayton, until her life changed forever. With one small bite, the normal life she craved was taken away and she was left to survive life with the Pack."
+  },
+  {
+    "id": 4,
+    "sign": "Cáncer",
+    "element": "agua",
+    "energy": "cardinal",
+    "tags": [
+      "Sensibilidad",
+      "Nutrición",
+      "Drama"
+    ],
+    "color": "Azul",
+    "regent": "Luna",
+    "exaltation": "Júpiter",
+    "fall": "Marte",
+    "tarotCard": "Carro",
+    "image":"cancer.png",
+    "summary": "After a violent shipwreck, billionaire playboy Oliver Queen was missing and presumed dead for five years before being discovered alive on a remote island in the Pacific. He returned home to Starling City, welcomed by his devoted mother Moira, beloved sister Thea and former flame Laurel Lance. With the aid of his trusted chauffeur/bodyguard John Diggle, the computer-hacking skills of Felicity Smoak and the occasional, reluctant assistance of former police detective, now beat cop, Quentin Lance, Oliver has been waging a one-man war on crime."
+  },
+  {
+    "id": 5,
+    "sign": "Leo",
+    "element": "fuego",
+    "energy": "fijo",
+    "tags": [
+      "Teatral",
+      "Llamativo",
+      "Carisma"
+    ],
+    "color": "Amarillo",
+    "regent": "Sol",
+    "exaltation": "Neptuno",
+    "fall": "Plutón",
+    "tarotCard": "Fuerza",
+    "image": "leo.png",
+    "summary": "Touch darkness and darkness touches you back. True Detective centers on troubled cops and the investigations that drive them to the edge. Each season features a new cast and a new case."
+  },
+  {
+    "id": 6,
+    "sign": "Virgo",
+    "element": "tierra",
+    "energy": "mutable",
+    "tags": [
+      "Perfeccionismo",
+      "Análisis",
+      "Crítico"
+    ],
+    "color": "Marrón",
+    "regent": "Mercurio",
+    "exaltation": "Mercurio",
+    "fall": "Venus",
+    "tarotCard": "Ermitaño",
+    "image": "virgo.png",
+    "summary": "Ninety-seven years ago, nuclear Armageddon decimated planet Earth, destroying civilization. The only survivors were the 400 inhabitants of 12 international space stations that were in orbit at the time. Three generations have been born in space, the survivors now number 4,000, and resources are running out on their dying \"Ark\" - the 12 stations now linked together and repurposed to keep the survivors alive. Draconian measures including capital punishment and population control are the order of the day, as the leaders of the Ark take ruthless steps to ensure their future, including secretly exiling a group of 100 juvenile prisoners to the Earth's surface to test whether it's habitable."
+  },
+  {
+    "id": 7,
+    "sign": "Libra",
+    "element": "aire",
+    "energy": "cardinal",
+    "tags": [
+      "Armonia",
+      "Complacencia",
+      "Enamorado empedernido"
+    ],
+    "color": "Rosa",
+    "regent": "Venus",
+    "exaltation": "Saturno",
+    "fall": "Sol",
+    "tarotCard": "Justicia",
+    "image": "libra.png",
+    "summary": "The winner of 6 Emmy Awards including Outstanding Drama Series, Homeland is an edge-of-your-seat sensation. Marine Sergeant Nicholas Brody is both a decorated hero and a serious threat. CIA officer Carrie Mathison is tops in her field despite being bipolar. The delicate dance these two complex characters perform, built on lies, suspicion, and desire, is at the heart of this gripping, emotional thriller in which nothing short of the fate of our nation is at stake."
+  },
+  {
+    "id": 8,
+    "sign": "Escorpio",
+    "element": "agua",
+    "energy": "fijo",
+    "tags": [
+      "Transformación",
+      "Sensualidad",
+      "Oscuridad"
+    ],
+    "color": "Negro",
+    "regent": "Marte y Plutón",
+    "exaltation": "Urano",
+    "fall": "Luna",
+    "tarotCard": "Muerte",
+    "image": "escorpio.png",
+    "summary": "Glee is a musical comedy about a group of ambitious and talented young adults in search of strength, acceptance and, ultimately, their voice."
+  },
+  {
+    "id": 9,
+    "sign": "Sagitario",
+    "element": "fuego",
+    "energy": "mutable",
+    "tags": [
+      "Optimismo",
+      "Espiritualidad",
+      "Viajes"
+    ],
+    "color": "Dorado",
+    "regent": "Júpiter",
+    "exaltation": "none",
+    "fall": "none",
+    "tarotCard": "Templanza",
+    "image": "sagitario.png",
+    "summary": "This is not a story about forgiveness; Revenge is a show about retribution. Meet Emily Thorne, the newest resident of The Hamptons. When she was a little girl (and known as Amanda Clarke) her father, David Clarke, was framed for a horrific crime and subsequently sent to prison. While serving his time, the conspirators plotted and murdered David in order to prevent the truth from coming out. Emily is now back with a new identity and ready to take vengeance on the people that murdered her father and stole her childhood."
+  },
+  {
+    "id": 10,
+    "sign": "Capricornio",
+    "element": "tierra",
+    "energy": "cardinal",
+    "tags": [
+      "Resiliencia",
+      "Karma",
+      "materialismo"
+    ],
+    "color": "Verde oscuro",
+    "regent": "Saturno",
+    "exaltation": "Marte",
+    "fall": "Júpiter",
+    "tarotCard": "Diablo",
+    "image": "capricornio.png",
+    "summary": "Grimm is a drama series inspired by the classic Grimm Brothers' Fairy Tales. After Portland homicide detective Nick Burkhardt discovers he's descended from an elite line of criminal profilers known as \"Grimms\", he increasingly finds his responsibilities as a detective at odds with his new responsibilities as a Grimm."
+  },
+  {
+    "id": 11,
+    "sign": "Acuario",
+    "element": "aire",
+    "energy": "fijo",
+    "tags": [
+      "Futuro",
+      "Amistades",
+      "Cambios"
+    ],
+    "color": "Plateado",
+    "regent": "Saturno y Urano",
+    "exaltation": "Plutón",
+    "fall": "none",
+    "tarotCard": "Estrella",
+    "image": "acuario.png",
+    "summary": "The good. The evil. The beginning.Everyone knows the name Commissioner Gordon. He is one of the crime world's greatest foes, a man whose reputation is synonymous with law and order. But what is known of Gordon's story and his rise from rookie detective to Police Commissioner? What did it take to navigate the multiple layers of corruption that secretly ruled Gotham City, the spawning ground of the world's most iconic villains? And what circumstances created them – the larger-than-life personas who would become Catwoman, The Penguin, The Riddler, Two-Face and The Joker?Gotham is an origin story of the great DC Comics Super-Villains and vigilantes, revealing an entirely new chapter that has never been told. It follows one cop's rise through a dangerously corrupt city teetering between good and evil, and chronicles the birth of one of the most popular super heroes of our time."
+  },
+  {
+    "id": 12,
+    "sign": "Piscis",
+    "element": "water",
+    "energy": "mutable",
+    "tags": [
+      "Intuición",
+      "Dualidad",
+      "Hipersensibilidad"
+    ],
+    "color": "Marino",
+    "regent": "Júpiter y Neptuno",
+    "exaltation": "Venus",
+    "fall": "Mercurio",
+    "tarotCard": "Luna",
+    "image": "piscis.png",
+    "summary": "Lost Girl follows supernatural seductress Bo, a Succubus who feeds on the sexual energy of humans. Growing up with human parents, Bo had no reason to believe she was anything other than the girl next door — until she drained her boyfriend to death in their first sexual encounter. Now she has hit the road alone and afraid.  She discovers she is one of the Fae, creatures of legend and folklore, who pass as humans while feeding off them secretly and in different ways, as they have for millennia. Relieved yet horrified to find out that she is not alone, Bo decides to take the middle path between the humans and the Fae while embarking on a personal mission to unlock the secrets of her origin.With the help of her human sidekick, Kenzi, and Dyson, a sexy police detective, Bo takes on a challenge every week helping a Fae or human client who comes to her to solve a mystery, or to right a wrong."
+  }
+]
