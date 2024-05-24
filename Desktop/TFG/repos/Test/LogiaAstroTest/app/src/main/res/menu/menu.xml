@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/InicioFragment"
+        android:icon="@drawable/icon_shieldmoon"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/AstroFragment"
+        android:icon="@drawable/icon_star"
+        android:title="Astrología" />
+
+    <item
+        android:id="@+id/NumerologyFragment"
+        android:icon="@drawable/icon_sparkle"
+        android:title="Numerología" />
+</menu>
