@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".tabs.InicioFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="-45dp"
+        android:backgroundTint="@color/bg_header"
+        app:cardCornerRadius="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center"
+            android:paddingHorizontal="30dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="60dp"
+                android:background="@color/bg_header"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lunarfase"
+                    style="@style/tvTitle"/>
+                <ImageView android:id="@+id/ivFaseLunar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    tools:src="@drawable/full"/>
+            </LinearLayout>
+            <TextView android:id="@+id/tvEvents"
+                android:textSize="20dp"
+                android:textColor="?attr/colorSecondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Rituales de fin de ciclo"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnTarot"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/taroticon"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/index_tarot_btn"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnGrados"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingTop="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/grados"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/index_grados_btn"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnServicios"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/serviciosicon"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/index_servicios_btn"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnHoroscopo"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/horoscopoicon"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/index_horoscopo_btn"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnContratoAlmico"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/contrato"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/index_contrato_btn"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnUsers"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingTop="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/astrologyicon"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/index_perfil_btn"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnAngeles"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/angelicnumbers"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/index_num_btn"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnAmistades"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/amistades"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/index_amistades_btn"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:textSize="26dp"
+        android:textColor="@color/purple_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="Metas semanales"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:padding="5dp">
+        <ImageView android:id="@+id/ivVelas"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:src="@drawable/alchemymoon"/>
+        <ImageView android:id="@+id/ivBootcamp"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:src="@drawable/alchemyeye"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:padding="5dp">
+        <Button android:id="@+id/btnCompartir"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="COMPARTIR"/>
+        <Button style="@style/CompraBtn"
+            android:id="@+id/btnSigueme"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="SÍGUEME"/>
+    </LinearLayout>
+</LinearLayout>

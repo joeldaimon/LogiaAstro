@@ -1,0 +1,235 @@
+<resources>
+    <string name="app_name">Logia Astro</string>
+    <string name="app_title">Bienvenido a la Logia</string>
+
+    <!-- Login -->
+    <string name="login_title">Loguéate</string>
+    <string name="login_description">Bienvenido a la Logia, ¡guarda el secreto!</string>
+    <string name="login_user">Usuario:</string>
+    <string name="login_pwd">Contraseña:</string>
+    <string name="login_continuar_btn">Continuar</string>
+    <string name="login_login_error">Usuario incorrecto.</string>
+    <string name="login_contra_error">Contraseña incorrecta.</string>
+    <string name="login_null_error">Este campo es obligatorio.</string>
+    <string name="login_register_btn">Regístrate y únete a nosotros</string>
+    <string name="login_invitado_btn">o entra como invitado</string>
+
+    <!-- Register -->
+    <string name="register_title">Registro</string>
+    <string name="register_description">Todos los campos son obligatorios</string>
+    <string name="register_mail">Correo:</string>
+    <string name="register_day">Día de nacimiento:</string>
+    <string name="register_month">Mes:</string>
+    <string name="register_year">Año:</string>
+    <string name="register_hour">Hora:</string>
+    <string name="register_place">Lugar:</string>
+    <string name="register_end_btn">Finalizar</string>
+
+    <!-- Validation -->
+    <string name="validation_day">El día no es válido</string>
+    <string name="validation_month">El mes no es válido</string>
+    <string name="validation_year">El año no es válido</string>
+    <string name="validation_mail">El correo no es válido. Siga este formato: usuario@gmail.com</string>
+    <string name="validation_hour">La hora no es válida. Siga este formato: 23:59</string>
+
+    <string name="obligado_day">El día es obligatorio</string>
+    <string name="obligado_month">El mes es obligatorio</string>
+    <string name="obligado_year">El año es obligatorio</string>
+    <string name="obligado_user">El usuario es obligatorio</string>
+    <string name="obligado_pwd">La contraseña es obligatoria</string>
+    <string name="obligado_mail">El correo es obligatorio</string>
+    <string name="obligado_hour">La hora es obligatoria</string>
+    <string name="obligado_place">El lugar es obligatorio</string>
+
+    <!-- Settings MENU -->
+    <string name="menu_account">Mi cuenta</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_setting">Settings</string>
+
+    <!-- Account -->
+    <string name="account_pwd">La contraseña no puede estar vacía</string>
+    <string name="account_pwd_error">La contraseña no es correcta</string>
+    <string name="account_date_error">Fecha erronea. Siga este formato: 10/10/1999</string>
+    <string name="account_date">La fecha es obligatoria</string>
+
+    <!-- UTILIDADES -->
+    <string name="util_aceptar">Aceptar</string>
+    <string name="util_compra">Comprar</string>
+    <string name="util_account">Mi cuenta</string>
+    <string name="util_guardar">Guardar</string>
+    <string name="util_contra">Cambiar contraseña</string>
+    <string name="util_contra_old">Vieja contraseña</string>
+    <string name="util_contra_new">Nueva contraseña</string>
+    <string name="util_contra_rep">Repite nueva contraseña</string>
+    <string name="util_servicios">Servicios de pago</string>
+    <string name="util_carro">Compra final</string>
+    <string name="util_back">Volver</string>
+    <string name="util_register">Si quieres disfrutar de la aplicación completa, regístrate.</string>
+
+
+    <!-- Main INDEX -->
+    <string name="index_title">Inicio</string>
+    <string name="index_description">Bienvenida a tu aplicación esotérica.</string>
+    <string name="lunarfase">Hoy es luna</string>
+    <string name="index_horoscopo_btn">Horoscopo</string>
+    <string name="index_tarot_btn">Taroteo</string>
+    <string name="index_servicios_btn">Servicios</string>
+    <string name="index_perfil_btn">Perfiles usuarios</string>
+    <string name="index_contrato_btn">Contrato Álmico</string>
+    <string name="index_amistades_btn">Amistades Planetas</string>
+    <string name="index_num_btn">Números ángeles</string>
+    <string name="index_foro_btn">Logia</string>
+
+    <string name="index_event_nueva">Hoy rituales para plantar semillas y protección.</string>
+    <string name="index_event_llena">Hoy rituales de fin de ciclos, purificar y agradecer.</string>
+    <string name="index_event_half">Hoy rituales para manifestar y atraer.</string>
+    <string name="index_event_postllena">Ayer fue luna llena, ¡todavía puedes hacer un ritual!</string>
+    <string name="index_event_casillena">Dentro de poco será luna llena, ¡prepárate!</string>
+
+    <!-- Horoscopo -->
+    <string name="horoscopo_snackbar">Dale aceptar para más info</string>
+    <string name="horoscopo_elemento">Elemento</string>
+    <string name="horoscopo_energia">Energía</string>
+    <string name="horoscopo_tags">Etiquetas</string>
+    <string name="horoscopo_color">Color</string>
+    <string name="horoscopo_regente">Regente</string>
+    <string name="horoscopo_exaltacion">Exaltación</string>
+    <string name="horoscopo_caida">Caída</string>
+    <string name="horoscopo_tarot">Carta del Tarot</string>
+
+    <!-- Chat -->
+    <string name="chat_title">Chat de la Logia</string>
+
+    <!-- Contrato Almico -->
+    <string name="contrato_almico">Contrato Almico</string>
+    <string name="contrato_borrar">Borrar</string>
+    <string name="contrato_escribe_nombre">Escribe tu nombre completo: </string>
+    <string name="contrato_error_nombre">El nombre no puede estar vacío.</string>
+    <string name="contrato_calcular">Calcular</string>
+    <string name="contrato_que_es">Qué es</string>
+
+    <!-- Numeros Espejo -->
+    <string name="num_angel_title">Números Angelicales</string>
+    <string name="num_angel_subtitle">Tus guías dicen</string>
+
+    <!-- Amistades planetarias -->
+    <string name="amistades_bff">MEJORES AMIGOS:</string>
+    <string name="amistades_f">AMIGOS:</string>
+    <string name="amistades_neutral">NEUTRAL HACIA:</string>
+    <string name="amistades_enemy">ODIA A:</string>
+    <string name="amistades_arch">ARCHIENEMIGO:</string>
+    <string name="amistades_none">No tiene</string>
+    <string name="amistades_all">El resto</string>
+
+    <!-- Main ASTROLOGY -->
+    <string name="astrology_title">Astrología</string>
+    <string name="astrology_btn">Comprar</string>
+    <string name="astrology_today">Tránsitos</string>
+    <string name="astrology_sign">SIGNO:</string>
+    <string name="astrology_degree">GRADO:</string>
+    <string name="astrology_retro">RETRÓGRADO:</string>
+
+    <string name="astrology_asc">Ascendente</string>
+    <string name="astrology_sun">Sol</string>
+    <string name="astrology_moon">Luna</string>
+    <string name="astrology_mars">Marte</string>
+    <string name="astrology_mercury">Mercurio</string>
+    <string name="astrology_jupiter">Júpiter</string>
+    <string name="astrology_venus">Venus</string>
+    <string name="astrology_saturn">Saturno</string>
+    <string name="astrology_rahu">Nodo norte</string>
+    <string name="astrology_ketu">Nodo sur</string>
+    <string name="astrology_uranus">Urano</string>
+    <string name="astrology_neptune">Neptuno</string>
+    <string name="astrology_pluto">Plutón</string>
+
+    <string name="astrology_aries">Aries</string>
+    <string name="astrology_taurus">Tauro</string>
+    <string name="astrology_gemini">Géminis</string>
+    <string name="astrology_cancer">Cáncer</string>
+    <string name="astrology_leo">Leo</string>
+    <string name="astrology_virgo">Virgo</string>
+    <string name="astrology_libra">Libra</string>
+    <string name="astrology_scorpio">Escorpio</string>
+    <string name="astrology_sagittarius">Sagitario</string>
+    <string name="astrology_capri">Capricornio</string>
+    <string name="astrology_aquarius">Acuario</string>
+    <string name="astrology_pisces">Piscis</string>
+
+    <!-- Main NUMEROLOGY -->
+    <string name="numerology_title">Numerología</string>
+    <string name="numerology_mochila">Tu mochila</string>
+    <string name="numerology_mapa">Ver mapa</string>
+
+
+    <string name="numerology_general_title">Energías generales</string>
+    <string name="numerology_map_title">Mapa numerológico</string>
+    <string name="numerology_map_desc">Haz click para más info</string>
+    <string name="numerology_day">DÍA</string>
+    <string name="numerology_month">MES</string>
+    <string name="numerology_tudia">TU DÍA</string>
+
+    <string name="numerology_karma">Número Karma</string>
+    <string name="numerology_pers">Número personal</string>
+    <string name="numerology_vida_pasada">Vida pasada</string>
+    <string name="numerology_ascendente">Ascendente</string>
+
+    <string name="numerology_realizacion">Realización</string>
+    <string name="numerology_realizacion_title">Tus oportunidades</string>
+    <string name="numerology_desafio">Desafío</string>
+    <string name="numerology_desafio_title">Qué debes sanar</string>
+
+
+    <string name="numerology_inconsciente">Inconsciente</string>
+    <string name="numerology_herencia">Herencia</string>
+    <string name="numerology_consciente">Consciente</string>
+    <string name="numerology_latente">Latente</string>
+
+    <string name="numerology_pilares">Pilares anuales</string>
+    <string name="numerology_pareja">Pareja</string>
+    <string name="numerology_reto">Reto personal</string>
+    <string name="numerology_social">Social</string>
+    <string name="numerology_trabajo">Trabajo</string>
+
+    <string name="numerology_mochila_btn">Mochila: personalidad principal</string>
+    <string name="numerology_realizaciones_btn">Realizaciones principales</string>
+    <string name="numerology_desafios_btn">Desafíos a atravsar para sanar</string>
+    <string name="numerology_inc_btn">Inconsciente: tus sombras</string>
+    <string name="numerology_pilares_btn">Pilares de este año</string>
+
+
+    <!-- MAIN TAROT -->
+    <string name="thematic_tarot">¿De qué trata tu pregunta?</string>
+    <string name="options_tarot">Escoge una opción</string>
+    <string name="title_tarot">Piensa en tu pregunta y escoge tres cartas</string>
+
+    <!--  temáticas -->
+    <string name="love_tarot">Amor</string>
+    <string name="money_tarot">Dinero</string>
+    <string name="work_tarot">Trabajo</string>
+    <string name="friends_tarot">Amigos</string>
+    <string name="spirituality_tarot">Espiritualidad</string>
+
+    <!--  subopciones -->
+    <string name="yesno_tarot">Pregunta de Sí o No</string>
+    <string name="advice_tarot">Tarot consejo</string>
+    <string name="future_tarot">Tarot futuro</string>
+
+    <!--  subopciones amor -->
+    <string name="special_love_tarot">¿Qué siente y piensa de mí?</string>
+
+    <!--  subopciones dinero -->
+    <string name="special_money_tarot">¿Debo invertir o no?</string>
+
+    <!--  subopciones trabajo -->
+    <string name="special_work_tarot">¿Debo quedarme o irme?</string>
+
+    <!--  subopciones amistad -->
+    <string name="special_friends_tarot">¿Que siente y piensa de mi?</string>
+
+    <!--  subopciones espiritualidad -->
+    <string name="special_spirituality_tarot">¿Estoy en el camino correcto?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

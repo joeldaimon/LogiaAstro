@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".tabs.NumerologyFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-45dp"
+        android:backgroundTint="@color/bg_header"
+        app:cardCornerRadius="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textSize="26dp"
+                android:textColor="?attr/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginHorizontal="20dp"
+                android:text="@string/numerology_general_title"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="30dp"
+                android:gravity="center">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="50dp"
+                    app:cardBackgroundColor="@color/yellow"
+                    android:elevation="8dp">
+                    <TextView android:id="@+id/tvDia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="11"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="33dp"
+                        android:textColor="@color/black"/>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_margin="20dp"
+                    app:cardCornerRadius="50dp"
+                    app:cardBackgroundColor="@color/violet"
+                    android:elevation="8dp">
+                    <TextView android:id="@+id/tvMes"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="11"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="33dp"
+                        android:textColor="@color/black"/>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    app:cardCornerRadius="50dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/pastel_blue"
+                    android:elevation="8dp">
+                    <TextView android:id="@+id/tvTuDia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="11"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="33dp"
+                        android:textColor="@color/black"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="-20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginHorizontal="30dp"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/numerology_day"
+                    android:textStyle="bold"
+                    android:textColor="@color/yellow"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="22dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/numerology_month"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/violet"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="22dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/numerology_tudia"
+                    android:textStyle="bold"
+                    android:textColor="@color/pastel_blue"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:textSize="22dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView android:id="@+id/tvTitle"
+        android:textSize="26dp"
+        android:paddingHorizontal="10dp"
+        android:textColor="?attr/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/numerology_mochila"/>
+
+    <!-- MOCHILA -->
+    <LinearLayout android:id="@+id/lyMochila"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center"
+        android:paddingHorizontal="30dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvKarma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/numerology_karma"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvPersonal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/numerology_pers"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvPasado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/numerology_vida_pasada"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvAsc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/numerology_ascendente"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- REALIZACIONES -->
+    <LinearLayout android:id="@+id/lyRealizaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center"
+        android:paddingHorizontal="30dp"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvReal1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvReal2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvReal3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvReal4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- DESAFIOS -->
+    <LinearLayout android:id="@+id/lyDesafios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center"
+        android:paddingHorizontal="30dp"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvDesafio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvDesafio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvDesafio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvDesafio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- INCONSCIENTE -->
+    <LinearLayout android:id="@+id/lyInconsciente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center"
+        android:paddingHorizontal="30dp"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvHerencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvConsciente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvLatente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- PILARES -->
+    <LinearLayout android:id="@+id/lyPilares"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center"
+        android:paddingHorizontal="30dp"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvPareja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvReto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvSocial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvTrabajo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button android:id="@+id/btnLoad"
+            style="@style/CompraBtn"
+            android:layout_marginHorizontal="30px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/numerology_load"/>
+        <Button android:id="@+id/btnMapa"
+            style="@style/CompraBtn"
+            android:layout_marginHorizontal="30px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/numerology_mapa"/>
+    </LinearLayout>
+
+    <!-- BOTONES -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorOnSecondary"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnMochila"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="0dp"
+                android:layout_margin="5dp"
+                app:icon="@drawable/icon_mochila"
+                app:iconPadding="0dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="?attr/colorOnPrimary"
+                android:layout_marginVertical="5dp"
+                android:text="@string/numerology_mochila_btn"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnRealizaciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="0dp"
+                android:layout_margin="5dp"
+                app:icon="@drawable/icon_realizacion"
+                app:iconPadding="0dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginVertical="5dp"
+                android:text="@string/numerology_realizaciones_btn"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorOnSecondary"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDesafios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="0dp"
+                android:layout_margin="5dp"
+                app:icon="@drawable/icon_desafios"
+                app:iconPadding="0dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="?attr/colorOnPrimary"
+                android:layout_marginVertical="5dp"
+                android:text="@string/numerology_desafios_btn"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnInconsciente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="0dp"
+                android:layout_margin="5dp"
+                app:icon="@drawable/icon_inconsciente"
+                app:iconPadding="0dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginVertical="5dp"
+                android:text="@string/numerology_inc_btn"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorOnSecondary"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnPilares"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="0dp"
+                android:layout_margin="5dp"
+                app:icon="@drawable/icon_pilares"
+                app:iconPadding="0dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="?attr/colorOnPrimary"
+                android:layout_marginVertical="5dp"
+                android:text="@string/numerology_pilares_btn"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

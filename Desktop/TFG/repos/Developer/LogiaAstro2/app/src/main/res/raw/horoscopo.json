@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "sign": "Aries",
+    "element": "fuego",
+    "energy": "cardinal",
+    "tags": [
+      "Liderazgo",
+      "Impetuosidad",
+      "Business",
+      "Incisivo"
+    ],
+    "color": "Rojo",
+    "regent": "Marte",
+    "exaltation": "Sol",
+    "fall": "Saturn",
+    "tarotCard": "Emperador",
+    "image": "aries.png",
+    "degree": "1, 13, 25",
+    "summary": "Demasiado impetuosos, son personas enérgicas que no saben quedarse quietas, estas personas son líderes natos, saben como atraer a la gente. Los demás les escuchan como si fueran expertos, cuando no es del todo necesario que sepan del tema. Simplemente tienen una energía especial y los demás les siguen. Suelen ser incisivos, dolientes con sus palabras, sus emociones son intensas, sobre todo si es Luna en Aries, no suelen tener problemas de ira, pero pueden parecer algo hostiles y competitivos. Lo que más les cuesta es tener empatía, sobre todo si no tienen una buena Luna o carecen de agua en su carta natal. Son algo individualistas, todo solos, ellos siempre los primeros. En el ambiente laboral, no les importa ser egoistas, algo que en ocasiones viene bien. En el amor son conqusitadores, pero si tienes Venus en Aries, quieres creer en el amor pero no te sale. Eres una abeja que va de flor en flor, pero que rechaza el sentir."
+  },
+  {
+    "id": 2,
+    "sign": "Tauro",
+    "element": "tierra",
+    "energy": "fijo",
+    "tags": [
+      "Serenidad",
+      "Pasión",
+      "Abundancia",
+      "Tozudez"
+    ],
+    "color": "Verde",
+    "regent": "Venus",
+    "exaltation": "Luna",
+    "fall": "ninguno",
+    "tarotCard": "Sacerdote",
+    "image": "tauro.png",
+    "degree": "2, 14, 26",
+    "summary": "Tranquilos hasta la saciedad, lo peor de este signo es que son cabezones como ellos solos, sus ideas suelen ser tradicionales, muy asentadas, es imposible prácticamente que les hagas cambiar de opinión. Tienen una serenidad envidiable, sobre todo los Luna en Tauro, saben como gestionarse, aunque no les gusta mirarse por dentro ni la intensidad emocional, algo que han venido a aprender. Se les da bien el dinero, trabajar, hacer abundancia, pero pueden tener miedo a la pérdida si están mal aspectados algunos planetas. Escuchan más que hablan, son personas silenciosas que causan paz allá donde van, son protectores, familiares y siempre están ahí para ayudar a otros, pero no suelen pedir ayuda. En el amor, demasiado pasionales. Tienen mucha paciencia, pero cuando se acaba son bastante peligrosos. Lo que más destaca de este signo es que son bellos y extremadamente populares, sobre todo los Ascendente en Tauro."
+  },
+  {
+    "id": 3,
+    "sign": "Géminis",
+    "element": "aire",
+    "energy": "mutable",
+    "tags": [
+      "Diversión",
+      "Comunicación",
+      "Dispersión",
+      "Locura"
+    ],
+    "color": "Naranja",
+    "regent": "Mercurio",
+    "exaltation": "ninguno",
+    "fall": "ninguno",
+    "tarotCard": "Enamorados",
+    "image": "geminis.png",
+    "degree": "3, 15, 27",
+    "summary": "La locura personificada, cinco personalidades en una sola, este signo tiene un algoritmo en su cerebro que recibe información constantemente. Son mutables, cambian constantemente de ideas, de conducta, una vez blanco, en medio segundo negro. No se aclaran, pero así es Géminis, un genio incomprendido. Extremadamente inteligentes, necesitan estímulo social constante, el signo más popular del zodíaco es este o Leo, son dicharacheros, graciosos, personas cercanas, pero les cuesta confiar emocionalmente sus profundidades a otros. Les gusta la diversión, son despreocupados, por ello pueden parecer dispersos, irresponsables, no se asientan, no aterrizan, son aves que vuelan constantemente. Suelen pensar que no deben molestar con sus tristezas a otros, sobre todo los Luna en Géminis. Grandes comunicadores, pueden estar destinados a los medios de comunicación o la escritura, sobre todo si tienes este signo en Mercurio. En el amor, necesitan conexiones mentales."
+  },
+  {
+    "id": 4,
+    "sign": "Cáncer",
+    "element": "agua",
+    "energy": "cardinal",
+    "tags": [
+      "Sensibilidad",
+      "Nutrición",
+      "Drama",
+      "Subjetivismo"
+    ],
+    "color": "Azul",
+    "regent": "Luna",
+    "exaltation": "Júpiter",
+    "fall": "Marte",
+    "tarotCard": "Carro",
+    "image":"cancer.png",
+    "degree": "4, 16, 28",
+    "summary": "La sensibilidad hecha persona, son como madres que cuidan a los demás por encima de sus posibilidades. Tienen mucha empatía, pero a veces su subjetividad les nubla la vista. Si ellos sienten algo, no les importara que tú estés triste, porque tú les hiciste daño y eso les importa más. La empatía depende de su estado emocional, por ello son algo egocéntricos como los Leo, les cuesta ver más allá de su propia forma de ver el mundo. Son reservados o cerrados si este signo se repite mucho en la carta, en el amor son dramáticos y exagerados. Tienen complejo de víctima, son pasivos o sumisos, pero explosivos cuando se enfadan, sobre todo los Marte en Cáncer. Se comunican de forma emocional, pueden ser personas espirituales, tienden a ser sensibles de forma externa, se nota lo que sienten en su rostro, en sus gestos, en sus palabras. No pueden esconderse tras una máscara."
+  },
+  {
+    "id": 5,
+    "sign": "Leo",
+    "element": "fuego",
+    "energy": "fijo",
+    "tags": [
+      "Teatral",
+      "Llamativo",
+      "Carisma",
+      "Egocentrismo"
+    ],
+    "color": "Amarillo",
+    "regent": "Sol",
+    "exaltation": "Neptuno",
+    "fall": "Plutón",
+    "tarotCard": "Fuerza",
+    "image": "leo.png",
+    "degree": "5, 17, 29",
+    "summary": "Sabes que una persona es Leo porque brilla con luz propia, llaman la atención, la gente les mira, tienen un aura espeical. Suelen ser extremadamente extrovertidos, la gente los admira, son pasionales y muy románticos, buscan un amor de verdad y protegen mucho a los suyos. Imaginate a Leo como un perro guardián, si haces daño a los que ama vas a despertar la furia del Sol. Lo malo es que son egocéntricos, todo tiene que tratar siempre sobre ellos, son teatrales, se montan sus propias películas, buscan ser adorados y si no es así, se enfadan. Por eso en el amor pueden tener problemas, buscan trato de reyes y reinas, pero no dan con la misma moneda, necesitan aprender la reciprocidad. Aunque parezcan algo pasionales, no son irascibles, cuando se enfadan tienen un estallido y luego se les pasa, aunque su orgullo puede ser grande y es posible que no pidan perdón."
+  },
+  {
+    "id": 6,
+    "sign": "Virgo",
+    "element": "tierra",
+    "energy": "mutable",
+    "tags": [
+      "Perfeccionismo",
+      "Análisis",
+      "Crítico",
+      "Sacrificio"
+    ],
+    "color": "Marrón",
+    "regent": "Mercurio",
+    "exaltation": "Mercurio",
+    "fall": "Venus",
+    "tarotCard": "Ermitaño",
+    "image": "virgo.png",
+    "degree": "6, 18",
+    "summary": "Si te saboteas, si sobre-piensas constantemente, si te montas escenarios en tu cabeza, te enfadas por esos escenarios con la gente y luego actúas distante con esas personas, sin decirles lo que te has imaginado, eres Virgo. Este es el signo que busca perfeccionarse para ser digno de, para merecer, suelen tener problemas de autoestima. Son críticos, incisivos y directos con sus palabras, demasiado mentales, a veces les cuesta tener tacto y empatía. Por desgracia, su energía suele caer mal porque son transparentes, pero muy sacrificados por los que aman. De hecho, dan demasiado en el amor, suelen elegir parejas rotas o que necesitan ayuda porque no sienten que se merezcan un amor de verdad. En el fondo buscan paz, les da ansiedad las peleas y estar enfadados con la gente, preferirán callar y morderse la lengua mientras puedan, pero si hablan, más vale que te prepares."
+  },
+  {
+    "id": 7,
+    "sign": "Libra",
+    "element": "aire",
+    "energy": "cardinal",
+    "tags": [
+      "Armonia",
+      "Complacencia",
+      "Enamorado empedernido",
+      "Indecisión"
+    ],
+    "color": "Rosa",
+    "regent": "Venus",
+    "exaltation": "Saturno",
+    "fall": "Sol",
+    "tarotCard": "Justicia",
+    "image": "libra.png",
+    "degree": "7, 19",
+    "summary": "Sociables, que no necesariamente extrovertidos, necesitan gente a su alrededor, este es el signo de la dependencia emocional, sienten que solos no pueden y deben aprender a ser más independientes. Son indecisos, porque necesitan escuchar todas las opiniones para decidir. Son manipuladores, encantadores, te hechizan con su mirada, gestos, harás lo que un Libra te diga sin que te des cuenta y encima pensaras que la idea ha sido tuya. En el amor, se enamoran de ideas más que de personas, se desencantan rápidamente. Aman amar, pero pueden ser algo libertinos en las relaciones. Enamorarse de verdad, pocas veces. Son complacientes, por eso evitarán enfados y discusiones, no saben decir que no, a veces les cuesta saber defender sus intereses, prefieren sentirse incómodos para hacer a otros la vida más cómoda. Tienen muchas amistades, pero sus emociones son un caos, sobre todo si eres Luna en Libra."
+  },
+  {
+    "id": 8,
+    "sign": "Escorpio",
+    "element": "agua",
+    "energy": "fijo",
+    "tags": [
+      "Transformación",
+      "Sensualidad",
+      "Oscuridad",
+      "Magnetismo"
+    ],
+    "color": "Negro",
+    "regent": "Marte y Plutón",
+    "exaltation": "Urano",
+    "fall": "Luna",
+    "tarotCard": "Muerte",
+    "image": "escorpio.png",
+    "degree": "8, 20",
+    "summary": "Personas con mucho poder de seducción, tienden a ser introvertidos, tímidos o al menos reservados, desconfian de la gente, sus emociones son una montaña rusa, sobre todo los Luna en escorpio. No son el cliché de este signo, venenosos o tóxicos, aunque los Venus en escorpio sí. Si son Mercurio en este signo, su forma de hablar puede ser incisiva, tóxica, pero normalmente son personas tranquilas, pasivas, sumisas, calladas, que se encierran en sí mismas y tienen muchos demonios en su interior. Han venido a transformarse, a sanar sus profundidades. Son magnéticos, poseen una mirada única, pero su vibración es oscura, caen mal o caen genial, no hay punto medio. Cuando se enfadan, planean su venganza con paciencia, no son impetuosos, prefieren esperar, pero nunca olvidan y nunca perdonan. En el amor, aman de verdad, son intensos, buscan experiencias fuertes, uniones espirituales y físicas."
+  },
+  {
+    "id": 9,
+    "sign": "Sagitario",
+    "element": "fuego",
+    "energy": "mutable",
+    "tags": [
+      "Optimismo",
+      "Espiritualidad",
+      "Viajes",
+      "Consejero"
+    ],
+    "color": "Dorado",
+    "regent": "Júpiter",
+    "exaltation": "ninguno",
+    "fall": "ninguno",
+    "tarotCard": "Templanza",
+    "image": "sagitario.png",
+    "degree": "9, 21",
+    "summary": "Sabrás que una persona es Sagitario porque es optimista, un rayo de luz, siempre ve la parte buena, da buenos consejos y no parece estar triste nunca, el tema es que reprimen sus emociones oscuras, temen la sombra porque son el signo de la luz de Dios. Son guías espirituales, han venido a esta vida a enseñar a otros, pero deben tener cuidado con el ego, a veces son dominantes, desean que otros piensen como ellos. Un sagitario tiende a quedar contigo sin preguntarte, directamente te dice <Ven a por mi a esta hora y vamos allá>. Les cuesta tener empatía profunda. Son el signo de los viajes, internos o externos, buscan aventuras y en el amor desean una relación mística, si no encuentran a su alma gemela, son pasionales, conquistadores, de flor en flor, es o un punto u otro. Experimentan la vida desde la metafísica, son grandes estudiosos, buscan amistades interesantes que vean más allá."
+  },
+  {
+    "id": 10,
+    "sign": "Capricornio",
+    "element": "tierra",
+    "energy": "cardinal",
+    "tags": [
+      "Resiliencia",
+      "Karma",
+      "materialismo",
+      "Trabajo"
+    ],
+    "color": "Verde oscuro",
+    "regent": "Saturno",
+    "exaltation": "Marte",
+    "fall": "Júpiter",
+    "tarotCard": "Diablo",
+    "image": "capricornio.png",
+    "degree": "10, 22",
+    "summary": "Fríos y distantes, los Capricornio se destacan por ser estóicos, saben bloquear las emociones de su rostro y no demostrar nada. Se gestionan a sí mismos perfectamente, han pasado por cosas complicadas, es un signo un poco kármico, pueden experimentar dificultades en la infancia. Les incomoda hablar de sus sentimientos, lo pueden hacer, pero no es de su agrado, suelen llevar una fachada de duros, de que nada les importa, pero obviamente no es así. Llevan muchos dramas internos que tratan en secreto. En el amor, son románticos, tradicionales, muy detallistas, son trabajadores y consiguen todo lo que se proponen. Pueden ser materialistas o demasiado centrados en su trabajo, les cuesta abrirse a otros, pero son extrovertidos y hacen amistad fácilmente, simplemente no confían tanto en otros como para hablar de sus miserias. Se comunican de forma lógica, suelen ser escépticos y algo cuadriculados."
+  },
+  {
+    "id": 11,
+    "sign": "Acuario",
+    "element": "aire",
+    "energy": "fijo",
+    "tags": [
+      "Futuro",
+      "Amistades",
+      "Cambios",
+      "Tecnología"
+    ],
+    "color": "Plateado",
+    "regent": "Saturno y Urano",
+    "exaltation": "Plutón",
+    "fall": "ninguno",
+    "tarotCard": "Estrella",
+    "image": "acuario.png",
+    "degree": "11, 23",
+    "summary": "El signo de las amistades, tiene muchos grupos de amigos, debe socializar para sobrevivir, básicamente. Es extrovertido, habla con cualquiera de cualquier cosa y siempre tiene algo interesante que decir. El problema es que lleva una máscara, esconde su identidad detrás de ella porque se siente diferente, quiere encajar con el colectivo y a veces permite que la opinión de su gente determine su identidad. En el amor son abiertos, modernos, algo fríos pero recíprocos. Suelen ser pacientes y prefieren armonizar como todo signo de aire, pero son rebeldes natos, no van a favor de la corriente nunca. Pueden ser algo radicales, pero nunca desean hacer daño a nadie, de hecho, son bastante empáticos. En cuanto a las emociones, se disocian de ellas, sobre todo los Luna en Acuario. Se gestionan en soledad y son algo cerrados a hablar de sus cosas, pero lo necesitan para sanar. Se dice que tienen mucha intuición."
+  },
+  {
+    "id": 12,
+    "sign": "Piscis",
+    "element": "agua",
+    "energy": "mutable",
+    "tags": [
+      "Intuición",
+      "Dualidad",
+      "Hipersensibilidad",
+      "Infinito"
+    ],
+    "color": "Marino",
+    "regent": "Júpiter y Neptuno",
+    "exaltation": "Venus",
+    "fall": "Mercurio",
+    "tarotCard": "Luna",
+    "image": "piscis.png",
+    "degree": "12, 24",
+    "summary": "El signo dual, arriba y abajo, mientras que Géminis cambia cada segundo, Piscis tiene una transición en su cambio. Para ellos no existe algo si no lo están sintiendo, conocen y se mueven el mundo por sensaciones, son abstractos, creativos y místicos, muy intuitivos, casi mediums, a pesar de creer o no en estas cosas. Son empáticos, pero incisivos, directos como Aries, dicen las cosas como las sienten y suelen ser hipersensibles, desean ser cuidados y nutridos. Algo pasivos, no saben defenderse bien, prefieren la paz, el amor. En las relaciones, son muy románticos, solo si son Venus en Piscis también. Este signo tiende a cargarse de energía ajena fácilmente, necesitan soledad para recargarse, pero a veces son demasiado aislados y no deben olvidarse de hablar con gente, de conectar. Viven más al otro lado que en la realidad, que les duele demasiado. Son escapistas, idealistas, mágicos."
+  }
+]

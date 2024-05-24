@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TITLE TEXT VIEW -->
+    <style name="tvTitle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">44dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- NUM ESPEJO TEXT VIEW -->
+    <style name="tvNumEspejo" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/lostar</item>
+        <item name="android:gravity">top|center</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">@android:color/tertiary_text_light</item>
+    </style>
+
+    <!-- AMISTADES TEXT VIEW -->
+    <style name="tvAmistades" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:layout_marginTop">11dp</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <!-- EDIT TEXT STYLE -->
+    <style name="EditText" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:background">?attr/colorOnTertiary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <!-- VIOLET BUTTON STYLE -->
+    <style name="VioletBtn" parent="TextAppearance.AppCompat.Button">
+        <item name="android:elevation">20dp</item>
+        <item name="android:backgroundTint">@color/violet</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <!-- COMPRA BUTTON STYLE -->
+    <style name="CompraBtn" parent="TextAppearance.AppCompat.Button">
+        <item name="android:elevation">20dp</item>
+        <item name="android:backgroundTint">@color/red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.3</item>
+    </style>
+
+</resources>

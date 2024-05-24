@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph"
+    app:startDestination="@id/InicioFragment">
+
+    <fragment
+        android:id="@+id/InicioFragment"
+        android:name="com.joguco.logiaastro.tabs.InicioFragment"
+        android:label="@string/index_title"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/AstroFragment"
+        android:name="com.joguco.logiaastro.tabs.AstroFragment"
+        android:label="@string/astrology_title"
+        tools:layout="@layout/fragment_astro" />
+    <fragment
+        android:id="@+id/NumerologyFragment"
+        android:name="com.joguco.logiaastro.tabs.NumerologyFragment"
+        android:label="@string/numerology_title"
+        tools:layout="@layout/fragment_numerology" />
+</navigation>

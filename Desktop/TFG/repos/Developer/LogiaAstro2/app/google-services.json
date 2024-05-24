@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "532304853821",
+    "project_id": "logiaastro-ed097",
+    "storage_bucket": "logiaastro-ed097.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532304853821:android:92d7761d77e861d12e2354",
+        "android_client_info": {
+          "package_name": "com.joguco.logiaastro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhwfGkgqJ9WKe2ECMEP0cY_K01GBkFdF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
