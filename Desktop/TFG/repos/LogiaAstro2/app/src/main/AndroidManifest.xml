@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo3"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LogiaAstro"
+        tools:targetApi="31">
+        <activity
+            android:name=".tabs.grados.GradosActivity"
+            android:exported="false"
+            android:label="@string/grados_title"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".menu.SettingsActivity"
+            android:exported="false"
+            android:label="@string/menu_settings"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".mision.VelasActivity"
+            android:exported="false"
+            android:label="@string/minijuego_velas"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".mision.GuessActivity"
+            android:exported="false"
+            android:label="@string/minijuego_guess"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".tabs.amistades.AmistadesPlanetasActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".tabs.Perfiles.PerfilesActivity"
+            android:exported="false"
+            android:label="@string/util_perfiles"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".tabs.numeros.NumAngelesActivity"
+            android:exported="false"
+            android:label="@string/num_angel_title"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".ui.InvitadoActivity"
+            android:exported="false"
+            android:label="@string/app_title" />
+        <activity
+            android:name=".tabs.mapa.MapaActivity"
+            android:exported="false"
+            android:label="@string/numerology_map_title"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".ui.CarroActivity"
+            android:exported="false"
+            android:label="@string/util_carro"
+            android:parentActivityName=".ui.ComprasActivity" />
+        <activity
+            android:name=".menu.AccountActivity"
+            android:exported="false"
+            android:label="@string/util_account"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".ui.ComprasActivity"
+            android:exported="false"
+            android:label="@string/util_servicios"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".tabs.contratoalmico.ContratoActivity"
+            android:exported="false"
+            android:label="@string/contrato_almico"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".tabs.tarot.TarotActivity"
+            android:exported="false"
+            android:label="@string/index_tarot_btn"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".tabs.horoscopo.HoroscopoActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".login.register.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

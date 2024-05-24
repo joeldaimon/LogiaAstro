@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.ComprasActivity">
+
+    <Button android:id="@+id/btnServicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:backgroundTint="?attr/colorSecondaryVariant"
+        android:layout_margin="10dp"
+        android:text="SERVICIOS"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Para todos los servicios:"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/lvServicios"/>
+
+    <Button android:id="@+id/btnAstrologia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:backgroundTint="?attr/colorSecondaryVariant"
+        android:layout_margin="10dp"
+        android:text="ASTROLOGIA"/>
+
+    <ListView android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/lvAstrologia"/>
+
+    <Button android:id="@+id/btnNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:backgroundTint="?attr/colorSecondaryVariant"
+        android:layout_margin="10dp"
+        android:text="NUMEROLOGÍA"/>
+    <ListView android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/lvNumerologia"/>
+
+
+    <Button android:id="@+id/btnContratoAlmico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:backgroundTint="?attr/colorSecondaryVariant"
+
+        android:layout_margin="10dp"
+        android:text="CONTRATO ALMICO"/>
+    <ListView android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/lvContratoAlmico"/>
+
+</LinearLayout>

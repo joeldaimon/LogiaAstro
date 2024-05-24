@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="-45dp"
+        android:backgroundTint="@color/bg_header"
+        app:cardCornerRadius="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+            <TextView android:id="@+id/tvMapTitle"
+                android:textSize="26dp"
+                android:textColor="?attr/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/numerology_map_desc"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="60dp"
+        app:layout_anchor="@+id/cv"
+        app:layout_anchorGravity="top"
+        app:backgroundTint="@color/red"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/icon_comprar" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/skeleton"
+        android:backgroundTint="?attr/colorSecondaryVariant"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/cv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <Button android:id="@+id/rFour"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="60dp"
+            android:layout_gravity="top|center"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="90dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="1"/>
+        <Button android:id="@+id/rThree"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/llReal"
+            android:layout_marginEnd="90dp"
+            android:layout_marginBottom="60dp"
+            android:backgroundTint="@color/rosa_palo"
+            android:text="1"/>
+        <LinearLayout android:id="@+id/llReal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/llMochila"
+            android:layout_marginEnd="90dp"
+            android:layout_marginBottom="50dp"
+            android:orientation="horizontal">
+            <Button android:id="@+id/rOne"
+                android:layout_marginHorizontal="30dp"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/rosa_palo"
+                android:text="1"/>
+            <Button android:id="@+id/rTwo"
+                android:layout_marginHorizontal="30dp"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/rosa_palo"
+                android:text="7"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/llMochila"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:orientation="horizontal">
+            <Button android:id="@+id/mKarma"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/purple_200"
+                android:text="1"/>
+            <Button android:id="@+id/mPersonalidad"
+                android:layout_marginHorizontal="30dp"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/purple_500"
+                android:text="7"/>
+            <Button android:id="@+id/mVidaPasada"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/purple_700"
+                android:text="3"/>
+            <Button android:id="@+id/mAscendente"
+                android:layout_marginStart="10dp"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/red"
+                android:text="11"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/llDesafios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/dThree"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="90dp"
+            android:orientation="horizontal">
+            <Button android:id="@+id/dOne"
+                android:layout_marginHorizontal="30dp"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pastel_blue"
+                android:text="1"/>
+            <Button android:id="@+id/dTwo"
+                android:layout_marginHorizontal="30dp"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/pastel_blue"
+                android:text="7"/>
+        </LinearLayout>
+        <Button android:id="@+id/dThree"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/dFour"
+            android:layout_marginEnd="90dp"
+            android:layout_marginBottom="60dp"
+            android:backgroundTint="@color/pastel_blue"
+            android:text="1"/>
+        <Button android:id="@+id/dFour"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="90dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="1"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

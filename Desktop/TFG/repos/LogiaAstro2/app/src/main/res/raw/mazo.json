@@ -1,0 +1,2582 @@
+[
+  {
+    "id": 1,
+    "nombre": "El Mago",
+    "etiquetas": [
+      "Acción",
+      "Manifestar",
+      "Lograr"
+    ],
+    "loveAdvice": {
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "loveFuture": {
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "loveSpecial": {
+      "inicio": "atracción hacia ti",
+      "nudo": "que eres lanzada en el amor",
+      "final": "conquistándote hasta tenerte"
+    },
+
+    "moneyAdvice": {
+      "inicio": "con determinación",
+      "nudo": "muy segura de ti misma",
+      "final": "manifestar tus deseos"
+    },
+    "moneyFuture": {
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+      "inicio": "liderando la situación",
+      "nudo": "muy segura de ti misma",
+      "final": "conseguir ese avance."
+    },
+    "workFuture": {
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+      "inicio": "dando el primer paso",
+      "nudo": "siendo directa",
+      "final": "volver a la armonía"
+    },
+    "friendsFuture": {
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+      "inicio": "manifestando",
+      "nudo": "muy segura de ti misma",
+      "final": "despertar tus dones."
+    },
+    "spiritualityFuture": {
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 1,
+    "imagen": "mago.png"
+  },
+  {
+    "id": 2,
+    "nombre": "La Papisa",
+    "etiquetas": [
+      "Brujería",
+      "Intuición",
+      "Atraer"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "de forma pasiva",
+      "nudo": "esperar a que esa persona actúe",
+      "final": "conseguir la paz interior"
+    },
+    "loveFuture": {
+
+
+      "inicio": "algo fría, pero estable",
+      "nudo": "calma",
+      "final": "distante, uno de los dos materna demasiado al otro"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "amor fraternal hacia ti",
+      "nudo": "que eres demasiado fría",
+      "final": "de forma pasiva, esperará a que tú actúes"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 0,
+    "imagen": "papisa.png"
+  },
+  {
+    "id": 3,
+    "nombre": "La Emperatriz",
+    "etiquetas": [
+      "Fertilidad",
+      "Amor",
+      "Crear"
+    ],
+    "loveAdvice": {
+      "inicio": "pasionalmente",
+      "nudo": "expresando tus sentimientos",
+      "final": "se enamore de ti"
+    },
+    "loveFuture": {
+      "inicio": "llena de amor",
+      "nudo": "pasión sexual (o posible embarazo si se busca)",
+      "final": "positivo, se logrará mantener la relación unida"
+    },
+    "loveSpecial": {
+      "inicio": "un amor profundo hacia ti",
+      "nudo": "que eres sensual",
+      "final": "de forma directa, haciéndote una proposición amorosa."
+    },
+
+    "moneyAdvice": {
+      "inicio": "de forma creativa",
+      "nudo": "apostando por tus proyectos",
+      "final": "que la abundancia crezca en tu jardín"
+    },
+    "moneyFuture": {
+      "inicio": "Conseguirás un dinero",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 1,
+    "imagen": "emperatriz.png"
+  },
+  {
+    "id": 4,
+    "nombre": "El Emperador",
+    "etiquetas": [
+      "Proyectos",
+      "Éxito",
+      "Riqueza"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "de forma paternalista",
+      "nudo": "ser dominante",
+      "final": "una relación de mutuo beneficio con esa persona"
+    },
+    "loveFuture": {
+
+
+      "inicio": "estable pero competitiva",
+      "nudo": "estabilidad, pero no confianza",
+      "final": "positivo, pero tenéis que abriros emocionalmente"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "pasión sexual, quiere beneficiarse de ti",
+      "nudo": "que eres dominante en demasía",
+      "final": "de forma dominate y algo fanfarrona"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 1,
+    "imagen": "emperador.png"
+  },
+  {
+    "id": 5,
+    "nombre": "El Papa",
+    "etiquetas": [
+      "Beneplácito",
+      "Creencias",
+      "Estructuras"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "según lo socialmente aceptado en esta situación",
+      "nudo": "siguiendo los consejos de tus amistades o pilares de creencias",
+      "final": "haya una relación de mutua confianza"
+    },
+    "loveFuture": {
+
+
+      "inicio": "demasiado tradicional y seria",
+      "nudo": "formalidad, pero monotonía",
+      "final": "monótono, hay amor pero no aventura"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "deseos de cuidarte y guiarte",
+      "nudo": "que eres una buena guía y consejera",
+      "final": "guiándote y ayudándote en todo lo que pueda"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 0,
+    "imagen": "papa.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Los Enamorados",
+    "etiquetas": [
+      "Decisión",
+      "Amor",
+      "Encrucijada"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "de forma risueña e infantil",
+      "nudo": "sin analizar las cosas o tus actuaciones",
+      "final": "se vuelva loco poor ti"
+    },
+    "loveFuture": {
+
+
+      "inicio": "intensa, pero confusa",
+      "nudo": "muchas aventuras, pero no estabilidad",
+      "final": "éxitoso, lograrás tener algo con esa persona, pero habrá dudas en ambos"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "un amor adolescente y dramático hacia ti",
+      "nudo": "que eres dramática y volátil, indecisa en el amor",
+      "final": "con mucho drama, amor, peleas, confusiones, pero mucha diversión"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 1,
+    "imagen": "lovers.png"
+  },
+  {
+    "id": 7,
+    "nombre": "El Carro",
+    "etiquetas": [
+      "Oportunidad",
+      "Logros",
+      "Caminos"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "estando segura de lo que quieres",
+      "nudo": "eligiendo bien tus pasos",
+      "final": "que acepte tu amor, pero ¿a ti te gusta tanto como piensas?"
+    },
+    "loveFuture": {
+
+
+      "inicio": "con una persona exitosa",
+      "nudo": "oportunidades para conocerse",
+      "final": "éxitoso, tendrás una oportunidad, el resto depende de ti"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "curiosidad hacia ti",
+      "nudo": "que eres una persona exitosa en la vida",
+      "final": "acercándose a ti para conocerte"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 1,
+    "imagen": "carro.png"
+  },
+  {
+    "id": 8,
+    "nombre": "La Fuerza",
+    "etiquetas": [
+      "Control",
+      "Pasión",
+      "Empatía"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "sin dudas",
+      "nudo": "sin ninguna duda",
+      "final": "tener algo sexual con esta persona, pero el amor está dificil"
+    },
+    "loveFuture": {
+
+
+      "inicio": "con mucha tensión sexual",
+      "nudo": "tensión sexual, quizá esa persona es demasiado agresiva",
+      "final": "tendrás oportunidades, pero ten cuidado, no desea nada serio"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "entre pasión y odio hacia ti",
+      "nudo": "que eres decidida y algo hostil en ocasiones",
+      "final": "de forma demasiado agresiva a la hora de conquistarte"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 1,
+    "imagen": "fuerza.png"
+  },
+  {
+    "id": 9,
+    "nombre": "El Ermitaño",
+    "etiquetas": [
+      "Soledad",
+      "Introspección",
+      "Rechazar"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "alejada, no le des atención",
+      "nudo": "solitaria",
+      "final": "que esa persona deje las cosas claras"
+    },
+    "loveFuture": {
+
+
+      "inicio": "con una persona solitaria",
+      "nudo": "tristezas",
+      "final": "doloroso, se alejará de ti"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "rechazo hacia ti",
+      "nudo": "que le rechazas o que no deseas relaciones ahora mismo",
+      "final": "alejándose de ti poco a poco, desea soledad"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 0,
+    "imagen": "hermit.png"
+  },
+  {
+    "id": 10,
+    "nombre": "La Rueda de la Fortuna",
+    "etiquetas": [
+      "Destino",
+      "Fluir",
+      "Suerte"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "pasivamente",
+      "nudo": "dejando que el destino decida",
+      "final": "tener buena suerte y disipar los obstáculos"
+    },
+    "loveFuture": {
+
+
+      "inicio": "destinada por el cósmos",
+      "nudo": "cambios",
+      "final": "éxitoso, tendrás buena suerte"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "amistad hacia ti",
+      "nudo": "que eres su bienhechora",
+      "final": "pasivamente, dejando que el destino decida"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 1,
+    "imagen": "rueda.png"
+  },
+  {
+    "id": 11,
+    "nombre": "La Justicia",
+    "etiquetas": [
+      "Karma",
+      "Se hará justicia",
+      "Cosecha"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "de forma fría y objetiva",
+      "nudo": "siendo objetiva",
+      "final": "se resuelva un problema entre vosotros"
+    },
+    "loveFuture": {
+
+
+      "inicio": "kármica",
+      "nudo": "problemas y discusiones",
+      "final": "problemático, pelearéis y habrá disidencias que resolver"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "frialdad hacia ti, puede que incluso cierta hostilidad",
+      "nudo": "que eres fría y hostil",
+      "final": "de forma justa, pero algo ruda"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 1,
+    "imagen": "justicia.png"
+  },
+  {
+    "id": 12,
+    "nombre": "El Colgado",
+    "etiquetas": [
+      "Acción",
+      "Maniestar",
+      "Lograr"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "calmándote y parándote a pensar",
+      "nudo": "sacrificando algo durante el proceso",
+      "final": "esta relación termine, es lo mejor para ambos"
+    },
+    "loveFuture": {
+
+
+      "inicio": "cargante y que requiere mucha dedicación",
+      "nudo": "parálisis, no avanzará,",
+      "final": "desastroso, se terminará la relación"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "tristeza, que te has alejado o te ha perdido",
+      "nudo": "que te sacrificas demasiado y que te estás cansando",
+      "final": "de forma pasiva, no hará nada, se alejará lo más probable"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 0,
+    "imagen": "colgado.png"
+  },
+  {
+    "id": 13,
+    "nombre": "La Muerte",
+    "etiquetas": [
+      "Cambios",
+      "Transformación",
+      "Dejar atrás el pasado"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "aceptando el dolor",
+      "nudo": "aceptando los obstáculos o cambios que se presenten",
+      "final": "que esta relación muera y pueda renacer"
+    },
+    "loveFuture": {
+
+
+      "inicio": "destruida",
+      "nudo": "cambios profundos y desgarradores",
+      "final": "desastroso, o cambia algo o termináis para siempre"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "odio hacia ti",
+      "nudo": "que eres una persona llena de conflictos internos",
+      "final": "haciéndote daño, cuidado"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 0,
+    "imagen": "muerte.png"
+  },
+  {
+    "id": 14,
+    "nombre": "La Templanza",
+    "etiquetas": [
+      "Equilibrio",
+      "Serenidad",
+      "Disciplina"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "de forma calmada",
+      "nudo": "con mucha serenidad",
+      "final": "que la situación se calme y volváis a conectar"
+    },
+    "loveFuture": {
+
+
+      "inicio": "con una persona serena y tranquila",
+      "nudo": "serenidad",
+      "final": "positivo, resolveréis las diferencias u obstáculos"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "amistad por ti",
+      "nudo": "que tienes muy buena vibra",
+      "final": "haciéndote el bien, pero nada amoroso"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 0,
+    "imagen": "templanza.png"
+  },
+  {
+    "id": 15,
+    "nombre": "El Diablo",
+    "etiquetas": [
+      "Pasión",
+      "Tentación",
+      "Maldad"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "sacando tu rabia",
+      "nudo": "sacando tus emociones oscuras",
+      "final": "acostarte con esa persona o terminar la relación (una de dos)"
+    },
+    "loveFuture": {
+
+
+      "inicio": "pasional y venenosa",
+      "nudo": "pasión sexual o un beneficio económico",
+      "final":  "tóxico, esa persona es venenosa"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "pasión sexual desenfrenada",
+      "nudo": "que eres una bomba pasional, pero algo tóxica",
+      "final": "conquistándote, pero puede tener condutas venenosas"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 0,
+    "imagen": "diablo.png"
+  },
+  {
+    "id": 16,
+    "nombre": "La torre",
+    "etiquetas": [
+      "Destrucción",
+      "Cambio negativo",
+      "Ruina"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "de forma directa, aunque sea cruel,",
+      "nudo": "dejando a un lado la empatía",
+      "final": "reconstruir la relación o dejar las cosas claras"
+    },
+    "loveFuture": {
+
+
+      "inicio": "destructiva y limitante",
+      "nudo": "una ruptura",
+      "final": "aniquilador y doloroso, deberemos dejar a esa persona atrás"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "odio hacia ti",
+      "nudo": "que le odias",
+      "final": "haciéndote el mal o aprovechándose de ti"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 0,
+    "imagen": "torre.png"
+  },
+  {
+    "id": 17,
+    "nombre": "La estrella",
+    "etiquetas": [
+      "Comunicación",
+      "Unión",
+      "Vibración"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "comunicarte de forma clara y sin miedo",
+      "nudo": "siendo clara con tus palabras",
+      "final": "unir vuestras almas"
+    },
+    "loveFuture": {
+
+
+      "inicio": "espiritual y romántica",
+      "nudo": "mucha comunicación romántica",
+      "final": "éxitoso, habrá romanticismo y amor profundo"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "una unión espiritual hacia ti",
+      "nudo": "que eres mística e intuitiva",
+      "final": "con romanticismo"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 1,
+    "imagen": "star.png"
+  },
+  {
+    "id": 18,
+    "nombre": "La Luna",
+    "etiquetas": [
+      "Engaño",
+      "Tristeza",
+      "Sombras"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "ocultar tus intenciones",
+      "nudo": "ocultando tus emociones",
+      "final": "descubrir una verdad que puede ser dolorosa"
+    },
+    "loveFuture": {
+
+
+      "inicio": "engañosa",
+      "nudo": "engaños, mentiras y tristezas",
+      "final": "desastroso, descubrirás algo terrible"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "emociones oscuras hacia ti",
+      "nudo": "que escondes algo oscuro",
+      "final": "engañándote, cuidado, no hay sinceridad"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 0,
+    "imagen": "luna.png"
+  },
+  {
+    "id": 19,
+    "nombre": "El Sol",
+    "etiquetas": [
+      "Acción",
+      "Éxito",
+      "Pasión"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "ir a por lo que deseas",
+      "nudo": "lanzarte",
+      "final": "el éxito absoluto"
+    },
+    "loveFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "cariño hacia ti",
+      "nudo": "que eres un rayo de luz, muy alegre,",
+      "final": "creando una conexión"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 1,
+    "imagen": "sol.png"
+  },
+  {
+    "id": 20,
+    "nombre": "El Juicio",
+    "etiquetas": [
+      "Liberación",
+      "Cambios",
+      "Escucha el llamado"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "ecuchar el llamado del cosmos",
+      "nudo": "escuchando lo que te dice tu interior",
+      "final": "transformar positivamente la situación"
+    },
+    "loveFuture": {
+
+
+      "inicio": "se dará por destino",
+      "nudo": "una transformación positiva",
+      "final": "positivo, habrá cambios para bien, estés o no con esa persona"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "una unión kármica hacia ti",
+      "nudo": "que eres un cambio positivo en su vida",
+      "final": "transformando tu vida"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 1,
+    "imagen": "juicio.png"
+  },
+  {
+    "id": 21,
+    "nombre": "El Mundo",
+    "etiquetas": [
+      "Plenitud",
+      "Éxito",
+      "Espiritualidad"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "actuar como si ya tuvieras lo que deseas",
+      "nudo": "pensar que ya has conseguido tu deseo",
+      "final": "tener la plenitud"
+    },
+    "loveFuture": {
+
+
+      "inicio": "espiritual",
+      "nudo": "unión espiritual",
+      "final": "éxitoso, habrá plenitud"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "una conexión profunda ",
+      "nudo": "que eres su alma gemela",
+      "final": "confesándote su amor"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 1,
+    "imagen": "mundo.png"
+  },
+  {
+    "id": 22,
+    "nombre": "El Loco",
+    "etiquetas": [
+      "Inicios",
+      "Seguir intuición",
+      "Impulsividad"
+    ],
+    "loveAdvice": {
+
+
+      "inicio": "de forma impulsiva",
+      "nudo": "actuar sin pensar",
+      "final": "iniciar un ciclo nuevo con esta persona"
+    },
+    "loveFuture": {
+
+
+      "inicio": "impulsiva e inestable emocionalmente",
+      "nudo": "explosiones emocionales",
+      "final": "inestable, puede que se busque a otra persona"
+    },
+    "loveSpecial": {
+
+
+      "inicio": "un ligero deseo",
+      "nudo": "que eres volátil y algo impetuosa, no piensas antes de actuar",
+      "final": "de forma impetuosa e impredecible"
+    },
+
+    "moneyAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "moneyFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "moneySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "workAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "workFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "workSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "friendsAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "friendsFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "friendsSpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+
+    "spiritualityAdvice": {
+
+
+      "inicio": "de forma conquistadora",
+      "nudo": "muy segura de ti misma",
+      "final": "que caiga a tus pies"
+    },
+    "spiritualityFuture": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "spiritualitySpecial": {
+
+
+      "inicio": "con una persona encantadora",
+      "nudo": "éxitos gracias a la manifestación",
+      "final": "éxitoso, se logra lo que se desea"
+    },
+    "respuesta": 1,
+    "imagen": "loco.png"
+  }
+]
