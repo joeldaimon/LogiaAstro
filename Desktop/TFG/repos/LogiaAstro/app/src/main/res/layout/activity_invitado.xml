@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="-45dp"
+        android:backgroundTint="@color/bg_header"
+        app:cardCornerRadius="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center"
+            android:paddingHorizontal="30dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="60dp"
+                android:background="@color/bg_header"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lunarfase"
+                    style="@style/tvTitle"/>
+                <ImageView android:id="@+id/ivFaseLunar"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    tools:src="@drawable/full"/>
+            </LinearLayout>
+            <TextView android:id="@+id/tvEvents"
+                android:textSize="20dp"
+                android:textColor="?attr/colorSecondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Rituales de fin de ciclo"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+                <ImageView android:id="@+id/btnTarot"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/taroticon"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/index_tarot_btn"
+                android:textAlignment="center"
+                android:layout_marginTop="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnLogia"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingTop="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/foro"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/index_foro_btn"
+                android:textAlignment="center"
+                android:layout_marginTop="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnServicios"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/serviciosicon"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/index_servicios_btn"
+                android:textAlignment="center"
+                android:layout_marginTop="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+                <ImageView android:id="@+id/btnHoroscopo"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/horoscopoicon"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/index_horoscopo_btn"
+                android:textAlignment="center"
+                android:layout_marginTop="13dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/btnContratoAlmico"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/contrato"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/index_contrato_btn"
+                android:textAlignment="center"
+                android:layout_marginTop="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+                <ImageView android:id="@+id/btnInfoMensual"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingTop="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/astrologyicon"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/index_perfil_btn"
+                android:textAlignment="center"
+                android:layout_marginTop="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+                <ImageView android:id="@+id/btnAngeles"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/angelicnumbers"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/index_num_btn"
+                android:textAlignment="center"
+                android:layout_marginTop="13dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/black"
+                app:cardCornerRadius="10dp">
+                <ImageView android:id="@+id/btnAmistades"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:padding="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/amistades"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:text="@string/index_amistades_btn"
+                android:textAlignment="center"
+                android:layout_marginTop="13dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@+id/tvRegister"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/colorPrimaryVariant"
+        android:text="@string/util_register"
+        android:textAlignment="center"
+        android:layout_margin="20dp"/>
+</LinearLayout>
+
+
