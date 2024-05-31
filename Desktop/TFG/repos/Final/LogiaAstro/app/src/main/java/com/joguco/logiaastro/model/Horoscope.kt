@@ -20,6 +20,7 @@ data class Horoscope(
     val fall: String,
     val tarotCard:String,
     val image:String,
+    val degree: String,
     val summary:String
 ){
     //Static object
@@ -54,7 +55,7 @@ data class Horoscope(
         }
 
         /*
-        * Función que devuelve HOROSCOPE por ID
+        * Método que devuelve HOROSCOPE por ID
          */
         fun getHoroscopeById(id:Int?): Horoscope?{
             val signs = horoscopos.filter{

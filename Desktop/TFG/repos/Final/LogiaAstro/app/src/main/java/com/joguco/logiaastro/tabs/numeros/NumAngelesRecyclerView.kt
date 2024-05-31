@@ -1,8 +1,6 @@
 package com.joguco.logiaastro.tabs.numeros
 
 import android.content.Context
-import android.graphics.Color
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -16,7 +14,6 @@ import com.joguco.logiaastro.interfaces.OnNumAngelClick
 import com.joguco.logiaastro.model.NumAngeles
 
 class NumAngelesRecyclerView(
-
     private val numAngeles: List<NumAngeles>,
     private val listener: OnNumAngelClick?
 ) : RecyclerView.Adapter<NumAngelesRecyclerView.ViewHolder>() {
@@ -49,7 +46,7 @@ class NumAngelesRecyclerView(
         )
     }
 
-    //Función que personaliza datos segun posición
+    //Método que personaliza datos segun posición
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         //Changing data
         val num = numAngeles[position]
@@ -69,7 +66,7 @@ class NumAngelesRecyclerView(
         holder.itemView.setOnClickListener(holder)
     }
 
-    //Función que devuelve tamaño de la lista
+    //Método que devuelve tamaño de la lista
     override fun getItemCount(): Int = numAngeles.size
 
     /*
@@ -83,7 +80,7 @@ class NumAngelesRecyclerView(
         val tvNumEspejo: TextView = binding.tvNumEspejo
         val cvNumAngel: CardView = binding.cvNumAngel
 
-        //Función onCLick de NumAngel
+        //Método onCLick de NumAngel
         override fun onClick(v: View?) {
             val numAngel = v?.tag as NumAngeles
 

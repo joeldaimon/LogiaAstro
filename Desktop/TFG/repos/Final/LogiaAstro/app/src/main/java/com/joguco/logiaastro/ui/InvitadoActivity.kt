@@ -9,6 +9,8 @@ import com.joguco.logiaastro.R
 import com.joguco.logiaastro.databinding.ActivityInvitadoBinding
 import com.joguco.logiaastro.login.register.RegisterActivity
 import com.joguco.logiaastro.tabs.contratoalmico.ContratoActivity
+import com.joguco.logiaastro.tabs.amistades.AmistadesPlanetasActivity
+import com.joguco.logiaastro.tabs.grados.GradosActivity
 import java.time.LocalDateTime
 import java.time.temporal.ChronoUnit
 import kotlin.math.floor
@@ -30,27 +32,35 @@ class InvitadoActivity : AppCompatActivity() {
         binding.btnHoroscopo.setColorFilter(R.color.purple_500)
         binding.btnInfoMensual.setColorFilter(R.color.purple_500)
         binding.btnAngeles.setColorFilter(R.color.purple_500)
-        binding.btnAmistades.setColorFilter(R.color.purple_500)
 
         now = LocalDateTime.now()
         faseLunar()
         initListeners()
     }
 
+    /*
+    * Iniciando Listeners
+     */
     private fun initListeners() {
-        binding.btnLogia.setOnClickListener{
-
+        binding.btnGrados.setOnClickListener{
+            val intent = Intent(this, GradosActivity::class. java)
+            startActivity(intent)
         }
 
         binding.btnServicios.setOnClickListener{
             val intent = Intent(this, ComprasActivity::class. java).apply{
-                putExtra(ComprasActivity.KEY_EXTRA_COMPRA, "todo")
+                putExtra(ComprasActivity.KEY_EXTRA_COMPRA, "invitado")
             }
             startActivity(intent)
         }
 
         binding.btnContratoAlmico.setOnClickListener{
             val intent = Intent(this, ContratoActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnAmistades.setOnClickListener{
+            val intent = Intent(this, AmistadesPlanetasActivity::class. java)
             startActivity(intent)
         }
 

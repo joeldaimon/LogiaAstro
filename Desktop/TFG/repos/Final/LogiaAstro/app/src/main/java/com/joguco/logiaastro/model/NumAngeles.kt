@@ -65,7 +65,7 @@ data class NumAngeles(
         }
 
         /*
-        * Función que devuelve NumAngeles por ID
+        * Método que devuelve NumAngeles por ID
          */
         fun getNumAngelesById(context: Context,id:Int?): NumAngeles?{
             loadNumAngeles(context)

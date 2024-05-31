@@ -1,6 +1,7 @@
 package com.joguco.logiaastro.tabs
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.view.*
@@ -8,20 +9,20 @@ import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import com.joguco.logiaastro.R
 import com.joguco.logiaastro.databinding.FragmentInicioBinding
+import com.joguco.logiaastro.mision.GuessActivity
+import com.joguco.logiaastro.mision.VelasActivity
 import com.joguco.logiaastro.tabs.contratoalmico.ContratoActivity
 import com.joguco.logiaastro.tabs.horoscopo.HoroscopoActivity
 import com.joguco.logiaastro.tabs.numeros.NumAngelesActivity
 import com.joguco.logiaastro.tabs.tarot.TarotActivity
-import com.joguco.logiaastro.ui.chat.ChatActivity
 import com.joguco.logiaastro.ui.ComprasActivity
 import com.joguco.logiaastro.ui.MainActivity
-import com.joguco.logiaastro.ui.Perfiles.BuscadorUserActivity
-import com.joguco.logiaastro.ui.amistades.AmistadesPlanetasActivity
+import com.joguco.logiaastro.tabs.Perfiles.PerfilesActivity
+import com.joguco.logiaastro.tabs.amistades.AmistadesPlanetasActivity
+import com.joguco.logiaastro.tabs.grados.GradosActivity
 import java.time.LocalDateTime
 import java.time.temporal.ChronoUnit
 import kotlin.math.floor
-
-
 
 /**
  * INICIO
@@ -30,7 +31,7 @@ class InicioFragment : Fragment() {
     //Binding
     private lateinit var binding: FragmentInicioBinding
 
-    //Atributos
+    //Tiempo y fecha actual
     private lateinit var now: LocalDateTime
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,15 +50,18 @@ class InicioFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        //Titulo
         var title: String = getText(R.string.app_title).toString()
         (activity as MainActivity?)?.setActionBarTitle(title)
+
         now = LocalDateTime.now()
+
         faseLunar()
         initListeners()
     }
 
     /*
-    * Función que inicia Listeners
+    * Método que inicia Listeners
      */
     private fun initListeners() {
         binding.btnHoroscopo.setOnClickListener{
@@ -74,9 +78,9 @@ class InicioFragment : Fragment() {
             }
         }
 
-        binding.btnLogia.setOnClickListener{
+        binding.btnGrados.setOnClickListener{
             activity?.let{
-                val intent = Intent (it, ChatActivity::class.java)
+                val intent = Intent (it, GradosActivity::class.java)
                 it.startActivity(intent)
             }
         }
@@ -106,7 +110,7 @@ class InicioFragment : Fragment() {
 
         binding.btnUsers.setOnClickListener{
             activity?.let{
-                val intent = Intent (it, BuscadorUserActivity::class.java)
+                val intent = Intent (it, PerfilesActivity::class.java)
                 it.startActivity(intent)
             }
         }
@@ -117,11 +121,36 @@ class InicioFragment : Fragment() {
                 it.startActivity(intent)
             }
         }
+
+        binding.ivBootcamp.setOnClickListener{
+            activity?.let{
+                val intent = Intent (it, GuessActivity::class.java)
+                it.startActivity(intent)
+            }
+        }
+        binding.ivVelas.setOnClickListener{
+            activity?.let{
+                val intent = Intent (it, VelasActivity::class.java)
+                it.startActivity(intent)
+            }
+        }
+        binding.btnCompartir.setOnClickListener{
+            val intent= Intent()
+            intent.action=Intent.ACTION_SEND
+            intent.putExtra(Intent.EXTRA_TEXT,"Hey! Prueba esta App de Astrologia, Tarot y numerología: Logia Astro")
+            intent.type="text/plain"
+            startActivity(Intent.createChooser(intent,"Compartir con:"))
+        }
+        binding.btnSigueme.setOnClickListener{
+            var url = Uri.parse("http://www.tiktok.com/@joeldaimon")
+            var intent = Intent(Intent.ACTION_VIEW, url)
+            startActivity(intent)
+        }
     }
 
 
     /*
-    * Función que inicia la fase lunar
+    * Método que inicia la fase lunar
      */
     @RequiresApi(Build.VERSION_CODES.O)
     private fun faseLunar() {
@@ -160,7 +189,7 @@ class InicioFragment : Fragment() {
     }
 
     /*
-    * Función que calcula la fase lunar actual
+    * Método que calcula la fase lunar actual
     * @param    year, month, day
     * @return   int
      */

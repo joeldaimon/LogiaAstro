@@ -24,11 +24,6 @@ data class TarotCard(
 
     val workAdvice: QuestionTheme,
     val workFuture: QuestionTheme,
-    val workSpecial: QuestionTheme,
-
-    val friendsAdvice: QuestionTheme,
-    val friendsFuture: QuestionTheme,
-    val friendsSpecial: QuestionTheme,
 
     val spiritualityAdvice: QuestionTheme,
     val spiritualityFuture: QuestionTheme,
@@ -37,59 +32,37 @@ data class TarotCard(
     val respuesta: Int,
     val imagen: String){
 
-
-    //Function toString
-    override fun toString(): String {
-        return "($this.id) $this.name"
-    }
-
     //Static object
     companion object{
-        //We create a List of Series
         val Mazo:MutableList<TarotCard> = mutableListOf()
 
         /*
-        * Function that loads the Cartas
-        * Returns a MutableList<TarotCard>
+        * Método que carga MAZO
+        *@returs    MutableList<TarotCard>
          */
-        fun loadSeries(context: Context):MutableList<TarotCard>{
-            //We get the context of the data file - datos_json
+        fun loadMazo(context: Context):MutableList<TarotCard>{
+            //Contexto del JSON Mazo
             val raw = context.resources.openRawResource(R.raw.mazo)
 
-            //Reader of data
+            //Lector de datosa
             val rd = BufferedReader(InputStreamReader(raw))
 
-            //Type of list we are going to use ot save the data
+            //Tipo de la lista
             val listType: Type = object : TypeToken<MutableList<TarotCard?>?>() {}.type
 
-            //We create a gson Object
+            //Creamos objeto GSON
             val gson = Gson()
             Mazo.clear()
 
-            //Saving data from json to variable TarotCard
+            //Guardando datos en la lista
             var cartas:List<TarotCard> = gson.fromJson(rd, listType)
 
+            //Mezclamos cartas
             cartas = cartas.shuffled()
 
-            //Saving TarotCard data to original MutableList
             Mazo.addAll(cartas)
 
-
-            //Returning
             return Mazo
-
         }
-
-        /*
-        * Function that returns TarotCard by its ID
-         */
-        fun getCartaById(id:Int?): TarotCard?{
-            val carta = Mazo.filter{
-                it.id == id
-            }
-
-            return if(carta.isNotEmpty()) carta[0] else null
-        }
-
     }
 }

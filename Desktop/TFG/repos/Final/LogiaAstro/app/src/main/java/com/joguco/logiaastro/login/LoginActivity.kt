@@ -5,25 +5,35 @@ import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.lifecycle.ViewModelProvider
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import com.joguco.logiaastro.R
 import com.joguco.logiaastro.databinding.ActivityLoginBinding
 import com.joguco.logiaastro.login.register.RegisterActivity
 import com.joguco.logiaastro.ui.InvitadoActivity
 import com.joguco.logiaastro.ui.MainActivity
-import com.joguco.logiaastro.viewmodel.UserViewModel
+import com.joguco.logiaastro.viewmodel.ViewModel
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.filter
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.launch
 
 class LoginActivity : AppCompatActivity() {
     //Binding
     private lateinit var binding: ActivityLoginBinding
 
-    //ViewModel
-    private lateinit var userVM: UserViewModel
-
     //Firebase base de datos
-    //private val db = Firebase.firestore
+    private val db = Firebase.firestore
 
-    //Atributos
+    //Viewmodel
+    private lateinit var userVM: ViewModel
+
+    //Preferencias compartidas
     private lateinit var sharedpreferences: SharedPreferences
 
     companion object {
@@ -31,30 +41,31 @@ class LoginActivity : AppCompatActivity() {
         const val USER_KEY = "user_key"
     }
 
-    //Constructor
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        //Iniciamos ViewModel
-        userVM = ViewModelProvider(this)[UserViewModel::class.java]
-
         sharedpreferences = getSharedPreferences(SHARED_PREFS, Context.MODE_PRIVATE)
-        initUI()
+
+        //Inciamos ViewModel - Lo usaremos para validaciones
+        userVM = ViewModelProvider(this)[ViewModel::class.java]
+
+        initListeners()
     }
 
     /*
-    * Método que devuelve la base de datos de Firebase
-
-    fun getFirebaseDB(): FirebaseFirestore {
-        return db
-    }*/
+    * Método que enciende el modo oscuro
+     */
+    private fun enableDarkMode(){
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+        delegate.applyDayNight()
+    }
 
     /*
-    * Método que inicia la UI
-     */
-    private fun initUI() {
+    * Método inicia Listeners
+    */
+    private fun initListeners() {
         //Navegamos a REGISTER
         binding.tvRegister.setOnClickListener{
             val intent = Intent(this, RegisterActivity::class. java)
@@ -70,19 +81,22 @@ class LoginActivity : AppCompatActivity() {
         //Al hacer click en Continuar
         binding.btnCont.setOnClickListener {
             try {
-                var acceso = userVM.userExists(binding.etUser.text.toString(), binding.etPass.text.toString())
-                when(acceso){
-                    1 -> { // SUCCESS
-                        val editor = sharedpreferences.edit()
-                        editor.putString(USER_KEY, binding.etUser.text.toString())
-                        editor.apply()
+                //Agarramos user de Firebase
+                db.collection("users").document(binding.etUser.text.toString()).get().addOnSuccessListener {
+                    if(it.get("username") == binding.etUser.text.toString()){
+                        val pwd = it.get("password") as ArrayList<Long>
+                        if(userVM.decryptPwd(pwd, binding.etPass.text.toString())){
+                            val editor = sharedpreferences.edit()
+                            editor.putString(USER_KEY, binding.etUser.text.toString())
+                            editor.apply()
 
-                        val intent = Intent(this, MainActivity::class. java).apply{
+                            val intent = Intent(this, MainActivity::class. java)
+                            startActivity(intent)
+                        } else {
+                            binding.etPass.error = getText(R.string.login_contra_error)
                         }
-                        startActivity(intent)
-                    }
-                    0 -> { // PWD incorrecta
-                        binding.etPass.error = getText(R.string.login_contra_error)
+                    } else {
+                        binding.etUser.error = getText(R.string.login_login_error)
                     }
                 }
             }catch(e: Exception){

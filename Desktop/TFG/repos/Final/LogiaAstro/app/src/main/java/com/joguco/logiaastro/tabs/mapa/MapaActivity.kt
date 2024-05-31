@@ -5,14 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.joguco.logiaastro.R
 import com.joguco.logiaastro.databinding.ActivityMapaBinding
-import com.joguco.logiaastro.menu.AccountActivity
 import com.joguco.logiaastro.ui.ComprasActivity
-import com.joguco.logiaastro.ui.MainActivity
 
 class MapaActivity : AppCompatActivity() {
     //Binding
     private lateinit var binding: ActivityMapaBinding
 
+    //Lista de números
     private lateinit var mapa: ArrayList<Int>
 
     companion object{
@@ -31,7 +30,7 @@ class MapaActivity : AppCompatActivity() {
     }
 
     /*
-    * Función que inicia LISTENERS
+    * Método que inicia LISTENERS
      */
     private fun initListeners() {
         binding.fab.setOnClickListener{
@@ -85,7 +84,7 @@ class MapaActivity : AppCompatActivity() {
     }
 
     /*
-    * Función que inicia el Mapa numerológico
+    * Método que inicia el Mapa numerológico
      */
     private fun initMapa() {
         if(mapa.size > 10){

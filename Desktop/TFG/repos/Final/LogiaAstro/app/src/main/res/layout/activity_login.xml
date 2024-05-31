@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:background="@color/bg_header">
+        android:background="@drawable/bglogin">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,31 +43,23 @@
             android:textSize="28dp"
             android:textAlignment="textEnd"/>
     </LinearLayout>
-    <ImageView android:src="@drawable/borde"
-        android:layout_width="match_parent"
-        android:scaleType="fitXY"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lyHeader"
-        app:layout_constraintEnd_toEndOf="parent"/>
+
 
 
     <LinearLayout android:id="@+id/lyLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:padding="30sp"
+        android:paddingHorizontal="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lyHeader"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:orientation="vertical">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="10dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvLoginDescription"
             app:layout_constraintEnd_toEndOf="parent"
@@ -86,8 +78,7 @@
                 android:layout_weight="2"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:maxLines="1"
-                android:background="@color/white"/>
+                android:maxLines="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -113,8 +104,7 @@
                 android:layout_weight="2"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:maxLines="1"
-                android:background="@color/white"/>
+                android:maxLines="1" />
         </LinearLayout>
 
         <Button

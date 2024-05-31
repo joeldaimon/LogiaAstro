@@ -1,9 +1,7 @@
 package com.joguco.logiaastro.tabs.horoscopo
 
 import android.content.Context
-import android.graphics.Color
 import android.os.Bundle
-import android.text.method.LinkMovementMethod
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -36,7 +34,7 @@ class HoroscopoDetailFragment : Fragment() {
     }
 
     /*
-    * Función que rellena el fragmento cuando se crea
+    * Método que rellena el fragmento cuando se crea
      */
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -49,6 +47,7 @@ class HoroscopoDetailFragment : Fragment() {
         view.findViewById<TextView>(R.id.tvRegente).text  = getText(R.string.horoscopo_regente).toString()+": "+sign?.regent
         view.findViewById<TextView>(R.id.tvExaltacion).text  = getText(R.string.horoscopo_exaltacion).toString()+": "+sign?.exaltation
         view.findViewById<TextView>(R.id.tvCaida).text  = getText(R.string.horoscopo_caida).toString()+": "+sign?.fall
+        view.findViewById<TextView>(R.id.tvGrados).text  = getText(R.string.horoscopo_grado).toString()+": "+sign?.degree
         view.findViewById<TextView>(R.id.tvTarotCard).text  = getText(R.string.horoscopo_tarot).toString()+": "+sign?.tarotCard
 
 
@@ -77,7 +76,7 @@ class HoroscopoDetailFragment : Fragment() {
     }
 
     /*
-     * Función que hace visibles los detalles al hacer click en FAB
+     * Método que hace visibles los detalles al hacer click en FAB
      */
     fun makeDetailsVisible(view: View){
         var fab: FloatingActionButton = view.findViewById(R.id.fab)

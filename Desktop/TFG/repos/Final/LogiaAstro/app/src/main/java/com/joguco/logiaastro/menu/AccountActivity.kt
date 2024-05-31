@@ -6,57 +6,53 @@ import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.result.PickVisualMediaRequest
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.net.toUri
 import androidx.core.view.isVisible
 import androidx.lifecycle.ViewModelProvider
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import com.joguco.logiaastro.R
-import com.joguco.logiaastro.database.entities.UserEntity
 import com.joguco.logiaastro.databinding.ActivityAccountBinding
 import com.joguco.logiaastro.ui.MainActivity
-import com.joguco.logiaastro.viewmodel.UserViewModel
+import com.joguco.logiaastro.viewmodel.ViewModel
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.tasks.await
+
 
 class AccountActivity : AppCompatActivity() {
     //Binding
     private lateinit var binding: ActivityAccountBinding
 
     //User
-    private lateinit var user: UserEntity
+    private lateinit var username: String
 
     //ViewModel
-    private lateinit var userVM: UserViewModel
+    private lateinit var userVM: ViewModel
 
-
-    //Subiendo imagen de perfil
-    val pickMedia = registerForActivityResult(ActivityResultContracts.PickVisualMedia()) { uri ->
-        if (uri != null) {
-            binding.ivProfile.setImageURI(uri)
-            this@AccountActivity.grantUriPermission(
-                "com.joguco.logiaastro.menu",
-                uri,
-                Intent.FLAG_GRANT_WRITE_URI_PERMISSION or Intent.FLAG_GRANT_READ_URI_PERMISSION
-            )
-
-            user.image = uri.toString() //MOD db
-            userVM.update(user)
-            Log.i("JOELDAIMON","INSERTING image in ${user.username} -> Uri $uri")
-        }
-    }
+    //Firebase base de datos
+    private val db = Firebase.firestore
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         //Inflando layout
         setContentView(ActivityAccountBinding.inflate(layoutInflater).also { binding = it }.root)
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
-        //Iniciamos VM
-        userVM = ViewModelProvider(this)[UserViewModel::class.java]
+        //Iniciamos VM - Lo usaremos para validaciones
+        userVM = ViewModelProvider(this)[ViewModel::class.java]
 
         //Cogemos EXTRA
-        var username = intent?.getStringExtra(MainActivity.KEY_EXTRA_USER)!!
-        user = userVM.getByName(username)!!
+        username = intent?.getStringExtra(MainActivity.USER_KEY)!!
 
         //Metodos de inicio
         initListeners()
@@ -65,14 +61,9 @@ class AccountActivity : AppCompatActivity() {
 
     /*
     * Método que inicia Listeners
-     */
+    */
     private fun initListeners(){
-        binding.ivProfile.setOnClickListener{
-            pickMedia.launch(PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly))
-        }
-
         binding.btnPwd.setOnClickListener{
-            binding.llUser.visibility = View.INVISIBLE
             binding.llCorreo.visibility = View.INVISIBLE
             binding.llFecha.visibility = View.INVISIBLE
             binding.llLugar.visibility = View.INVISIBLE
@@ -81,104 +72,199 @@ class AccountActivity : AppCompatActivity() {
         }
 
         binding.btnSave.setOnClickListener{
+            var cont = true
             if(binding.llPwdChange.isVisible){ //Updating pwd
-                if(binding.etPwdOld.text.toString() == user.password){
-                    if(binding.etPwdNew.text.isNotEmpty()){
-                        user.password = binding.etPwdNew.text.toString()
-                        userVM.update(user)
-                    } else {
+                if(getPassword(binding.etPwdOld.text.toString())){
+                    if(!binding.etPwdNew.text.isNotEmpty()){
                         binding.etPwdNew.error = getText(R.string.account_pwd)
+                        cont = false
                     }
                 } else {
                     binding.etPwdOld.error = getText(R.string.account_pwd_error)
+                    cont = false
                 }
+                if(cont){
+                    db.collection("users").document(username).update(
+                        hashMapOf(
+                            "password" to binding.etPwdNew.text.toString()
+                        ) as Map<String, Any>
+                    )
+                }
+                binding.llCorreo.visibility = View.VISIBLE
+                binding.llFecha.visibility = View.VISIBLE
+                binding.llLugar.visibility = View.VISIBLE
+                binding.llHora.visibility = View.VISIBLE
+                binding.llPwdChange.visibility = View.INVISIBLE
             } else { //Updating user with new data
                 if(binding.etFecha.text.toString() != null){
-                    if(userVM.isValidDate(binding.etFecha.text.toString())){
-                        var arr: List<String> = binding.etFecha.text.toString().split("/")
-                        user.day = arr[0].toInt()
-                        user.month = arr[1].toInt()
-                        user.year = arr[2].toInt()
-                    } else{
+                    if(!userVM.isValidDate(binding.etFecha.text.toString())){
                         binding.etFecha.error = getText(R.string.account_date_error)
+                        cont = false
                     }
                 } else{
-                    binding.etFecha.error = getText(R.string.account_date)
+                    binding.etFecha.error = getText(R.string.account_validation_date)
+                    cont = false
                 }
 
                 if(binding.etCorreo.text.toString() != null){
-                    if(userVM.isValidEmail(binding.etCorreo.text.toString()))
-                        user.mail = binding.etCorreo.text.toString()
-                    else{
+                    if(!userVM.isValidEmail(binding.etCorreo.text.toString())){
                         binding.etCorreo.error = getText(R.string.validation_mail)
+                        cont = false
                     }
-                } else{
+                } else {
                     binding.etCorreo.error = getText(R.string.obligado_mail)
+                    cont = false
                 }
 
-                if(binding.etLugar.text.toString() != null){
-                    user.place = binding.etLugar.text.toString()
-                } else{
+                if(binding.etLugar.text.toString() == null){
                     binding.etLugar.error = getText(R.string.obligado_place)
+                    cont = false
                 }
 
                 if(binding.etHora.text.toString() != null){
-                    if(userVM.isValidHour(binding.etHora.text.toString()))
-                        user.hour = binding.etHora.text.toString()
-                    else{
+                    if(!userVM.isValidHour(binding.etHora.text.toString())) {
                         binding.etHora.error = getText(R.string.validation_hour)
+                        cont = false
                     }
                 } else{
                     binding.etHora.error = getText(R.string.obligado_hour)
+                    cont = false
                 }
 
-                userVM.update(user)
+                if(binding.etTimezone.text.toString() == null){
+                    binding.etHora.error = getText(R.string.obligado_timezone)
+                    cont = false
+                }
+
+                if(cont){
+                    var arr: List<String> = binding.etFecha.text.toString().split("/")
+                    var day = arr[0].toInt()
+                    var month = arr[1].toInt()
+                    var year = arr[2].toInt()
+
+                    db.collection("users").document(username).update(
+                        hashMapOf(
+                            "mail" to binding.etCorreo.text.toString(),
+                            "day" to day,
+                            "month" to month,
+                            "year" to year,
+                            "hour" to binding.etHora.text.toString(),
+                            "place" to binding.etLugar.text.toString(),
+                            "timezone" to binding.etTimezone.text.toString().toDouble()
+                        ) as Map<String, Any>
+                    )
+                }
+            }
+        }
+        binding.btnPost.setOnClickListener{
+            onCreateDialog()
+        }
+    }
+
+    /*
+    * Método que crea un diálogo
+     */
+    private fun onCreateDialog() {
+        var view = this.layoutInflater.inflate(R.layout.dialog_post, null)
+        val builder: AlertDialog.Builder = AlertDialog.Builder(this)
+        builder
+            .setTitle(getText(R.string.account_post))
+            .setView(view)
+            .setPositiveButton(getText(R.string.util_aceptar)) { dialog, which ->
+                var etPost: EditText = view.findViewById(R.id.etPost)
+                postText(etPost.text.toString())
+            }
+            .setNegativeButton(getText(R.string.util_cancelar)) { dialog, which ->
+                Toast.makeText(this, R.string.util_cancel_action, Toast.LENGTH_LONG).show()
             }
 
+        val dialog: AlertDialog = builder.create()
+        dialog.show()
+    }
+
+    /*
+    * Método que carga un texto en Usuario de la base de datos de Firebase
+    * @param    text
+     */
+    private fun postText(text: String) {
+        db.collection("users").document(username).update(
+            hashMapOf(
+                "post" to text
+            ) as Map<String, String>
+        )
+
+    }
+
+    /*
+    * Método que comprueba contraseña
+    * @param    pwd
+    * @return   Boolean
+     */
+    private fun getPassword(pwd: String): Boolean {
+        var cont = false
+        CoroutineScope(Dispatchers.Main).launch{
+            db.collection("users").document(username).get().addOnSuccessListener {
+                if(pwd == it.get("password").toString()){
+                    cont = true
+                }
+            }.await()
         }
+
+        return cont
     }
 
     /*
     * Método que inicia datos del usuario
      */
     private fun initUserData() {
-        binding.tvFollowers.text = user.followers.size.toString()
-        binding.tvFollowing.text = user.following.size.toString()
-        binding.tvFriends.text = user.friends.size.toString()
-        binding.tvTitleProfile.text = user.username.uppercase()
-        binding.etUsuario.setText(user.username, TextView.BufferType.EDITABLE)
-        binding.etCorreo.setText(user.mail, TextView.BufferType.EDITABLE)
-        binding.etFecha.setText("${user.day}/${user.month}/${user.year}", TextView.BufferType.EDITABLE)
-        binding.etHora.setText(user.hour, TextView.BufferType.EDITABLE)
-        binding.etLugar.setText(user.place, TextView.BufferType.EDITABLE)
+        CoroutineScope(Dispatchers.Main).launch{
+            db.collection("users").document(username).get().addOnSuccessListener {
+                var followers = it.get("followers") as ArrayList<Int>
+                var following = it.get("following") as ArrayList<Int>
+                binding.tvFollowers.text = followers.size.toString()
+                binding.tvFollowing.text = following.size.toString()
+                binding.tvTitleProfile.text = it.get("username").toString().uppercase()
+                binding.etCorreo.setText(it.get("mail").toString(), TextView.BufferType.EDITABLE)
+                binding.etFecha.setText("${it.get("day")}/${it.get("month")}/${it.get("year")}", TextView.BufferType.EDITABLE)
+                binding.etHora.setText(it.get("hour").toString(), TextView.BufferType.EDITABLE)
+                binding.etLugar.setText(it.get("place").toString(), TextView.BufferType.EDITABLE)
+                binding.etTimezone.setText(it.get("timezone").toString(), TextView.BufferType.EDITABLE)
+                updateHeight(binding.vAstro, it.get("astroLevel").toString().toInt())
+                updateHeight(binding.vMagia, it.get("magicLevel").toString().toInt())
+                updateHeight(binding.vNumer, it.get("numerologyLevel").toString().toInt())
+                updateHeight(binding.vTarot, it.get("tarotLevel").toString().toInt())
 
-        if(user.image != ""){
-            try {
-                var uri = Uri.parse(user.image);
-                binding.ivProfile.setImageURI(uri)
-            } catch(se: SecurityException){
-                Log.i("JOELDAIMON", "SecurityException in ${user.username}'s user image -> $se")
-                user.image = ""
-                userVM.update(user)
-                initProfileImage()
-            } finally {}
-        } else {
-            Log.i("JOELDAIMON", "Image in ${user.username} is empty")
-            initProfileImage()
+                try {
+                    val imagen = it.get("image") as String
+                    initProfileImage(imagen)
+                }catch(e: Exception){
+                    Log.i("LOGIA-ASTRO","No hay imagen en Usuario: "+e)
+                    initProfileImage("libra")
+                }
+            }.await()
         }
+    }
+
+    /*
+    * Método actualiza altura de un View
+    * @param    view, stat
+     */
+    private fun updateHeight(view: View, stat:Int){
+        val params = view.layoutParams
+        params.height = stat * 10
+        view.layoutParams = params
     }
 
     /*
     * Método que carga imagen de perfil o pone una aleatoria
      */
-    private fun initProfileImage(){
+    private fun initProfileImage(image: String){
         val context: Context = this
         val id = context.resources.getIdentifier(
-            "libra",
+            image.lowercase(),
             "raw",
             context.packageName
         )
-        //Setting the image by id
         binding.ivProfile.setImageResource(id)
     }
 }

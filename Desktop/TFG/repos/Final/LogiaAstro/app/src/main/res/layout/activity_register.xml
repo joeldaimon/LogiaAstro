@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="30dp"
-        android:background="@color/bg_header"
+        android:background="@drawable/bgregister"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,7 +43,7 @@
             android:textAlignment="textEnd"/>
     </LinearLayout>
     <ImageView android:id="@+id/ivBorde"
-        android:src="@drawable/borde"
+
         android:layout_width="match_parent"
         android:scaleType="fitXY"
         android:layout_height="wrap_content"
@@ -75,14 +75,13 @@
                 android:text="@string/login_user"/>
             <androidx.appcompat.widget.AppCompatEditText
                 style="@style/EditText"
-                android:inputType="text"
+                android:inputType="text|time"
                 android:id="@+id/etUser"
                 android:layout_width="0dp"
                 android:layout_weight="2"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:maxLines="1"
-                android:background="@color/white"/>
+                android:maxLines="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -104,8 +103,7 @@
                 android:layout_weight="2"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:maxLines="1"
-                android:background="@color/white"/>
+                android:maxLines="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -127,8 +125,7 @@
                 android:layout_weight="2"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:maxLines="1"
-                android:background="@color/white"/>
+                android:maxLines="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -138,7 +135,7 @@
             android:layout_marginTop="10dp"
             android:orientation="horizontal">
             <TextView
-                android:layout_width="50dp"
+                android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/register_day"/>
@@ -147,11 +144,25 @@
                 android:id="@+id/etDay"
                 android:inputType="numberSigned"
                 android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:maxLines="1" />
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:text="@string/register_timezone"/>
+            <androidx.appcompat.widget.AppCompatEditText
+                style="@style/EditText"
+                android:id="@+id/etTimezone"
+                android:inputType="numberSigned"
+                android:layout_width="0dp"
                 android:layout_weight="2"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:maxLines="1"
-                android:background="@color/white"/>
+                android:maxLines="1" />
         </LinearLayout>
 
         <LinearLayout
@@ -173,8 +184,7 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:maxLines="1"
-                android:background="@color/white"/>
+                android:maxLines="1" />
             <TextView
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
@@ -189,8 +199,7 @@
                 android:layout_weight="2"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:maxLines="1"
-                android:background="@color/white"/>
+                android:maxLines="1" />
         </LinearLayout>
 
 
@@ -213,8 +222,7 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:maxLines="1"
-                android:background="@color/white"/>
+                android:maxLines="1" />
             <TextView
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
@@ -229,8 +237,7 @@
                 android:layout_weight="2"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:maxLines="1"
-                android:background="@color/white"/>
+                android:maxLines="1" />
         </LinearLayout>
 
         <Button

@@ -8,113 +8,67 @@
       "Lograr"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "de forma conquistadora",
       "nudo": "muy segura de ti misma",
       "final": "que caiga a tus pies"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "con una persona encantadora",
       "nudo": "éxitos gracias a la manifestación",
       "final": "éxitoso, se logra lo que se desea"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "atracción hacia ti",
       "nudo": "que eres lanzada en el amor",
       "final": "conquistándote hasta tenerte"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
+      "inicio": "con determinación",
       "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "final": "manifestar tus deseos"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
+      "inicio": "Conseguimos manifestar abundancia",
+      "nudo": "se mantiene en crecimiento",
       "final": "éxitoso, se logra lo que se desea"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura éxito gracias a nuestra seguridad",
+      "nudo": "augura éxito y deseos que se cumplen",
+      "final": "actuar ya"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
+      "inicio": "liderando la situación",
       "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "final": "conseguir ese avance"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
+      "inicio": "Conseguimos un ascenso o trabajo",
+      "nudo": "se mantiene en crecimiento",
       "final": "éxitoso, se logra lo que se desea"
     },
     "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
+      "inicio": "nos augura felicidad y logros",
       "nudo": "éxitos gracias a la manifestación",
       "final": "éxitoso, se logra lo que se desea"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "manifestando con tu verbo",
+      "nudo": "creando tu propia realidad con tus pensamientos",
+      "final": "lograr tu realidad deseada"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "a punto de descubrir tus dones",
+      "nudo": "tu ego para descubrir los límites de tu individualidad",
+      "final": "éxitoso, encontrarás la forma de manifestar tu realidad"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "redirigir tus pensamientos a algo positivo",
+      "nudo": "camino de un nuevo inicio",
+      "final": "tu propia identidad a través de proyectarte en el mundo"
     },
     "respuesta": 1,
     "imagen": "mago.png"
@@ -128,113 +82,67 @@
       "Atraer"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "de forma pasiva",
       "nudo": "esperar a que esa persona actúe",
       "final": "conseguir la paz interior"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "algo fría, pero estable",
       "nudo": "calma",
       "final": "distante, uno de los dos materna demasiado al otro"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "amor fraternal hacia ti",
       "nudo": "que eres demasiado fría",
       "final": "de forma pasiva, esperará a que tú actúes"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma pasiva",
+      "nudo": "confiar en tu intuición",
+      "final": "encontrar tu centro"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Logramos una situación estable",
+      "nudo": "nos otorga paz",
+      "final": "lento, pero seguro"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "nos augura estabilidad económica gracias a nuestra fe",
+      "nudo": "nos augura estabilidad económica gracias a nuestra fe",
+      "final": "confiar en el proceso"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma pasiva",
+      "nudo": "con mucha intuición",
+      "final": "poder decidir desde el corazón y no la ansiedad"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Conseguiremos una oportunidad",
+      "nudo": "nos puede ofrecer una mujer",
+      "final": "protección en el trabajo"
     },
     "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "nos augura un trabajo en el que maternamos a otros",
+      "inicio": "nos augura un trabajo en el que maternamos a otros",
+      "final": "actuar de forma maternal, pero objetiva y fría"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "con intuición",
+      "nudo": "analizando desde tu centro",
+      "final": "llegar a tu serenidad"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "en el camino correcto para autoconocerte",
+      "nudo": "tu interior",
+      "final": "armonioso, te desubrirás a ti misma"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "conocerte a ti misma",
+      "nudo": "camino del autodescubrimiento",
+      "final": "serenidad y paz contigo misma"
     },
     "respuesta": 0,
     "imagen": "papisa.png"
@@ -248,113 +156,62 @@
       "Crear"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "pasionalmente",
       "nudo": "expresando tus sentimientos",
       "final": "se enamore de ti"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "llena de amor",
       "nudo": "pasión sexual (o posible embarazo si se busca)",
       "final": "positivo, se logrará mantener la relación unida"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "un amor profundo hacia ti",
       "nudo": "que eres sensual",
-      "final": "de forma directa, haciéndote una proposición amorosa."
+      "final": "de forma directa, haciéndote una proposición amorosa"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma creativa",
+      "nudo": "apostando por tus proyectos",
+      "final": "que la abundancia crezca en tu jardín"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
+      "inicio": "Conseguirás un dinero",
       "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "final": "exitoso, se logra lo que se desea"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura abundancia económica a expuertas",
+      "nudo": "augura un proyecto exitoso o un trabajo de en sueño",
+      "final": "nutrir a otros"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
       "inicio": "de forma conquistadora",
       "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "final": "conseguir que ese proyecto salga adelante"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Un proyecto creativo",
+      "nudo": "nos dará mucha abundancia seguirá creciendo",
+      "final": "exitoso, obtendremos abundancia gracias a esta oportunidad"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "desde tu feminidad, nutriendo a otros",
+      "nudo": "dar luz a la gente que te rodea",
+      "final": "que tu vida sea un jardín fertil lleno de luz"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "en el camino de la sensualidad y amor propio",
+      "nudo": "el amor incondicional",
+      "final": "exitoso, lograrás encontrar a tu alma gemela"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "amarte a ti misma a través de nutrir a otros",
+      "nudo": "camino del amor propio",
+      "final": "el poder de manifestar cada deseo que tengas"
     },
     "respuesta": 1,
     "imagen": "emperatriz.png"
@@ -368,113 +225,66 @@
       "Riqueza"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "de forma paternalista",
       "nudo": "ser dominante",
       "final": "una relación de mutuo beneficio con esa persona"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "estable pero competitiva",
       "nudo": "estabilidad, pero no confianza",
       "final": "positivo, pero tenéis que abriros emocionalmente"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "pasión sexual, quiere beneficiarse de ti",
       "nudo": "que eres dominante en demasía",
       "final": "de forma dominate y algo fanfarrona"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "calculando estrategias",
+      "nudo": "usando tu poder de convicción",
+      "final": "esa riqueza que buscas"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Una oportunidad de expansión",
+      "nudo": "se mantiene en crecimiento",
+      "final": "abundante, habrá dinero o resolución de deudas"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura éxitos materiales a expuertas",
+      "nudo": "augura éxitos materiales a expuertas",
+      "final": "actuar como un líder"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "con mente calculadora",
+      "nudo": "lanzarte a por lo que deseas sin miedo",
+      "final": "ese ascenso o puesto que deseas"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Un jefe u oportunidad",
+      "nudo": "se mantiene estable",
+      "final": "ese ascenso o puesto que deseas"
     },
     "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura éxitos materiales a expuertas",
+      "nudo": "augura éxitos materiales a expuertas",
+      "final": "éxitoso, lograremos ese ascenso o riqueza que buscamos, además de mantenerla"
     },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "con impulso objetivo",
+      "nudo": "escuchar a tu parte masculina",
+      "final": "lograr los resultados materiales que deseas"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "actuando desde el ego",
+      "nudo": "tu orgullo y destruirlo",
+      "final": "estable, te reconciliarás con tu energia masculina y actuarás desde tu verdad"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "proyectar tu verdad en el mundo a través de tus acciones",
+      "nudo": "orgullo del ego",
+      "final": "en ti el poder que buscaste en otros"
     },
     "respuesta": 1,
     "imagen": "emperador.png"
@@ -488,113 +298,67 @@
       "Estructuras"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "según lo socialmente aceptado en esta situación",
       "nudo": "siguiendo los consejos de tus amistades o pilares de creencias",
       "final": "haya una relación de mutua confianza"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "demasiado tradicional y seria",
       "nudo": "formalidad, pero monotonía",
       "final": "monótono, hay amor pero no aventura"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "deseos de cuidarte y guiarte",
       "nudo": "que eres una buena guía y consejera",
       "final": "guiándote y ayudándote en todo lo que pueda"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "con cuidado",
+      "nudo": "ahorrándo lo máximo posible",
+      "final": "mantener tus finanzas en orden y no causar más problemas"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Nos aceptarán un pago o cobro",
+      "nudo": "nos salvará de un apuro financiero",
+      "final": "éxitoso, pero debemos tener mejores conductas económicas"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura aceptación de un pago o ayuda de otros",
+      "nudo": "augura aceptación de un pago o ayuda de otros",
+      "final": "actuar según lo que está establecido socialmente que es correcto"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "según las normas sociales",
+      "nudo": "escuchando o dando consejos",
+      "final": "obtener contactos en ese trabajo u oportunidad"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Un jefe o autoridad de un trabajo",
+      "nudo": "nos ofrecerá un puesto",
+      "final": "nos reconocerán, pero habrá que esforzarse"
     },
     "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura estabilidad gracias a actuar como se espera de nosotros",
+      "nudo": "augura estabilidad gracias a actuar como se espera de nosotro",
+      "final": "unirte a la gente, escuchar los consejos, y seguir las normas"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "proyectándote al exterior",
+      "nudo": "guiando a los que te rodean",
+      "final": "el beneplácito de los demás"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "dedicándote demasiado a guiar a otros",
+      "nudo": "el colectivo social para encontrarte en otros",
+      "final": "estable, liderarás tu vida con amor"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "guiar a otros",
+      "nudo": "colectivo social",
+      "final": "tu identidad a través de convivir con otros"
     },
     "respuesta": 0,
     "imagen": "papa.png"
@@ -608,113 +372,62 @@
       "Encrucijada"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "de forma risueña e infantil",
       "nudo": "sin analizar las cosas o tus actuaciones",
       "final": "se vuelva loco poor ti"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "intensa, pero confusa",
       "nudo": "muchas aventuras, pero no estabilidad",
-      "final": "éxitoso, lograrás tener algo con esa persona, pero habrá dudas en ambos"
+      "final": "exitoso, lograrás tener algo con esa persona, pero habrá dudas en ambos"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "un amor adolescente y dramático hacia ti",
       "nudo": "que eres dramática y volátil, indecisa en el amor",
       "final": "con mucho drama, amor, peleas, confusiones, pero mucha diversión"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma indecisa",
+      "nudo": "mostrando la duda que sientes",
+      "final": "que los caminos se abran"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Una actitud derrochadora",
+      "nudo": "nos genera inestabilidad, empeorará por nuestra inmadurez",
+      "final": "incierto, depende de cómo actues"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura derroches",
+      "nudo": "augura decisiones o dos ofertas",
+      "final": "elijas desde el corazón"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma jovial",
+      "nudo": "ser muy encantadaora",
+      "final": "crear contactos con gente ideal para el trabajo"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Una decisión entre dos ofertas",
+      "nudo": "nos causará indecisión, nos hará elegir desde el corazón",
+      "final": "incierto, depende de ti"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "escuchando a tu corazón",
+      "nudo": "pensando en cada encrucijada",
+      "final": "lograr abrirte a tu niña interna o al amor"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "en una encrucijada",
+      "nudo": "el camino del corazón siempre en duda",
+      "final": "exitoso si actúas desde tu yo infantil"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "escuchar a tu niña interior",
+      "nudo": "camino de la encrucijada eterna",
+      "final": "tu verdadera misión"
     },
     "respuesta": 1,
     "imagen": "lovers.png"
@@ -728,113 +441,62 @@
       "Caminos"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "estando segura de lo que quieres",
       "nudo": "eligiendo bien tus pasos",
       "final": "que acepte tu amor, pero ¿a ti te gusta tanto como piensas?"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "con una persona exitosa",
       "nudo": "oportunidades para conocerse",
-      "final": "éxitoso, tendrás una oportunidad, el resto depende de ti"
+      "final": "exitoso, tendrás una oportunidad, el resto depende de ti"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "curiosidad hacia ti",
       "nudo": "que eres una persona exitosa en la vida",
       "final": "acercándose a ti para conocerte"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "lanzándote hacia esa oportunidad",
+      "nudo": "dejando de titubear",
+      "final": "el éxito económico que te espera"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Una evolución económica",
+      "nudo": "nos ofrecerá dinero, cambiará nuestra suerte",
+      "final": "exitoso si tomamos la iniciativa"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura entrada de dinero y buena suerte",
+      "nudo": "augura una nueva oferta o ascenso",
+      "final": "que te lances a por lo que deseas y no esperes más"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "conquistando y liderando a los que te rodean",
+      "nudo": "demostrando tu vulnerabilidad",
+      "final": "que te acepten en ese trabajo o te asciendan"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Un nuevo camino o trabajo",
+      "nudo": "nos ofrecerá un ascenso, pero tendremos que elegir",
+      "final": "exitoso, pero depende de si tomamos ese camino o no"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "desde tu voluntad",
+      "nudo": "mostrando vulnerabilidad",
+      "final": "lograr reconocer las dos fuerzas duales de tu interior y apaciguarlas"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "viendo llegar una oportunidad",
+      "nudo": "el camino de la dualidad",
+      "final": "exitoso, las cosas cambiarán a mejor si empiezas a moverte"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "avanzar sin miedo",
+      "nudo": "camino del impulso del alma",
+      "final": "el equilibrio de tu luz y oscuridad"
     },
     "respuesta": 1,
     "imagen": "carro.png"
@@ -848,113 +510,62 @@
       "Empatía"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "sin dudas",
       "nudo": "sin ninguna duda",
       "final": "tener algo sexual con esta persona, pero el amor está dificil"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "con mucha tensión sexual",
       "nudo": "tensión sexual, quizá esa persona es demasiado agresiva",
       "final": "tendrás oportunidades, pero ten cuidado, no desea nada serio"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "entre pasión y odio hacia ti",
       "nudo": "que eres decidida y algo hostil en ocasiones",
       "final": "de forma demasiado agresiva a la hora de conquistarte"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "forzando la situación",
+      "nudo": "teniendo en cuenta cuanto puedes apretar",
+      "final": "solucionar los problemas de solvencia"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Una situación económica problemática",
+      "nudo": "está a punto de estallar, requerirá de tu paciencia",
+      "final": "exitoso, si empiezas a actuar ya"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura éxitos económicos si actuamos mirando por nuestro bien",
+      "nudo": "reconocimiento en el trabajo, pero envidias",
+      "final": "actuar desde tu verdad y diciendo las cosas claras"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "con irascibilidad",
+      "nudo": "no echandote atrás en tu verdad",
+      "final": "arreglar un asunto importante o discusión laboral"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Una persona autoritaria en el trabajo",
+      "nudo": "nos genera ira, seguirá presionándonos",
+      "final": "exitoso, porque empezarás a defenderte más"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "desde tus pasiones",
+      "nudo": "con impetuosidad",
+      "final": "dejar las cosas claras, aunque generes drama"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "aguantando tu irascibilidad interna",
+      "nudo": "el camino del equilibrio de la ira",
+      "final": "exitoso, pero tienes que decir lo que sientes"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "actuar con valentia, desde el equilibrio de no dañar a otros,",
+      "nudo": "el camino de la fuerza, aprieto pero suelto,",
+      "final": "la voluntad para brillar por encima de lo que te rodea"
     },
     "respuesta": 1,
     "imagen": "fuerza.png"
@@ -968,113 +579,62 @@
       "Rechazar"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "alejada, no le des atención",
       "nudo": "solitaria",
       "final": "que esa persona deje las cosas claras"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "con una persona solitaria",
       "nudo": "tristezas",
       "final": "doloroso, se alejará de ti"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "rechazo hacia ti",
       "nudo": "que le rechazas o que no deseas relaciones ahora mismo",
       "final": "alejándose de ti poco a poco, desea soledad"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "aceptando la pérdida",
+      "nudo": "meditando sobre tus acciones y gastos",
+      "final": "cambiar tu conducta financiera en el futuro"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Una deuda",
+      "nudo": "nos genera tristeza, empeorará",
+      "final": "penoso, no esperes ayuda"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura pérdidas y tristeza",
+      "nudo": "augura despidos y soledad",
+      "final": "medites bien tus acciones futuras para evitar más daño"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "recluyéndote en soledad",
+      "nudo": "meditando las cosas",
+      "final": "lograr elegir bien tu labor futura, algo debes cambiar"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Un posible despido",
+      "nudo": "nos generará tristeza, nos aislará de los demás",
+      "final": "penoso, es posible que haya despidos"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "introspectando desde tu oscuridad",
+      "nudo": "buscando tu verdad",
+      "final": "encontrar tu centro y dejar de sufrir"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "cansada de seguir caminando",
+      "nudo": "el camino de la soledad e introspección",
+      "final": "beneficioso, encontrarás tu luz y verdad"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "pausar y mirarte por dentro",
+      "nudo": "camino de la soledad",
+      "final": "beneficioso, debes alejarte para recargarte y luego continuar"
     },
     "respuesta": 0,
     "imagen": "hermit.png"
@@ -1088,113 +648,62 @@
       "Suerte"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "pasivamente",
       "nudo": "dejando que el destino decida",
       "final": "tener buena suerte y disipar los obstáculos"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "destinada por el cósmos",
       "nudo": "cambios",
-      "final": "éxitoso, tendrás buena suerte"
+      "final": "exitoso, tendrás buena suerte"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "amistad hacia ti",
       "nudo": "que eres su bienhechora",
       "final": "pasivamente, dejando que el destino decida"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "jugándote la suerte",
+      "nudo": "creyendo en tu suerte",
+      "final": "cambiar las cosas a tu favor, vendrá dinero inesperado"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Te lanzarás a apostar o jugar tanto",
+      "nudo": "las cosas cambiarán a mejor, aunque debes confiar en la suerte",
+      "final": "exitoso, pero todo lo que sube, baja"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura suerte con el dinero o el juego",
+      "nudo": "augura cambios positivos destinados",
+      "final": "dejar que el cosmos decida"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "dejando que los demás decidan",
+      "nudo": "soltando el control",
+      "final": "que las cosas cambien a tu favor"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Un cambio de trabajo o aires",
+      "nudo": "te ayudará a evolucionar, te traerá cambios",
+      "final": "exitoso, confía en el cosmos"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "desde la calma, pensando que el cosmos te mima,",
+      "nudo": "confiando en que la situación mejorará",
+      "final": "que las energías se vuelvan a tu favor"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "sufriendo cambios",
+      "nudo": "el camino de la suerte, como es arriba, es abajo,",
+      "final": "exitoso, si sabes jugar tus cartas"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "confiar en la suerte",
+      "nudo": "camino del cambio, todo lo que sube baja, y viceversa",
+      "final": "exitoso, cambiarás tu suerte"
     },
     "respuesta": 1,
     "imagen": "rueda.png"
@@ -1208,113 +717,62 @@
       "Cosecha"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "de forma fría y objetiva",
       "nudo": "siendo objetiva",
       "final": "se resuelva un problema entre vosotros"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "kármica",
       "nudo": "problemas y discusiones",
       "final": "problemático, pelearéis y habrá disidencias que resolver"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "frialdad hacia ti, puede que incluso cierta hostilidad",
       "nudo": "que eres fría y hostil",
       "final": "de forma justa, pero algo ruda"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "dejando a un lado tu corazón",
+      "nudo": "ahorrando tanto como puedas",
+      "final": "que las cosas no empeoren, aunque todo apunta a que así será"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Un problema legal o gran deuda",
+      "nudo": "empeorará por nuestra conducta, generará deudas",
+      "final": "neutral, es posible que haya pagos inesperados"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura deudas y pagos",
+      "nudo": "augura injusticias",
+      "final": "actuar de forma fría y calculadora"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "desde tu objetividad",
+      "nudo": "teniendo claro lo que buscas",
+      "final": "que ese problema laboral se estabilice"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Problemas legales en el trabajo",
+      "nudo": "son resultado de malas decisiones, nos pondrá en situaciones incómodas",
+      "final": "neutral, es posible que debas aceptar a regañadientes"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma objetiva",
+      "nudo": "cuidandote de karma",
+      "final": "equilibrar tus energías"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "en medio del juicio de tu alma",
+      "nudo": "el karma por el que debes pagar",
+      "final": "justo, puede que no te guste, pero te tocará pagar"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "pagar karma",
+      "nudo": "camino del karma, negativo y positivo,",
+      "final": "justo, aprenderás a equilibrar tus energías"
     },
     "respuesta": 1,
     "imagen": "justicia.png"
@@ -1328,113 +786,62 @@
       "Lograr"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "calmándote y parándote a pensar",
       "nudo": "sacrificando algo durante el proceso",
       "final": "esta relación termine, es lo mejor para ambos"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "cargante y que requiere mucha dedicación",
       "nudo": "parálisis, no avanzará,",
       "final": "desastroso, se terminará la relación"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "tristeza, que te has alejado o te ha perdido",
       "nudo": "que te sacrificas demasiado y que te estás cansando",
       "final": "de forma pasiva, no hará nada, se alejará lo más probable"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "dejando de gastar en seco",
+      "nudo": "pensando objetivamente",
+      "final": "evitar perder más abundancia inconscientemente"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Una situación paralizada",
+      "nudo": "se estancará por completo, empezará a estresarte",
+      "final": "complicado, no obtendrás ese dinero, la cosa se quedará como está"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura una situación estable, pero estancada",
+      "nudo": "augura mucho sacrificio por poca recompensa",
+      "final": "pausar y pensarte más las cosas"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "pensando las cosas detenidamente",
+      "nudo": "pausando en seco",
+      "final": "no seguir saboteando esa oportunidad"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "un trabajo limitante y cargante",
+      "nudo": "te obliga a sacrificarte constantemente te agotará",
+      "final": "complicado, todo quedará como está ahora porque te da miedo cambiar"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "parando en seco para observarte a ti misma",
+      "nudo": "paralizándote por completo",
+      "final": "dejar de sabotearte, además de recuperar tu energía"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "pasando por un impass",
+      "nudo": "el camino del sacrificio voluntario",
+      "final": "empezar a darte cuenta de tu sabotaje y cambiarlo"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "sacrificarte dejándote atravesar por estos desafíos",
+      "nudo": "camino del sacrificio espiritual en búsqueda de tu verdad",
+      "final": "tu iluminación, el dolor nos llevará a la luz de la verdad"
     },
     "respuesta": 0,
     "imagen": "colgado.png"
@@ -1448,113 +855,62 @@
       "Dejar atrás el pasado"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "aceptando el dolor",
       "nudo": "aceptando los obstáculos o cambios que se presenten",
       "final": "que esta relación muera y pueda renacer"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "destruida",
       "nudo": "cambios profundos y desgarradores",
       "final": "desastroso, o cambia algo o termináis para siempre"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "odio hacia ti",
       "nudo": "que eres una persona llena de conflictos internos",
       "final": "haciéndote daño, cuidado"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "preparándote para lo peor",
+      "nudo": "preocupándote por la situación",
+      "final": "una transformación profunda de la situación actual"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Una gran deuda o problema",
+      "nudo": "nos causa o causará dolor, empeorará",
+      "final": "negativo, habrá ruina"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura tristezas y pérdidas",
+      "nudo": "augura un trabajo limitante y doloroso",
+      "final": "dejar atrás lo que te daña y aventurarte a lo nuevo desconocido"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma contundente, cambiando de trabajo o de camino",
+      "nudo": "dejando atrás el pasado",
+      "final": "tranformar tu vida para encontrar el trabajo que realmente deseas"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Una oportunidad envenenada",
+      "nudo": "nos destrozará, no merece la pena",
+      "final": "negativo, no nos causará felicidad este camino, es mejor irse"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "desgarrando tu alma a través del cambio",
+      "nudo": "dejando atrás todo lo que te causa dolor",
+      "final": "renacer de tus cenizas como un fénix"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "en el camino de la transformación del alma",
+      "nudo": "la muerte interna y de tu propia identidad para encontrarte",
+      "final": "beneficioso, evolucionarás espiritualmente aunque el tránsito sea duro"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "transformar tu alma",
+      "nudo": "dolor profundo",
+      "final": "un renacimiento de todos tus pesares"
     },
     "respuesta": 0,
     "imagen": "muerte.png"
@@ -1568,113 +924,62 @@
       "Disciplina"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "de forma calmada",
       "nudo": "con mucha serenidad",
       "final": "que la situación se calme y volváis a conectar"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "con una persona serena y tranquila",
       "nudo": "serenidad",
       "final": "positivo, resolveréis las diferencias u obstáculos"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "amistad por ti",
       "nudo": "que tienes muy buena vibra",
       "final": "haciéndote el bien, pero nada amoroso"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma calmada",
+      "nudo": "ser muy paciente",
+      "final": "encontrar la estabilidad financiera"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Una situación estable",
+      "nudo": "se empieza a armonizar nos otorgará la sernidad interna",
+      "final": "exitoso, obtendremos dinero, pero no en abundancia"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura estabilidad si tenemos paciencia",
+      "nudo": "augura un trabajo en el que nos sentimos felices",
+      "final": "actuar con paciencia"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma paciente",
+      "nudo": "fluyendo con las energías de la gente",
+      "final": "obtener la armonía laboral"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Se avecina una oportunidad laboral",
+      "nudo": "nos causará paz y bienestar interno",
+      "final": "exitoso, puede que sea lento, pero habrá estabilidad"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "desde la paciencia absoluta",
+      "nudo": "pensando con calma las cosas",
+      "final": "tener la paz mental"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "en paz contigo misma",
+      "nudo": "el camino de la paciencia",
+      "final": "lento, pero fluirá con tus energías"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "encontrar la paz a través de calmar tus emociones intensas",
+      "nudo": "camino de la paciencia",
+      "final": "la capacidad para mantener la calma en la tormenta"
     },
     "respuesta": 0,
     "imagen": "templanza.png"
@@ -1688,113 +993,62 @@
       "Maldad"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "sacando tu rabia",
       "nudo": "sacando tus emociones oscuras",
       "final": "acostarte con esa persona o terminar la relación (una de dos)"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "pasional y venenosa",
       "nudo": "pasión sexual o un beneficio económico",
       "final":  "tóxico, esa persona es venenosa"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "pasión sexual desenfrenada",
       "nudo": "que eres una bomba pasional, pero algo tóxica",
       "final": "conquistándote, pero puede tener condutas venenosas"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "pensando en tu beneficio",
+      "nudo": "pisoteando a otros si es necesario",
+      "final": "la riqueza, aunque esta sea por medios oscuros"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Un dinero corrupto o situación de pobreza",
+      "nudo": "empeorará a causa de nuestros malos actos o decisiones",
+      "final": "desastroso, hay que replantearse los métodos"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura un dinero que viene, pero de origen corrupto",
+      "nudo": "augura una oportunidad envenenada y engañosa",
+      "final": "hacer cosas, aunque sean malas o corruptas"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "manipulando la situación",
+      "nudo": "usando estrategias oscuras",
+      "final": "el puesto o privilegio que buscas"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Un trabajo abusador",
+      "nudo": "puede actuar de forma corrupta nos intentará engañar",
+      "final": "desastroso, ten cuidado con lo que aceptas"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma pasional",
+      "nudo": "dejánod salir a tu bestia interna",
+      "final": "purificarte de la oscuridad que portas en tu interior"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "sintiendo emociones oscuras",
+      "nudo": "el camino del ego, destruirlo a través de verte tal y como eres",
+      "final": "doloroso, pero merecerá la pena. Puede haber discusiones"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "sacar tus emociones intensas y oscuras",
+      "nudo": "camino del ego que te sabotea",
+      "final": "liberador, pero te purificarás a través del fuego"
     },
     "respuesta": 0,
     "imagen": "diablo.png"
@@ -1808,113 +1062,62 @@
       "Ruina"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "de forma directa, aunque sea cruel,",
       "nudo": "dejando a un lado la empatía",
       "final": "reconstruir la relación o dejar las cosas claras"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "destructiva y limitante",
       "nudo": "una ruptura",
       "final": "aniquilador y doloroso, deberemos dejar a esa persona atrás"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "odio hacia ti",
       "nudo": "que le odias",
       "final": "haciéndote el mal o aprovechándose de ti"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma radical",
+      "nudo": "agresiva",
+      "final": "cambiar las cosas de forma radical"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Una pérdida enorme",
+      "nudo": "nos está generando caos en nuestra vida y deudas empeorará",
+      "final": "desastroso, espera lo peor"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura la ruina total",
+      "nudo": "augura un despido",
+      "final": "tomarlo por perdido tu deseo"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma agresiva",
+      "nudo": "diciendo tu verdad aun creando problemas",
+      "final": "salir de la situación terrible actual"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Un despido o problema laboral",
+      "nudo": "nos causa ansiedad constante solo generará mas caos",
+      "final": "desastroso, las cosas empeorarán"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "descartando patrones negativos",
+      "nudo": "dejando atrás tu zona de confort",
+      "final": "obtener la liberación de tus traumas y dolores"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "teniendo una crisis existencial",
+      "nudo": "la destrucción de toda tu zona de confort",
+      "final": "exitoso, pero desgarrador, porque destruirás limitaciones"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "destruir creencias limitantes",
+      "nudo": "el camino del cambio desgarrador",
+      "final": "liberación a través de aceptar el destino, aunque vengan desafíos"
     },
     "respuesta": 0,
     "imagen": "torre.png"
@@ -1928,113 +1131,62 @@
       "Vibración"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "comunicarte de forma clara y sin miedo",
       "nudo": "siendo clara con tus palabras",
       "final": "unir vuestras almas"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "espiritual y romántica",
       "nudo": "mucha comunicación romántica",
-      "final": "éxitoso, habrá romanticismo y amor profundo"
+      "final": "exitoso, habrá romanticismo y amor profundo"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "una unión espiritual hacia ti",
       "nudo": "que eres mística e intuitiva",
       "final": "con romanticismo"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma intuitiva",
+      "nudo": "confiando en tus decisiones",
+      "final": "obtener ese dinero tan deseado"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Una oportunidad de abundancia",
+      "nudo": "parecerá un milagro, pero habrá ayuda",
+      "final": "exitoso, todo se resolverá"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura una llegada de dinero inesperada",
+      "nudo": "augura la llegada de un trabajo ideal",
+      "final": "actuar con creatividad y ser sociable"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "con creatividad",
+      "nudo": "conectando socialmente con los demás",
+      "final": "obtener la aceptación social de ese trabajo, algo que será beneficioso"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Una oportunidad",
+      "nudo": "nos ayudará a ser creativos y crear contactos nos hará felices",
+      "final": "exitoso, encontraremos el bienestar al unirnos con otros"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "con intuición",
+      "nudo": "usando tu creatividad",
+      "final": "que tus ilusiones se vuelvan realidad"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "conectando con tus guías",
+      "nudo": "el camino de la fe ciega",
+      "final": "exitoso, conectarás con tus dones"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "conectar con tus dones",
+      "nudo": "camino de la esperanza",
+      "final": "exitoso, habrá descubrimientos, creatividad y manifestación"
     },
     "respuesta": 1,
     "imagen": "star.png"
@@ -2048,113 +1200,62 @@
       "Sombras"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "ocultar tus intenciones",
       "nudo": "ocultando tus emociones",
       "final": "descubrir una verdad que puede ser dolorosa"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "engañosa",
       "nudo": "engaños, mentiras y tristezas",
       "final": "desastroso, descubrirás algo terrible"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "emociones oscuras hacia ti",
       "nudo": "que escondes algo oscuro",
       "final": "engañándote, cuidado, no hay sinceridad"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma engañosa",
+      "nudo": "ocultando tus proyectos o intenciones",
+      "final": "lograr engañar a alguien y obtener tu deseo"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Una situación engañosa o penosa",
+      "nudo": "nos causa mucha confusión, nos generará carencias",
+      "final": "negativo, o nos engañan o habrá carencia"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augua engaños y pérdidas económicas",
+      "nudo": "augura trabajos poco fiables",
+      "final": "tener cuidado y no fiarse de nadie"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma misteriosa",
+      "nudo": "ocultando tus emociones",
+      "final": "atravesar este momento de incertidumbre"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Una situación confusa",
+      "nudo": "nos genera ansiedad, presenta muchos engaños",
+      "final": "penoso, no lograrás ese trabajo, pero tampoco es tan bueno como piensas"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "conectando con tu inconsciente",
+      "nudo": "atravesando tus infiernos",
+      "final": "lograr encontrar la veradd en tu oscuridad"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "en la noche del alma",
+      "nudo": "el camino hacia el inconsciente",
+      "final": "liberador, te encontrarás a ti misma, aunque no te guste lo que veas"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "descubrir tu identidad en tu inconsciente",
+      "nudo": "camino del descubrimiento a través de los infiernos",
+      "final": "tus dones espirituales"
     },
     "respuesta": 0,
     "imagen": "luna.png"
@@ -2168,113 +1269,62 @@
       "Pasión"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "ir a por lo que deseas",
       "nudo": "lanzarte",
       "final": "el éxito absoluto"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "con una persona encantadora",
       "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "final": "exitoso, se logra lo que se desea"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "cariño hacia ti",
       "nudo": "que eres un rayo de luz, muy alegre,",
       "final": "creando una conexión"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "con determinación",
+      "nudo": "lanzándote hacia ese objetivo, siendo muy directa,",
+      "final": "exitoso, habrá abundancia y dinero inesperado"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Vendrá dinero abundante",
+      "nudo": "nos solucionará todos los problemas económicos",
+      "final": "exitoso, puedes asegurar la entrada de dinero"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura abundancia extrema e incluso riqueza",
+      "nudo": "una oportunidad mejor o un ascenso",
+      "final": "actuar con determinación, sin pensar las cosas, desde tu energía masculina"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "con seguridad de tu liderazgo",
+      "nudo": "peleando por tu conquista",
+      "final": "exitoso, obtendrás un puesto o un trabajo mejor"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Un trabajo exitoso",
+      "nudo": "nos genera muchos éxitos y abundancia nos llevará a un puesto mejor",
+      "final": "exitoso, obtendrás todo tal y como deseas"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "cproyectando al exterior tu luz",
+      "nudo": "desde tu energía masculina",
+      "final": "exitoso, encontrarás tu felicidad, tu luz atraerá a la gente"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "vibrando desde tu energía masculina",
+      "nudo": "el camino de la individualidad, dejarte brillar,",
+      "final": "exitoso, todo lo que deseas se cumplirá si te permites disfrutar"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "brillar con luz propia",
+      "nudo": "camino de la individualidad",
+      "final": "exitoso, aprenderás a darte luz sin apagar a los demás"
     },
     "respuesta": 1,
     "imagen": "sol.png"
@@ -2288,113 +1338,62 @@
       "Escucha el llamado"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "ecuchar el llamado del cosmos",
       "nudo": "escuchando lo que te dice tu interior",
       "final": "transformar positivamente la situación"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "se dará por destino",
       "nudo": "una transformación positiva",
       "final": "positivo, habrá cambios para bien, estés o no con esa persona"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "una unión kármica hacia ti",
       "nudo": "que eres un cambio positivo en su vida",
       "final": "transformando tu vida"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma objetiva",
+      "nudo": "abriéndote a una nueva forma de ganar dinero",
+      "final": "que las cosas cambien para mejor"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Vienen cambios",
+      "nudo": "pueden generar liberación de presiones económicas",
+      "final": "exitoso, pero tendrás que soltar un deseo u objetivo para tener la paz"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura cambios de aires económicos y de conducta",
+      "nudo": "augura cambios de trabajo e incluso mudanzas",
+      "final": "escuchar el llamado de tu corazón"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "liberándote de las presiones o dudas",
+      "nudo": "cambiando de opción u oportunidad",
+      "final": "que las cosas cambien a mejor para ti"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Un cambio de trabajo o aires en tu labor",
+      "nudo": "nos liberará de los problemas o presiones nos generará un cambio",
+      "final": "exitoso, pero dejaremos atrás algo importante"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "escuchando el llamado del cosmos",
+      "nudo": "liberándote de las presiones",
+      "final": "liberarte de tu sabotaje y miedos"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "atravesando cambios positivos",
+      "nudo": "el camino espiritual del renacimiento del alma",
+      "final": "exitoso, descubrirás tu verdadero camino"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "abrirte a la transformación",
+      "nudo": "camino de los cambios espirituales",
+      "final": "la pasión que de luz a tu vida"
     },
     "respuesta": 1,
     "imagen": "juicio.png"
@@ -2408,113 +1407,62 @@
       "Espiritualidad"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "actuar como si ya tuvieras lo que deseas",
       "nudo": "pensar que ya has conseguido tu deseo",
       "final": "tener la plenitud"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "espiritual",
       "nudo": "unión espiritual",
-      "final": "éxitoso, habrá plenitud"
+      "final": "exitoso, habrá plenitud"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "una conexión profunda ",
       "nudo": "que eres su alma gemela",
       "final": "confesándote su amor"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "alejándote de lo material",
+      "nudo": "mirando por tu parte espiritual",
+      "final": "obtener todo lo que deseas y más"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "La plenitud económica",
+      "nudo": "nos traerá la plennitud y resoluciones positivas",
+      "final": "exitoso, lograrás más de lo que esperas"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura la plenitud económica",
+      "nudo": "augura la plenitud en nuestro trabajo o carrera",
+      "final": "actuar como si ya lo hubieramos logrado y esperar"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "pensando en tu bien y el de los demás",
+      "nudo": "aceptando que ya tienes la plenitud",
+      "final": "obtener todo lo que deseas y más"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Un trabajo de ensueño",
+      "nudo": "nos traerá la plennitud nos ayudará a encontrar nuestro destino",
+      "final": "exitoso, lograrás más de lo que esperas"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma espiritual",
+      "nudo": "vibrando alto",
+      "final": "la absoluta plenitud"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "esperando la plenitud",
+      "nudo": "el camino del autonocimiento para fusionarte con el todo",
+      "final": "exitoso, si te abres a conocer, te encontrarás a ti misma"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "mirar el universo con vista de pájaro",
+      "nudo": "camino del ascenso espiritual",
+      "final": "la iluminación que tanto deseas"
     },
     "respuesta": 1,
     "imagen": "mundo.png"
@@ -2528,113 +1476,62 @@
       "Impulsividad"
     ],
     "loveAdvice": {
-      "theme": "love",
-      "type": "advice",
       "inicio": "de forma impulsiva",
       "nudo": "actuar sin pensar",
       "final": "iniciar un ciclo nuevo con esta persona"
     },
     "loveFuture": {
-      "theme": "love",
-      "type": "future",
       "inicio": "impulsiva e inestable emocionalmente",
       "nudo": "explosiones emocionales",
       "final": "inestable, puede que se busque a otra persona"
     },
     "loveSpecial": {
-      "theme": "love",
-      "type": "special",
       "inicio": "un ligero deseo",
       "nudo": "que eres volátil y algo impetuosa, no piensas antes de actuar",
       "final": "de forma impetuosa e impredecible"
     },
 
     "moneyAdvice": {
-      "theme": "money",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "de forma impulsiva",
+      "nudo": "escuchando tu intuición",
+      "final": "obtener el dinero ya mismo, pero te costará mantenerlo"
     },
     "moneyFuture": {
-      "theme": "money",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Un impulso de gastar",
+      "nudo": "nos hará actuar con impetuosidad, nos generará problemas",
+      "final": "inestable, no cuentes con ahorrar"
     },
     "moneySpecial": {
-      "theme": "money",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "augura problemas financieros por nuestra impulsividad",
+      "nudo": "augura nuevos ciclos u oportunidades rápidas",
+      "final": "escuchar tu intuición y actuar bajo lo que te dicte"
     },
 
     "workAdvice": {
-      "theme": "work",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "sacando tu parte carismática",
+      "nudo": "siendo impetuosa",
+      "final": "que ese trabajo se inicie"
     },
     "workFuture": {
-      "theme": "work",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "workSpecial": {
-      "theme": "work",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-
-    "friendsAdvice": {
-      "theme": "friends",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
-    },
-    "friendsFuture": {
-      "theme": "friends",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
-    },
-    "friendsSpecial": {
-      "theme": "friends",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "Un nuevo trabajo",
+      "nudo": "nos ayudará empezar nuevos ciclos, provocará ascensos",
+      "final": "exitoso, habrá movimientos rápidos"
     },
 
     "spiritualityAdvice": {
-      "theme": "spirituality",
-      "type": "advice",
-      "inicio": "de forma conquistadora",
-      "nudo": "muy segura de ti misma",
-      "final": "que caiga a tus pies"
+      "inicio": "desde la intuición del recuerdo de tu alma",
+      "nudo": "lanzándote al vacío aun sin piscina",
+      "final": "abrirte a tu nueva identidad"
     },
     "spiritualityFuture": {
-      "theme": "spirituality",
-      "type": "future",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "iniciando un ciclo",
+      "nudo": "el camino del renacer, de volver a conocerte,",
+      "final": "beneficioso para tu crecimiento, sigue el viento y no mires atrás"
     },
     "spiritualitySpecial": {
-      "theme": "spirituality",
-      "type": "special",
-      "inicio": "con una persona encantadora",
-      "nudo": "éxitos gracias a la manifestación",
-      "final": "éxitoso, se logra lo que se desea"
+      "inicio": "lanzarte a la piscina sin mirar",
+      "nudo": "camino de un nuevo inicio",
+      "final": "la razón por la cual tu alma vino a esta vida"
     },
     "respuesta": 1,
     "imagen": "loco.png"

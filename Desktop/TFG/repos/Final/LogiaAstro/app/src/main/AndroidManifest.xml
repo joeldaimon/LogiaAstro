@@ -3,10 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.CAMERA" />
-
 
     <application
         android:allowBackup="true"
@@ -18,15 +14,34 @@
         android:theme="@style/Theme.LogiaAstro"
         tools:targetApi="31">
         <activity
-            android:name=".ui.amistades.AmistadesPlanetasActivity"
-            android:exported="false" />
+            android:name=".tabs.grados.GradosActivity"
+            android:exported="false"
+            android:label="@string/grados_title"
+            android:parentActivityName=".ui.MainActivity" />
         <activity
-            android:name=".ui.Perfiles.BuscadorUserActivity"
-            android:exported="false" />
+            android:name=".mision.VelasActivity"
+            android:exported="false"
+            android:label="@string/minijuego_velas"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".mision.GuessActivity"
+            android:exported="false"
+            android:label="@string/minijuego_guess"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".tabs.amistades.AmistadesPlanetasActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
+        <activity
+            android:name=".tabs.Perfiles.PerfilesActivity"
+            android:exported="false"
+            android:label="@string/util_perfiles"
+            android:parentActivityName=".ui.MainActivity" />
         <activity
             android:name=".tabs.numeros.NumAngelesActivity"
             android:exported="false"
-            android:label="@string/num_angel_title" />
+            android:label="@string/num_angel_title"
+            android:parentActivityName=".ui.MainActivity" />
         <activity
             android:name=".ui.InvitadoActivity"
             android:exported="false"
@@ -34,34 +49,37 @@
         <activity
             android:name=".tabs.mapa.MapaActivity"
             android:exported="false"
-            android:label="@string/numerology_map_title" />
-        <activity
-            android:name=".ui.chat.ChatActivity"
-            android:exported="false"
-            android:label="@string/chat_title" />
+            android:label="@string/numerology_map_title"
+            android:parentActivityName=".ui.MainActivity" />
         <activity
             android:name=".ui.CarroActivity"
             android:exported="false"
-            android:label="@string/util_carro" />
+            android:label="@string/util_carro"
+            android:parentActivityName=".ui.ComprasActivity" />
         <activity
             android:name=".menu.AccountActivity"
             android:exported="false"
-            android:label="@string/util_account" />
+            android:label="@string/util_account"
+            android:parentActivityName=".ui.MainActivity" />
         <activity
             android:name=".ui.ComprasActivity"
             android:exported="false"
-            android:label="@string/util_servicios" />
+            android:label="@string/util_servicios"
+            android:parentActivityName=".ui.MainActivity" />
         <activity
             android:name=".tabs.contratoalmico.ContratoActivity"
             android:exported="false"
-            android:label="@string/contrato_almico" />
+            android:label="@string/contrato_almico"
+            android:parentActivityName=".ui.MainActivity" />
         <activity
             android:name=".tabs.tarot.TarotActivity"
             android:exported="false"
-            android:label="@string/index_tarot_btn" />
+            android:label="@string/index_tarot_btn"
+            android:parentActivityName=".ui.MainActivity" />
         <activity
             android:name=".tabs.horoscopo.HoroscopoActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity" />
         <activity
             android:name=".login.register.RegisterActivity"
             android:exported="false" />

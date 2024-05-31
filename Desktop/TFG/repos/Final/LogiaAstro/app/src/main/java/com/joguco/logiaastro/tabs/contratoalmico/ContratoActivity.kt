@@ -1,25 +1,40 @@
 package com.joguco.logiaastro.tabs.contratoalmico
 
+import android.content.Context
 import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.core.view.isVisible
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import com.joguco.logiaastro.R
 import com.joguco.logiaastro.databinding.ActivityContratoBinding
 import com.joguco.logiaastro.ui.ComprasActivity
 import com.joguco.logiaastro.ui.ComprasActivity.Companion.KEY_EXTRA_COMPRA
+import com.joguco.logiaastro.ui.MainActivity
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.tasks.await
 import kotlin.math.round
 
 class ContratoActivity : AppCompatActivity() {
-    //Atributos
+    //Binding
     private lateinit var binding: ActivityContratoBinding
 
+    //Abecedario para sacar indices
     private val ABC = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+    //Usuario
+    private lateinit var user: String
+
+    //Nombre introducido
     private var nombre: String = ""
 
     //Lista de números
-    private var lista: ArrayList<Int> = ArrayList<Int>()
+    private var lista: ArrayList<Int> = ArrayList()
 
     //Numeros
     var karmaf: Int = 0
@@ -28,17 +43,44 @@ class ContratoActivity : AppCompatActivity() {
     var talentoe = 0
     var misionf = 0
     var misione = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //Instanciando binding
         binding = ActivityContratoBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
-        setListeners()
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
+
+        var sharedpreferences = getSharedPreferences(MainActivity.SHARED_PREFS, Context.MODE_PRIVATE)
+        user = sharedpreferences.getString(MainActivity.USER_KEY, null).toString()
+
+        initListeners()
     }
 
-    private fun setListeners() {
-        binding.btnCalcular.setOnClickListener{ calcular() }
+    /*
+     * Método que inicia listeners
+     */
+    private fun initListeners() {
+        binding.btnCalcular.setOnClickListener{
+            var db = Firebase.firestore
+            CoroutineScope(Dispatchers.Main).launch{
+                db.collection("users").document(user).get()
+                    .addOnSuccessListener {
+                        var magicLevel = it.get("magicLevel") as Long
+                        magicLevel++
+                        db.collection("users").document(user).update(
+                            hashMapOf(
+                                "magicLevel" to magicLevel
+                            ) as Map<String, Any>
+                        )
+                    }
+                    .addOnFailureListener { exception ->
+                        Log.i("LOGIA-ASTRO", "Error al actualizar usuario en Contrato Álmico: ", exception)
+                    } .await()
+            }
+            calcular()
+        }
         binding.btnBorrar.setOnClickListener{ borrar() }
         binding.btnCompra.setOnClickListener{
             val intent = Intent(this, ComprasActivity::class. java).apply{
@@ -49,8 +91,8 @@ class ContratoActivity : AppCompatActivity() {
     }
 
     /*
-    *   Función que calcula los números a tavés del nombre
-     */
+    * Método que calcula los números a tavés del nombre
+    */
     private fun calcular() {
         nombre = binding.etNombre.text.toString()
 
@@ -112,10 +154,10 @@ class ContratoActivity : AppCompatActivity() {
     }
 
     /*
-    * Función que determina si un número es válido
+    * Método que determina si un número es válido
     * @param    num
     * @return   boolean
-    * validos   del 1-90 y numeros espejo
+    * validos   del 1-9 y numeros espejo
      */
     private fun numValido(num: Int): Boolean {
         if(num == 0) return false
@@ -126,7 +168,7 @@ class ContratoActivity : AppCompatActivity() {
     }
 
     /*
-    * Función que reduce números a una soal cifra o maestro
+    * Método que reduce números a una sola cifra o maestro
     * @param    num
     * @return   int
      */

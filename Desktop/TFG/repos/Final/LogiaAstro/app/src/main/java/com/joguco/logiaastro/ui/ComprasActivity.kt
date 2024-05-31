@@ -2,12 +2,10 @@ package com.joguco.logiaastro.ui
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import com.joguco.logiaastro.databinding.ActivityComprasBinding
-
 
 class ComprasActivity : AppCompatActivity() {
     //Binding
@@ -15,7 +13,6 @@ class ComprasActivity : AppCompatActivity() {
 
     //Atributos
     private lateinit var categoria: String
-
 
     companion object{
         const val KEY_EXTRA_COMPRA = "KEY_EXTRA_COMPRA"
@@ -26,15 +23,23 @@ class ComprasActivity : AppCompatActivity() {
 
         //Inflando layout
         setContentView(ActivityComprasBinding.inflate(layoutInflater).also { binding = it }.root)
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
-        //Recibimos String que nos indica que tipo de compra es
-        categoria = intent?.getStringExtra(KEY_EXTRA_COMPRA)!!
+        categoria = try {
+            //Recibimos String que nos indica que tipo de compra es
+            intent?.getStringExtra(KEY_EXTRA_COMPRA)!!
+        } catch(e: Exception){
+            "todo"
+        }
 
         initListeners()
         initLists()
         initUI()
     }
 
+    /*
+    Iniciando Listeners
+     */
     private fun initListeners() {
         binding.btnServicios.setOnClickListener{
             binding.lvServicios.isVisible = binding.lvServicios.isVisible != true
@@ -53,6 +58,9 @@ class ComprasActivity : AppCompatActivity() {
         }
     }
 
+    /*
+    * Iniciando Listas
+     */
     private fun initLists() {
         // SERVICIOS GENERALES
         val serviciosAdapter: ArrayAdapter<*>
@@ -66,14 +74,6 @@ class ComprasActivity : AppCompatActivity() {
             android.R.layout.simple_list_item_1, servicios)
         binding.lvServicios.adapter = serviciosAdapter
 
-        // Listener
-        binding.lvServicios.setOnItemClickListener { parent, view, position, id ->
-            val selectedItem = parent.getItemAtPosition(position) as String
-            var intent = Intent(this, CarroActivity::class.java).apply{
-                putExtra(CarroActivity.KEY_EXTRA_CARRO, selectedItem)
-            }
-            startActivity(intent)
-        }
 
         // ASTROLOGIA
         val astroAdapter: ArrayAdapter<*>
@@ -88,16 +88,6 @@ class ComprasActivity : AppCompatActivity() {
             android.R.layout.simple_list_item_1, astrologia)
         binding.lvAstrologia.adapter = astroAdapter
 
-        // Listener
-        binding.lvAstrologia.setOnItemClickListener { parent, view, position, id ->
-            val selectedItem = parent.getItemAtPosition(position) as String
-            var intent = Intent(this, CarroActivity::class.java).apply{
-                putExtra(CarroActivity.KEY_EXTRA_CARRO, selectedItem)
-            }
-            startActivity(intent)
-        }
-
-
         // NUMEROLOGIA
         val numAdapter: ArrayAdapter<*>
         val numerologia = arrayOf(
@@ -108,16 +98,6 @@ class ComprasActivity : AppCompatActivity() {
         numAdapter = ArrayAdapter(this,
             android.R.layout.simple_list_item_1, numerologia)
         binding.lvNumerologia.adapter = numAdapter
-
-        // Listener
-        binding.lvNumerologia.setOnItemClickListener { parent, view, position, id ->
-            val selectedItem = parent.getItemAtPosition(position) as String
-            var intent = Intent(this, CarroActivity::class.java).apply{
-                putExtra(CarroActivity.KEY_EXTRA_CARRO, selectedItem)
-            }
-            startActivity(intent)
-        }
-
 
         // CONTRATO ALMICO
         val caAdapter: ArrayAdapter<*>
@@ -130,21 +110,53 @@ class ComprasActivity : AppCompatActivity() {
             android.R.layout.simple_list_item_1, ca)
         binding.lvContratoAlmico.adapter = caAdapter
 
-        // Listener
+        if(categoria != "invitado"){
+            initListListeners()
+        }
+    }
+
+    /*
+    * Iniciando Listeners de las Listas
+     */
+    private fun initListListeners(){
+        binding.lvServicios.setOnItemClickListener { parent, view, position, id ->
+            val selectedItem = parent.getItemAtPosition(position) as String
+            var intent = Intent(this, CarroActivity::class.java).apply{
+                putExtra(CarroActivity.KEY_EXTRA_CARRO, "$selectedItem;general")
+            }
+            startActivity(intent)
+        }
+
+        binding.lvAstrologia.setOnItemClickListener { parent, view, position, id ->
+            val selectedItem = parent.getItemAtPosition(position) as String
+            var intent = Intent(this, CarroActivity::class.java).apply{
+                putExtra(CarroActivity.KEY_EXTRA_CARRO, "$selectedItem;astrology")
+            }
+            startActivity(intent)
+        }
+
+        binding.lvNumerologia.setOnItemClickListener { parent, view, position, id ->
+            val selectedItem = parent.getItemAtPosition(position) as String
+            var intent = Intent(this, CarroActivity::class.java).apply{
+                putExtra(CarroActivity.KEY_EXTRA_CARRO, "$selectedItem;numerology")
+            }
+            startActivity(intent)
+        }
+
         binding.lvContratoAlmico.setOnItemClickListener { parent, view, position, id ->
             val selectedItem = parent.getItemAtPosition(position) as String
             var intent = Intent(this, CarroActivity::class.java).apply{
-                putExtra(CarroActivity.KEY_EXTRA_CARRO, selectedItem)
+                putExtra(CarroActivity.KEY_EXTRA_CARRO, "$selectedItem;soulcontract")
             }
             startActivity(intent)
         }
     }
 
+    /*
+    * Iniciando UI
+     */
     private fun initUI() {
         when(categoria){
-            "todo" -> {
-                Log.i("JOELDAIMON", "Compras con TODO")
-            }
             "astrology" -> {
                 binding.lvAstrologia.isVisible = true
             }

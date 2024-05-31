@@ -1,17 +1,20 @@
 package com.joguco.logiaastro.tabs.tarot
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.activity.addCallback
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.joguco.logiaastro.R
 import com.joguco.logiaastro.interfaces.OnCardClick
 import com.joguco.logiaastro.model.Tarot.TarotCard
+import com.joguco.logiaastro.ui.MainActivity
 
 private const val ARG_COLUMN_COUNT = "param1"
 
@@ -31,10 +34,16 @@ class TarotFragment : Fragment() {
         arguments?.let {
             columnCount = it.getInt(ARG_COLUMN_COUNT)
         }
+        requireActivity().onBackPressedDispatcher.addCallback(this) {
+            activity?.let{
+                val intent = Intent (it, MainActivity::class.java)
+                it.startActivity(intent)
+            }
+        }
     }
 
     /*
-    * Función que une actividad y carga OnCardClick
+    * Método que une actividad y carga OnCardClick
      */
     override fun onAttach(context: Context) {
         super.onAttach(context)
@@ -44,7 +53,7 @@ class TarotFragment : Fragment() {
     }
 
     /*
-    * Función que despegua Listener
+    * Método que despegua Listener
      */
     override fun onDetach() {
         super.onDetach()
@@ -67,7 +76,7 @@ class TarotFragment : Fragment() {
                     else -> GridLayoutManager(context, columnCount)
                 }
 
-                adapter = TarotCardAdapter(TarotCard.loadSeries(context),listener)
+                adapter = TarotCardAdapter(TarotCard.loadMazo(context),listener)
             }
         }
         return view

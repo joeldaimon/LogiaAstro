@@ -3,19 +3,30 @@ package com.joguco.logiaastro.tabs
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.EditText
+import android.widget.Toast
 import androidx.annotation.RequiresApi
+import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isVisible
+import androidx.lifecycle.ViewModelProvider
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import com.joguco.logiaastro.R
-import com.joguco.logiaastro.database.entities.UserEntity
 import com.joguco.logiaastro.databinding.FragmentNumerologyBinding
 import com.joguco.logiaastro.tabs.mapa.MapaActivity
 import com.joguco.logiaastro.tabs.mapa.MapaActivity.Companion.KEY_EXTRA_MAPA
-import com.joguco.logiaastro.ui.ComprasActivity
 import com.joguco.logiaastro.ui.MainActivity
+import com.joguco.logiaastro.viewmodel.ViewModel
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.tasks.await
+import java.lang.Math.abs
 import java.time.LocalDateTime
 
 /**
@@ -25,9 +36,16 @@ class NumerologyFragment : Fragment() {
     //Binding
     private lateinit var binding: FragmentNumerologyBinding
 
-    //Atributos
+    //Hora y fecha actual
     private lateinit var now: LocalDateTime
-    private lateinit var user: UserEntity
+
+    //Nombre de usuario
+    private lateinit var user: String
+
+    //Atributos
+    private var day = 1
+    private var month = 1
+    private var year = 1992
     private lateinit var mapa: ArrayList<Int>
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -57,22 +75,60 @@ class NumerologyFragment : Fragment() {
         initListeners()
 
         if (user != null) {
-            initNumerology()
+            initUser()
         }
     }
 
 
     /*
-    * Función que inicia Listeners
+    * Método que inicia Listeners
      */
+    @RequiresApi(Build.VERSION_CODES.O)
     private fun initListeners() {
-        binding.btnCompra.setOnClickListener{
-            activity?.let{
-                val intent = Intent (it, ComprasActivity::class.java).apply{
-                    putExtra(ComprasActivity.KEY_EXTRA_COMPRA, "numerology")
+        binding.btnLoad.setOnClickListener{
+            var view = this.layoutInflater.inflate(R.layout.dialog_numerology, null)
+            val builder: AlertDialog.Builder = AlertDialog.Builder(requireContext())
+            builder
+                .setTitle(getText(R.string.numerology_load_title))
+                .setView(view)
+                .setPositiveButton(getText(R.string.util_aceptar)) { dialog, which ->
+                    var fecha: EditText = view.findViewById(R.id.etFecha)
+                    var userVM = ViewModelProvider(this)[ViewModel::class.java]
+                    if(!userVM.isValidDate(fecha.text.toString())){
+                        Toast.makeText(requireContext(), R.string.account_date_error, Toast.LENGTH_LONG).show()
+                    } else {
+                        var arr = fecha.text.toString().split("/")
+                        day = arr[0].toInt()
+                        month = arr[1].toInt()
+                        year = arr[2].toInt()
+                        initNumerology()
+                        var db = Firebase.firestore
+                        CoroutineScope(Dispatchers.Main).launch{
+                            db.collection("users").document(user).get()
+                                .addOnSuccessListener {
+                                    var numerologyLevel = it.get("numerologyLevel") as Long
+                                    numerologyLevel++
+                                    db.collection("users").document(user).update(
+                                        hashMapOf(
+                                            "numerologyLevel" to numerologyLevel
+                                        ) as Map<String, Int>
+                                    )
+                                }
+                                .addOnFailureListener { exception ->
+                                    Log.i("LOGIA-ASTRO", "Error al actualizar usuario en Numerología: ", exception)
+                                } .await()
+                        }
+                        Toast.makeText(requireContext(), R.string.numerololgy_loaded, Toast.LENGTH_LONG).show()
+                    }
+
+
                 }
-                it.startActivity(intent)
-            }
+                .setNegativeButton(getText(R.string.util_cancelar)) { dialog, which ->
+                    Toast.makeText(requireContext(), R.string.util_cancel_action, Toast.LENGTH_LONG).show()
+                }
+
+            val dialog: AlertDialog = builder.create()
+            dialog.show()
         }
 
         binding.btnMapa.setOnClickListener{
@@ -142,8 +198,29 @@ class NumerologyFragment : Fragment() {
         }
     }
 
+
     /*
-    * Función que inicia datos numerológicos
+    * Método que inicia usuario
+     */
+    @RequiresApi(Build.VERSION_CODES.O)
+    private fun initUser(){
+        var db = Firebase.firestore
+        CoroutineScope(Dispatchers.Main).launch{
+            db.collection("users").document(user).get()
+                .addOnSuccessListener { user ->
+                    day = (user.get("day").toString()).toInt()
+                    month = (user.get("month").toString()).toInt()
+                    year = (user.get("year").toString()).toInt()
+                }
+                .addOnFailureListener { exception ->
+                    Log.i("LOGIA-ASTRO", "Error cargando numerología: ", exception)
+                } .await()
+
+            initNumerology()
+        }
+    }
+    /*
+    * Método que inicia datos numerológicos
      */
     @RequiresApi(Build.VERSION_CODES.O)
     private fun initNumerology() {
@@ -152,15 +229,34 @@ class NumerologyFragment : Fragment() {
         binding.tvMes.text = "${reducir(reducir(now.monthValue) + reducir(now.year))}"
 
         //Mochila
-        var karma = reducir(user.month)
+        var karma = reducir(month)
         binding.tvKarma.text = "${getText(R.string.numerology_karma)}: $karma"
-        var personal = reducir(user.day)
+        var personal = reducir(day)
         binding.tvPersonal.text = "${getText(R.string.numerology_pers)}: $personal"
-        var num1: Int = (user.year / 100) / 10
-        var num2: Int = user.year - (num1*100)
-        var vidaPasada = reducir(reducir(num1)+reducir(num2))
+
+        //Año
+        var vidaPasada = 0
+        var yearNum = procesarCeros(year)
+        if(yearNum != 0){
+            var num1 = 0
+            var num2 = 0
+            when(yearNum.toString().length){
+                1 ->{
+                    vidaPasada = yearNum
+                }
+                2 -> {
+                    var num1 = (year / 100) / 10
+                    vidaPasada = reducir(reducir(num1))
+                } else -> {
+                    num1 = (year / 100) / 10
+                    num2 = year - (num1*100)
+                    vidaPasada = reducir(reducir(num1)+reducir(num2))
+                }
+            }
+        }
+
         binding.tvPasado.text = "${getText(R.string.numerology_vida_pasada)}: $vidaPasada"
-        var ascendente = reducir(reducir(user.day)+reducir(user.month)+vidaPasada)
+        var ascendente = reducir(reducir(day)+reducir(month)+vidaPasada)
         binding.tvAsc.text = "${getText(R.string.numerology_ascendente)}: $ascendente"
 
         //Día personal del usuario
@@ -190,30 +286,46 @@ class NumerologyFragment : Fragment() {
         mapa = arrayListOf(karma, personal, vidaPasada, ascendente, real1, real2, real3, real4, des1, des2, des3, des4)
 
         //Inconsciente
-        var herencia = reducir(Math.abs(reducir(karma - personal)))+(Math.abs(reducir((karma - personal)) + Math.abs((personal - vidaPasada))))
+        var herencia = reducir(Math.abs(reducir(karma - personal)))+(abs(reducir((karma - personal)) + Math.abs((personal - vidaPasada))))
         binding.tvHerencia.text = "${getText(R.string.numerology_herencia)}:  $herencia"
-        var consciente = reducir(herencia - Math.abs(reducir(karma - vidaPasada)))
+        var consciente = reducir(herencia - abs(reducir(karma - vidaPasada)))
         binding.tvConsciente.text = "${getText(R.string.numerology_consciente)}: $consciente"
         binding.tvLatente.text = "${getText(R.string.numerology_latente)}: ${(reducir(herencia+consciente))}"
 
         //Pilares
-        binding.tvPareja.text = "${getText(R.string.numerology_pareja)}: ${reducir( reducir(user.month)+ reducir(now.year))}"
-        binding.tvReto.text = "${getText(R.string.numerology_reto)}: ${reducir( reducir(user.day)+ reducir(now.year))}"
-        binding.tvSocial.text = "${getText(R.string.numerology_social)}: ${reducir( reducir(user.year)+ reducir(now.year))}"
+        binding.tvPareja.text = "${getText(R.string.numerology_pareja)}: ${reducir( reducir(month)+ reducir(now.year))}"
+        binding.tvReto.text = "${getText(R.string.numerology_reto)}: ${reducir( reducir(day)+ reducir(now.year))}"
+        binding.tvSocial.text = "${getText(R.string.numerology_social)}: ${reducir( reducir(year)+ reducir(now.year))}"
         binding.tvTrabajo.text = "${getText(R.string.numerology_trabajo)}: ${reducir( ascendente+ reducir(now.year))}"
-
     }
 
     /*
-    * Función que reduce un número a una cifra
+    * Método que procesa ceros del AÑO
+    * @param    year
+    * @return   int
+     */
+    private fun procesarCeros(year: Int): Int {
+        var str = ""
+        for(char in year.toString()){
+            if(char != '0'){
+                str += char
+            }
+        }
+
+        return if(str=="") 0 else str.toInt()
+    }
+
+    /*
+    * Método que reduce un número a una cifra
     * @param    num
     * @return   int
      */
     private fun reducir(num: Int): Int{
-        var final = num
-        if(num > 9 && !isMaestro(num)){
+        var start = abs(num)
+        var final = abs(num)
+        if(start > 9 && !isMaestro(start)){
             final = 0
-            for(decimal in num.toString()){
+            for(decimal in start.toString()){
                 final += decimal.digitToInt()
             }
 
@@ -224,7 +336,7 @@ class NumerologyFragment : Fragment() {
     }
 
     /*
-    * Función que comprueba si un número es maestro
+    * Método que comprueba si un número es maestro
     * @param    num
     * @return   Boolean
      */

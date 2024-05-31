@@ -2,7 +2,6 @@ package com.joguco.logiaastro.tabs.numeros
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.FrameLayout
 import com.joguco.logiaastro.R
@@ -11,8 +10,10 @@ import com.joguco.logiaastro.interfaces.OnNumAngelClick
 import com.joguco.logiaastro.model.NumAngeles
 
 class NumAngelesActivity : AppCompatActivity(), OnNumAngelClick {
-    //Atributos
+    //Binding
     private lateinit var binding: ActivityNumAngelesBinding
+
+    //Layouts
     private val layoutListAngeles: FrameLayout by lazy { findViewById(R.id.containerListNumAngeles) } //List fragment
     private val layoutListMaestros: FrameLayout by lazy { findViewById(R.id.containerListNumMaestros) } //List fragment
     private val layoutListEspejo: FrameLayout by lazy { findViewById(R.id.containerListNumEspejo) } //List fragment
@@ -20,12 +21,14 @@ class NumAngelesActivity : AppCompatActivity(), OnNumAngelClick {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(ActivityNumAngelesBinding.inflate(layoutInflater).also { binding = it }.root)
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
+
         initListeners()
         loadRecyclerView()
     }
 
     /*
-    * Función que inicia LISTENERS
+    * Método que inicia LISTENERS
      */
     private fun initListeners() {
         binding.btAngeles.setOnClickListener{
@@ -46,7 +49,7 @@ class NumAngelesActivity : AppCompatActivity(), OnNumAngelClick {
     }
 
     /*
-    * Función que carga un numEspejo by Id
+    * Método que carga un numEspejo by Id
     * @param    id
      */
     private fun loadNumEspejo(id: Int){
@@ -60,7 +63,7 @@ class NumAngelesActivity : AppCompatActivity(), OnNumAngelClick {
 
 
     /*
-    * Función que carga el RecyclerView
+    * Método que carga el RecyclerView
      */
     private fun loadRecyclerView() {
         supportFragmentManager.beginTransaction()
@@ -80,7 +83,7 @@ class NumAngelesActivity : AppCompatActivity(), OnNumAngelClick {
     }
 
     /*
-    * Función onClick para numAngel
+    * Método onClick para numAngel
     * @param    numAngel
      */
     override fun onNumAngelClick(numAngel: NumAngeles) {

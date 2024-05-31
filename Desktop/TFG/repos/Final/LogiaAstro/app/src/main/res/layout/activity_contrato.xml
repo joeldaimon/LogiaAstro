@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:text="5.TF: "/>
+            android:text="5.MF: "/>
         <Button android:id="@+id/btnOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -55,6 +55,7 @@
         android:layout_height="200dp"
         android:orientation="vertical"
         android:gravity="center"
+        android:backgroundTint="?attr/colorSecondaryVariant"
         android:background="@drawable/hexagram"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -150,7 +151,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="5. Misión físico: terrenal, algo externo que debes hacer."/>
+            android:text="5. Misión física: terrenal, algo externo que debes hacer."/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

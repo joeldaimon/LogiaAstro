@@ -1,17 +1,21 @@
 package com.joguco.logiaastro.tabs.horoscopo
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.activity.addCallback
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.joguco.logiaastro.R
 import com.joguco.logiaastro.model.Horoscope
 import com.joguco.logiaastro.interfaces.OnHoroscopeClick
+import com.joguco.logiaastro.tabs.numeros.NumAngelesActivity
+import com.joguco.logiaastro.ui.MainActivity
 
 // Parameters
 private const val ARG_COLUMN_COUNT = "ARG_COLUMN_COUNT"
@@ -28,6 +32,12 @@ class HoroscopoListFragment : Fragment() {
         super.onCreate(savedInstanceState)
         arguments?.let {
             columnCount = it.getInt(ARG_COLUMN_COUNT)
+        }
+        requireActivity().onBackPressedDispatcher.addCallback(this) {
+            activity?.let{
+                val intent = Intent (it, MainActivity::class.java)
+                it.startActivity(intent)
+            }
         }
     }
 
@@ -53,7 +63,7 @@ class HoroscopoListFragment : Fragment() {
     }
 
     /*
-    * Función une la actividad e implementa onHoroscopeClick
+    * Método une la actividad e implementa onHoroscopeClick
     */
     override fun onAttach(context: Context) {
         super.onAttach(context)
@@ -63,7 +73,7 @@ class HoroscopoListFragment : Fragment() {
     }
 
     /*
-    * Función que despega el onHoroscopeClick
+    * Método que despega el onHoroscopeClick
      */
     override fun onDetach() {
         super.onDetach()

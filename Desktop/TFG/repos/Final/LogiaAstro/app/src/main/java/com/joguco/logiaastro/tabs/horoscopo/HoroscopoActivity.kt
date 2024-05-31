@@ -20,6 +20,7 @@ class HoroscopoActivity : AppCompatActivity(), OnHoroscopeClick {
         super.onCreate(savedInstanceState)
         setContentView(ActivityHoroscopoBinding.inflate(layoutInflater).also { binding = it}.root)
 
+        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
         loadRecyclerView()
 
         //Si es landscape
@@ -29,8 +30,9 @@ class HoroscopoActivity : AppCompatActivity(), OnHoroscopeClick {
         }
     }
 
+
     /*
-    * Función que carga RecyclerView
+    * Método que carga RecyclerView
      */
     private fun loadRecyclerView() {
         supportFragmentManager.beginTransaction()
@@ -40,14 +42,14 @@ class HoroscopoActivity : AppCompatActivity(), OnHoroscopeClick {
     }
 
     /*
-    * Función que determina si el dispositivo está en landscape
+    * Método que determina si el dispositivo está en landscape
     * @returns  boolean
      */    private fun isLandScape():Boolean {
         return layoutDetail != null
     }
 
     /*
-    * Función para onClick de Horoscope
+    * Método para onClick de Horoscope
     * @param    horoscopo
      */
     override fun onHoroscopeClick(horoscopo: Horoscope) {
@@ -55,7 +57,7 @@ class HoroscopoActivity : AppCompatActivity(), OnHoroscopeClick {
     }
 
     /*
-    * Función que carga detalles
+    * Método que carga detalles
      */
     private fun loadDetailFragment(twoPane:Boolean, signId:Int){
         val id = layoutDetail?.id?:layoutList.id

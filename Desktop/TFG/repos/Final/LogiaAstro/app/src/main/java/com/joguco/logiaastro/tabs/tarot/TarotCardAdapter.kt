@@ -30,7 +30,7 @@ class TarotCardAdapter(
 
     }
 
-    //Función que personaliza datos segun posición
+    //Método que personaliza datos segun posición
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val carta = cartaList[position]
 
@@ -51,7 +51,7 @@ class TarotCardAdapter(
         holder.itemView.setOnClickListener(holder)
     }
 
-    //Function that returns the Size of the serieList
+    //Método que devuelve tamaño de la lsita
     override fun getItemCount(): Int = cartaList.size
 
 
@@ -65,7 +65,7 @@ class TarotCardAdapter(
         //Cargando vista de item_card.xml
         val ivCard: ImageView = binding.ivCard
 
-        //Función onCLick de TaroCard
+        //Método onCLick de TaroCard
         override fun onClick(v: View?) {
 
             val carta = v?.tag as TarotCard

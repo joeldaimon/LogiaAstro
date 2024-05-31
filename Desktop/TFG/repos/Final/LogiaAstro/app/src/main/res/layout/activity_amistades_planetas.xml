@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.amistades.AmistadesPlanetasActivity">
+    tools:context=".tabs.amistades.AmistadesPlanetasActivity">
 
     <LinearLayout
         android:id="@+id/llSkeleton"
@@ -91,7 +91,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:cardBackgroundColor="?attr/colorPrimary"
         app:cardCornerRadius="20dp"
-        android:layout_margin="20dp">
+        android:layout_marginHorizontal="20dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -108,54 +108,49 @@
                 android:letterSpacing="0.5"
                 tools:text="SATURNO"/>
             <TextView style="@style/tvAmistades"
-                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/amistades_bff"/>
             <TextView android:id="@+id/tvMejoresAmigos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18dp"
-                android:paddingStart="50dp"
+                android:textSize="20dp"
+                android:layout_marginStart="50dp"
                 tools:text="Venus"/>
             <TextView style="@style/tvAmistades"
-                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/amistades_f"/>
             <TextView android:id="@+id/tvAmigos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18dp"
-                android:paddingStart="50dp"
+                android:textSize="20dp"
+                android:layout_marginStart="50dp"
                 tools:text="Mercurio"/>
             <TextView style="@style/tvAmistades"
-                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/amistades_neutral"/>
             <TextView android:id="@+id/tvNeutros"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18dp"
-                android:paddingStart="50dp"
+                android:textSize="20dp"
+                android:layout_marginStart="50dp"
                 tools:text="Júpiter"/>
             <TextView style="@style/tvAmistades"
-                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/amistades_enemy"/>
             <TextView android:id="@+id/tvEnemigos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18dp"
-                android:paddingStart="50dp"
+                android:textSize="20dp"
+                android:layout_marginStart="50dp"
                 tools:text="Luna, Marte"/>
             <TextView style="@style/tvAmistades"
-                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/amistades_arch"/>
             <TextView android:id="@+id/tvArchienemigos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="18dp"
-                android:paddingStart="50dp"
+                android:textSize="20dp"
+                android:layout_marginStart="50dp"
                 tools:text="Sol"/>
         </LinearLayout>
 

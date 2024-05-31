@@ -1,19 +1,20 @@
 package com.joguco.logiaastro.tabs.numeros
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.activity.addCallback
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.joguco.logiaastro.R
 import com.joguco.logiaastro.interfaces.OnNumAngelClick
 import com.joguco.logiaastro.model.NumAngeles
-
+import com.joguco.logiaastro.ui.MainActivity
 
 private const val ARG_COLUMN_COUNT = "param1"
 private const val ARG_TYPE_LIST = "param2"
@@ -29,6 +30,13 @@ class NumAngelesListFragment : Fragment() {
         arguments?.let {
             columnCount = it.getInt(ARG_COLUMN_COUNT)
             typeList = it.getString(ARG_TYPE_LIST).toString()
+        }
+
+        requireActivity().onBackPressedDispatcher.addCallback(this) {
+            activity?.let{
+                val intent = Intent (it, MainActivity::class.java)
+                it.startActivity(intent)
+            }
         }
     }
 
@@ -64,7 +72,7 @@ class NumAngelesListFragment : Fragment() {
     }
 
     /*
-    * Función une la actividad e implementa OnNumAngelClick
+    * Método une la actividad e implementa OnNumAngelClick
     */
     override fun onAttach(context: Context) {
         super.onAttach(context)
@@ -74,7 +82,7 @@ class NumAngelesListFragment : Fragment() {
     }
 
     /*
-    * Función que despega el OnNumAngelClick
+    * Método que despega el OnNumAngelClick
      */    override fun onDetach() {
         super.onDetach()
         listener = null

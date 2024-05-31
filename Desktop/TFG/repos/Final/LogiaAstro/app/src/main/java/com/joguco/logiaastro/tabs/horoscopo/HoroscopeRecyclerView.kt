@@ -28,14 +28,14 @@ class HoroscopeRecyclerView(
         )
     }
 
-    //Función que personaliza datos segun posición
+    //Método que personaliza datos segun posición
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         //Cargando datos
         val sign = horoscopos[position]
         holder.tvSign.text = sign.element
 
         //Conversión de imágen
-        val context: Context = holder.ivHoroscopo.getContext()
+        val context: Context = holder.ivHoroscopo.context
         val imageName = sign.image.split(".")[0]
         val id = context.resources.getIdentifier(
             imageName,
@@ -50,7 +50,7 @@ class HoroscopeRecyclerView(
         holder.itemView.setOnClickListener(holder)
     }
 
-    //Función que devuelve tamaño de la lista
+    //Método que devuelve tamaño de la lista
     override fun getItemCount(): Int = horoscopos.size
 
     /*
@@ -65,7 +65,7 @@ class HoroscopeRecyclerView(
         val ivHoroscopo: ImageView = binding.ivHoroscopo
 
 
-        //Función onCLick de Horoscope
+        //Método onCLick de Horoscope
         override fun onClick(v: View?) {
             val sign = v?.tag as Horoscope
 

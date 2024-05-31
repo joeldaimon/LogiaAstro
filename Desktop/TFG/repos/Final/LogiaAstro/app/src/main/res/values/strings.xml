@@ -21,16 +21,25 @@
     <string name="register_day">Día de nacimiento:</string>
     <string name="register_month">Mes:</string>
     <string name="register_year">Año:</string>
+    <string name="register_timezone">Huso horario:</string>
     <string name="register_hour">Hora:</string>
     <string name="register_place">Lugar:</string>
     <string name="register_end_btn">Finalizar</string>
 
     <!-- Validation -->
+    <string name="validation_user">El nombre de usuario no es válido</string>
+    <string name="validation_name">El nombre no es válido</string>
+    <string name="validation_pwd">La contraseña no es válida. Debe tener mínimo 8 caracteres</string>
     <string name="validation_day">El día no es válido</string>
     <string name="validation_month">El mes no es válido</string>
     <string name="validation_year">El año no es válido</string>
     <string name="validation_mail">El correo no es válido. Siga este formato: usuario@gmail.com</string>
     <string name="validation_hour">La hora no es válida. Siga este formato: 23:59</string>
+    <string name="validation_place">El lugar no es válido. Siga este formato: Valencia, España.</string>
+    <string name="validation_title">El título no es válido. Solo letras.</string>
+    <string name="validation_tema">El tema no es válido</string>
+    <string name="validation_pregunta">La pregunta no es válida</string>
+
 
     <string name="obligado_day">El día es obligatorio</string>
     <string name="obligado_month">El mes es obligatorio</string>
@@ -40,32 +49,57 @@
     <string name="obligado_mail">El correo es obligatorio</string>
     <string name="obligado_hour">La hora es obligatoria</string>
     <string name="obligado_place">El lugar es obligatorio</string>
+    <string name="obligado_timezone">El huso horario es obligatorio. Recuerda que tiene que ser positivo o negativo</string>
+    <string name="obligado_title">El título es obligatorio</string>
+
 
     <!-- Settings MENU -->
     <string name="menu_account">Mi cuenta</string>
     <string name="menu_logout">Logout</string>
-    <string name="menu_setting">Settings</string>
+
 
     <!-- Account -->
     <string name="account_pwd">La contraseña no puede estar vacía</string>
     <string name="account_pwd_error">La contraseña no es correcta</string>
     <string name="account_date_error">Fecha erronea. Siga este formato: 10/10/1999</string>
-    <string name="account_date">La fecha es obligatoria</string>
+    <string name="account_validation_date">La fecha es obligatoria</string>
+    <string name="account_post">Escribe texto a postear</string>
+    <string name="account_mail">CORREO</string>
+    <string name="account_date">FECHA</string>
+    <string name="account_place">LUGAR</string>
+    <string name="account_hour">HORA</string>
+    <string name="account_timezone">HUSO HORARIO</string>
 
     <!-- UTILIDADES -->
     <string name="util_aceptar">Aceptar</string>
+    <string name="util_cancelar">CANCELAR</string>
+    <string name="util_seguir">SEGUIR</string>
+    <string name="util_followers">FOLLOWERS</string>
+    <string name="util_seguidores">SEGUIDORES</string>
+    <string name="util_msg_title">Mensajes de otros usuarios:</string>
     <string name="util_compra">Comprar</string>
     <string name="util_account">Mi cuenta</string>
     <string name="util_guardar">Guardar</string>
+    <string name="util_post">Postear</string>
+    <string name="util_send_msg">Enviar mensaje</string>
     <string name="util_contra">Cambiar contraseña</string>
     <string name="util_contra_old">Vieja contraseña</string>
     <string name="util_contra_new">Nueva contraseña</string>
     <string name="util_contra_rep">Repite nueva contraseña</string>
     <string name="util_servicios">Servicios de pago</string>
     <string name="util_carro">Compra final</string>
-    <string name="util_back">Volver</string>
+    <string name="util_compra_end">Tu pedido está en camino, ¡gracias por tu compra!</string>
     <string name="util_register">Si quieres disfrutar de la aplicación completa, regístrate.</string>
-
+    <string name="util_pronto">PRONTO HABRÁ MÁS FUNCIONALIDADES</string>
+    <string name="util_fecha">Fecha:</string>
+    <string name="util_nombre">Nombre:</string>
+    <string name="util_yes">Sí</string>
+    <string name="util_no">No</string>
+    <string name="util_perfiles">Perfiles de usuarios</string>
+    <string name="util_otros_datos">Otros datos</string>
+    <string name="util_cancel_action">Se canceló la acción</string>
+    <string name="util_no_send">No se envío el mensaje</string>
+    <string name="util_si_send">Se envío el mensaje</string>
 
     <!-- Main INDEX -->
     <string name="index_title">Inicio</string>
@@ -78,7 +112,7 @@
     <string name="index_contrato_btn">Contrato Álmico</string>
     <string name="index_amistades_btn">Amistades Planetas</string>
     <string name="index_num_btn">Números ángeles</string>
-    <string name="index_foro_btn">Logia</string>
+    <string name="index_grados_btn">Grados</string>
 
     <string name="index_event_nueva">Hoy rituales para plantar semillas y protección.</string>
     <string name="index_event_llena">Hoy rituales de fin de ciclos, purificar y agradecer.</string>
@@ -95,10 +129,40 @@
     <string name="horoscopo_regente">Regente</string>
     <string name="horoscopo_exaltacion">Exaltación</string>
     <string name="horoscopo_caida">Caída</string>
+    <string name="horoscopo_grado">Grado</string>
     <string name="horoscopo_tarot">Carta del Tarot</string>
 
-    <!-- Chat -->
-    <string name="chat_title">Chat de la Logia</string>
+    <!-- Grados -->
+    <string name="grados_title">Grados astrológicos</string>
+    <string name="grados_one">Grado de Marte, Plexo solar, inicios, rapidez, business</string>
+    <string name="grados_two">Grado de Venus, chacra corazón, dinero, practicidad, lujos, ser el mejro de o en algo</string>
+    <string name="grados_three">Grado de Mercurio, chacra garganta, comunicación, inteligencia, curiosidad, amikstades, publicidad, local</string>
+    <string name="grados_four">Grado de la Luna, tercer ojo, hogar, madre, nutrir, emociones, feminidad, grado mutable, indiferencia frente a estas energías o nos cuesta concetrarlas</string>
+    <string name="grados_five">Grado del Sol, tercer ojo, grado de fama de corta duración, Sol, tercer ojo, líder, fuerza, atleta, fuego, ego</string>
+    <string name="grados_six">Grado de Mercurio, chacra garganta, servicio a otros, trabajar, analizar, objetivo, medicina, rutinas</string>
+    <string name="grados_seven">Grado de Venus, chacra corazón, armonia, amor, balance, belleza, arte, boda, contratos, justicia</string>
+    <string name="grados_eight">Grado de plutón, intensidad, obsesión, renacer, muerte, sexo, desconfíar, grado fijo, temor a mostrarse</string>
+    <string name="grados_nine">Grado de Júpiter, extranjero, educación, religión, metafísica, grado fijo, temor a mostrarse</string>
+    <string name="grados_ten">Grado de Saturno, Chacra raíz, éxito, prestigio, karma, trabajo duro, responsabilidad, límites, frío, autoridad</string>
+    <string name="grados_eleven">Grado de Urano, chacra raíz, amigos, colectivo, libertad, humanitarismo, tecnología, divorcios, invencciones</string>
+    <string name="grados_twelve">Grado de Neptuno, chacra sacro, misticismo, imaginación, espiritualidad, compasión, empatía, sueños, música, magia, aislamiento</string>
+    <string name="grados_thirteen">Introducirse en algo o cómo algo, rebelión, irascibilidad, pasión, grado cardinal, imnpaciencia o riesgos en estas energías</string>
+    <string name="grados_fourteen">Estabilidad, calma, serenidad, materializar</string>
+    <string name="grados_fiveteen">Grado semi-maligno, asesinar o ser asesinado. Comunicación y carisma, manipulación o mentiras compulsivas</string>
+    <string name="grados_sixteen">Sensibilidad, subjetividad, nutrir pero nosotros primero, emociones</string>
+    <string name="grados_seventeen">Grado de fama de larga duración, éxito y oportunidades, grado mutable, indiferencia frente a estas energías o nos cuesta concetrarlas</string>
+    <string name="grados_eightteen">Grado maligno, algo está corrupto o algo está mal, maldad, problemas de salud o mala fortuna, perfeccionismo</string>
+    <string name="grados_nineteen">Complacencia, nos cuesta decir que no, no miramos nuestro bienestar, enamorados empedernidos, dependencia emocional, mucha belleza</string>
+    <string name="grados_twenty">Venganza o celos, emociones oscuras e incontrolables, impulsos o pulsiones inconscientes</string>
+    <string name="grados_twentyone">Viajes, espiritualidad,optimismo, fe, grado fijo, temor a mostrarse</string>
+    <string name="grados_twentytwo">Grado de la muerte real o simbólica, destrucción, transformación, grado fijo, miedo a mostrarse</string>
+    <string name="grados_twentythree">Cortar, sabotaje, ser frío y distante con otros, generar conflicto para alejar a la gente, miedo a perderse en el colectivo</string>
+    <string name="grados_twentyfour">Médium, misticismo, aislamiento o exilio extremo, sentimientos de soledad, adicciones, depresión o ansiedad</string>
+    <string name="grados_twentyfive">Irascibilidad, violencia, impetuosidad, impulsividad, demasiada individualidad</string>
+    <string name="grados_twentysix">Cabezonería, estabilidad estancada, lentitud, grado cardinal, riesgos en estas energías</string>
+    <string name="grados_twentyseven">Dispersión, mucha inteligencia, genialidad, karma a la hora de comunicarnos, problemas para expresarnos</string>
+    <string name="grados_twentyeigth">Intuición, grado de nombre familiar famoso, la familia de madre puede ser reconocida en un nicho laboral</string>
+    <string name="grados_twentynine">Grado de fama, reinar, coronarse, grado anarético, karma.</string>
 
     <!-- Contrato Almico -->
     <string name="contrato_almico">Contrato Almico</string>
@@ -121,6 +185,26 @@
     <string name="amistades_none">No tiene</string>
     <string name="amistades_all">El resto</string>
 
+    <!-- Misiones -->
+    <string name="minijuego_guess">Adivina la carta</string>
+    <string name="minijuego_next">SIGUIENTE</string>
+    <string name="minijuego_acierto">SÍ, ¡ACERTASTE!</string>
+    <string name="minijuego_error">NO, ¡ERROR!</string>
+    <string name="minijuego_fin_juego">¡Fin! Aciertos:</string>
+    <string name="minijuego_velas">¿Qué vela es para hacer rituales de...</string>
+    <string name="minijuego_velas_amor">AMOR</string>
+    <string name="minijuego_velas_pasion">PASIÓN</string>
+    <string name="minijuego_velas_obsesion">OBSESIÓN</string>
+    <string name="minijuego_velas_abundancia">ABUNDANCIA</string>
+    <string name="minijuego_velas_salud">SALUD</string>
+    <string name="minijuego_velas_serenidad">SERENIDAD</string>
+    <string name="minijuego_velas_intuicion">INTUICIÓN</string>
+    <string name="minijuego_velas_limpieza">LIMPIEZA</string>
+    <string name="minijuego_velas_positivismo">POSITIVISMO</string>
+    <string name="minijuego_velas_exito">ÉXITO</string>
+    <string name="minijuego_velas_espiritual">ESPIRITUALIDAD</string>
+    <string name="minijuego_velas_juicios">JUICIOS</string>
+
     <!-- Main ASTROLOGY -->
     <string name="astrology_title">Astrología</string>
     <string name="astrology_btn">Comprar</string>
@@ -128,6 +212,9 @@
     <string name="astrology_sign">SIGNO:</string>
     <string name="astrology_degree">GRADO:</string>
     <string name="astrology_retro">RETRÓGRADO:</string>
+    <string name="astrology_natalchart_list">TUS CARTAS NATALES</string>
+    <string name="astroadd_chart">Nombre de la carta:</string>
+    <string name="astroadd_btn">Añadir carta natal</string>
 
     <string name="astrology_asc">Ascendente</string>
     <string name="astrology_sun">Sol</string>
@@ -156,10 +243,21 @@
     <string name="astrology_aquarius">Acuario</string>
     <string name="astrology_pisces">Piscis</string>
 
+    <string name="astroevent_love">Hoy buena suerte en el amor</string>
+    <string name="astroevent_ira">Hoy emociones irascibles, ¡cuidado!</string>
+    <string name="astroevent_estudiar">Buen día para investigar, estudiar o avanzar en tu carrera</string>
+    <string name="astroevent_enfado">Evita los enfados tontos, ¡controla!</string>
+    <string name="astroevent_espiritual">Céntrate más en lo espiritual, ¡estás en lo material!</string>
+    <string name="astroevent_sanar">Te sientes víctima del destino, ¡sana!</string>
+    <string name="astroevent">Puedes crear cartas en los botones inferiores</string>
+
     <!-- Main NUMEROLOGY -->
     <string name="numerology_title">Numerología</string>
     <string name="numerology_mochila">Tu mochila</string>
     <string name="numerology_mapa">Ver mapa</string>
+    <string name="numerology_load">Cargar mapa</string>
+    <string name="numerology_load_title">Escribe fecha de nacimiento a cargar</string>
+    <string name="numerololgy_loaded">Carta numerológica cargada</string>
 
 
     <string name="numerology_general_title">Energías generales</string>
@@ -210,6 +308,38 @@
     <string name="friends_tarot">Amigos</string>
     <string name="spirituality_tarot">Espiritualidad</string>
 
+    <!-- FRASES -->
+    <string name="ta_inicio">Debes actuar </string>
+    <string name="ta_nudo"> y </string>
+    <string name="ta_final"> para lograr </string>
+
+    <string name="tl_inicio">Una relación </string>
+    <string name="tl_nudo"> obtendrá </string>
+    <string name="tf_nudo"> que </string>
+    <string name="tl_final"> y el resultado será </string>
+    <string name="tf_inicio">Una amistad </string>
+    <string name="tfe_inicio">Estás  </string>
+    <string name="tfe_nudo">, debes cruzar </string>
+
+    <string name="tlt_inicio">Siente </string>
+    <string name="tlt_nudo">, piensa </string>
+    <string name="tlt_final">y actuará contigo </string>
+
+    <string name="tt_inicio">El primer camino </string>
+    <string name="tt_nudo">, el segundo camino </string>
+    <string name="tt_final">. El tarot te aconseja </string>
+
+    <string name="tet_inicio">Tu misión ahora es </string>
+    <string name="tet_nudo">, transitas en el </string>
+    <string name="tet_final"> y al final encontarás </string>
+
+    <string name="tarot_si">Sí, ¡vas bien!</string>
+    <string name="tarot_nose">Hay dudas, debes reconducir tus pensamientos.</string>
+    <string name="tarot_no">No, por ahí no es.</string>
+    <string name="tarot_esp_si">Sí, ¡definitivamente!</string>
+    <string name="tarot_esp_nose">Es probable que suceda.</string>
+    <string name="tarot_esp_no">Lo siento, pero mejor no.</string>
+
     <!--  subopciones -->
     <string name="yesno_tarot">Pregunta de Sí o No</string>
     <string name="advice_tarot">Tarot consejo</string>
@@ -229,7 +359,5 @@
 
     <!--  subopciones espiritualidad -->
     <string name="special_spirituality_tarot">¿Estoy en el camino correcto?</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

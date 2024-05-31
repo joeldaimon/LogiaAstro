@@ -1,20 +1,36 @@
 package com.joguco.logiaastro.tabs.tarot
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.FrameLayout
 import androidx.core.view.isVisible
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import com.joguco.logiaastro.R
 import com.joguco.logiaastro.databinding.ActivityTarotBinding
 import com.joguco.logiaastro.databinding.CardItemBinding
 import com.joguco.logiaastro.interfaces.OnCardClick
 import com.joguco.logiaastro.model.Tarot.TarotCard
+import com.joguco.logiaastro.ui.MainActivity
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.tasks.await
 
 class TarotActivity : AppCompatActivity(), OnCardClick {
-    //Atributos
+    //Binding
     private lateinit var binding: ActivityTarotBinding
+
+    //Usuario
+    private lateinit var user: String
+
+    //Lista de cartas
     private var lista = ArrayList<TarotCard>()
+
+    //Atributos
     private var mostrarDatos = 0
     private var tematica:String = ""
     private var opcion:String = ""
@@ -27,15 +43,17 @@ class TarotActivity : AppCompatActivity(), OnCardClick {
         binding = ActivityTarotBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        var sharedpreferences = getSharedPreferences(MainActivity.SHARED_PREFS, Context.MODE_PRIVATE)
+        user = sharedpreferences.getString(MainActivity.USER_KEY, null).toString()
+
         //Iniciamos item card Binding
         itemBinding = CardItemBinding.inflate(layoutInflater)
 
-        //Iniciamos opciones
         initListeners()
     }
 
     /*
-    *   Iniciamos Listeners
+    *   Método que inicia Listeners
     */
     private fun initListeners() {
         //Temática
@@ -48,11 +66,24 @@ class TarotActivity : AppCompatActivity(), OnCardClick {
         binding.btnWork.setOnClickListener{
             setTheme("work")
         }
-        binding.btnFriends.setOnClickListener{
-            setTheme("friends")
-        }
         binding.btnSpirituality.setOnClickListener{
             setTheme("spirituality")
+            var db = Firebase.firestore
+            CoroutineScope(Dispatchers.Main).launch{
+                db.collection("users").document(user).get()
+                    .addOnSuccessListener {
+                        var tarotLevel = it.get("tarotLevel") as Long
+                        tarotLevel++
+                        db.collection("users").document(user).update(
+                            hashMapOf(
+                                "tarotLevel" to tarotLevel
+                            ) as Map<String, Any>
+                        )
+                    }
+                    .addOnFailureListener { exception ->
+                        Log.i("LOGIA-ASTRO", "Error al actualizar usuario en Tarot: ", exception)
+                    } .await()
+            }
         }
 
         //Opciones
@@ -88,9 +119,6 @@ class TarotActivity : AppCompatActivity(), OnCardClick {
             }
             "work" -> {
                 binding.btnSpecial.text = resources.getString(R.string.special_work_tarot)
-            }
-            "friends" -> {
-                binding.btnSpecial.text = resources.getString(R.string.special_friends_tarot)
             }
             "spirituality" -> {
                 binding.btnSpecial.text = resources.getString(R.string.special_spirituality_tarot)
@@ -129,6 +157,7 @@ class TarotActivity : AppCompatActivity(), OnCardClick {
 
     /*
      * Añade carta clickada a la lista
+     * @param   carta
      */
     private fun addCarta(carta: TarotCard){
         lista.add(carta)
@@ -140,6 +169,7 @@ class TarotActivity : AppCompatActivity(), OnCardClick {
      * Muestra datos tras elegir 3 cartas
      */
     private fun mostrarDatos(){
+        binding.tvTitle.isVisible = false
         var id = getImage(lista[0].imagen)
         binding.ivOne.setImageResource(id)
         id = getImage(lista[1].imagen)
@@ -153,62 +183,76 @@ class TarotActivity : AppCompatActivity(), OnCardClick {
             "yesno" -> {
                 if(tematica == "spirituality"){
                     var result = lista[0].respuesta + lista[1].respuesta + lista[2].respuesta
-                    binding.datos.text = if (result == 3) "sí, ¡vas bien!"  else (if (result == 2) "Hay dudas, debes reconducir tus pensamientos." else "No, por ahí no es.")
+                    binding.datos.text = if (result == 3) getText(R.string.tarot_si)  else (if (result == 2) getText(R.string.tarot_nose) else getText(R.string.tarot_no))
                 } else {
                     var result = lista[0].respuesta + lista[1].respuesta + lista[2].respuesta
-                    binding.datos.text = if (result == 3) "sí, ¡definitivamente!"  else (if (result == 2) "Es probable que suceda." else "Lo siento, pero mejor no.")
+                    binding.datos.text = if (result == 3) getText(R.string.tarot_esp_si)  else (if (result == 2) getText(R.string.tarot_esp_nose) else getText(R.string.tarot_esp_no))
                 }
             }
             "advice" -> {
                 if(tematica == "love"){
-                    binding.datos.text = "Debes actuar "+lista[0].loveAdvice.inicio+" y "+lista[1].loveAdvice.nudo+" para lograr "+lista[2].loveAdvice.final+"."
+                    binding.datos.text = "${getText(R.string.ta_inicio)} "+lista[0].loveAdvice.inicio+
+                            " ${getText(R.string.ta_nudo)} "+lista[1].loveAdvice.nudo+
+                            " ${getText(R.string.ta_final)} "+lista[2].loveAdvice.final+"."
                 }
                 if(tematica == "money"){
-                    binding.datos.text = "Debes actuar "+lista[0].moneyAdvice.inicio+" y "+lista[1].moneyAdvice.nudo+" para lograr "+lista[2].moneyAdvice.final+"."
+                    binding.datos.text = "${getText(R.string.ta_inicio)} "+lista[0].moneyAdvice.inicio+
+                            " ${getText(R.string.ta_nudo)} "+lista[1].moneyAdvice.nudo+
+                            " ${getText(R.string.ta_final)} "+lista[2].moneyAdvice.final+"."
                 }
                 if(tematica == "work"){
-                    binding.datos.text = "Debes actuar "+lista[0].workAdvice.inicio+" y "+lista[1].workAdvice.nudo+" para lograr "+lista[2].workAdvice.final+"."
-                }
-                if(tematica == "friends"){
-                    binding.datos.text = "Debes actuar "+lista[0].friendsAdvice.inicio+" y "+lista[1].friendsAdvice.nudo+" para lograr "+lista[2].friendsAdvice.final+"."
+                    binding.datos.text = "${getText(R.string.ta_inicio)} "+lista[0].workAdvice.inicio+
+                            " ${getText(R.string.ta_nudo)} "+lista[1].workAdvice.nudo+
+                            " ${getText(R.string.ta_final)} "+lista[2].workAdvice.final+"."
                 }
                 if(tematica == "spirituality"){
-                    binding.datos.text = "Debes actuar "+lista[0].spiritualityAdvice.inicio+" y "+lista[1].spiritualityAdvice.nudo+" para lograr "+lista[2].spiritualityAdvice.final+"."
-
+                    binding.datos.text = "${getText(R.string.ta_inicio)} "+lista[0].spiritualityAdvice.inicio+
+                            " ${getText(R.string.ta_nudo)} "+lista[1].spiritualityAdvice.nudo+
+                            " ${getText(R.string.ta_final)} "+lista[2].spiritualityAdvice.final+"."
                 }
             }
             "future" -> {
                 if(tematica == "love"){
-                    binding.datos.text = "Una relación "+lista[0].loveFuture.inicio+" obtendrá "+lista[1].loveFuture.nudo+" y el resultado será "+lista[2].loveFuture.final+"."
+                    binding.datos.text = "${getText(R.string.tl_inicio)} "+lista[0].loveFuture.inicio+
+                            " ${getText(R.string.tl_nudo)} "+lista[1].loveFuture.nudo+
+                            " ${getText(R.string.tl_final)} "+lista[2].loveFuture.final+"."
                 }
                 if(tematica == "money"){
-                    binding.datos.text = lista[0].moneyFuture.inicio+" que "+lista[1].moneyFuture.nudo+" y el resultado será "+lista[2].moneyFuture.final+"."
+                    binding.datos.text = lista[0].moneyFuture.inicio+
+                            " ${getText(R.string.tf_nudo)} "+lista[1].moneyFuture.nudo+
+                            " ${getText(R.string.tl_final)} "+lista[2].moneyFuture.final+"."
                 }
                 if(tematica == "work"){
-                    binding.datos.text = lista[0].workFuture.inicio+" que "+lista[1].workFuture.nudo+" y el resultado será "+lista[2].workFuture.final+"."
-                }
-                if(tematica == "friends"){
-                    binding.datos.text = "Una amistad "+lista[0].friendsFuture.inicio+" que "+lista[1].friendsFuture.nudo+" y el resultado será "+lista[2].friendsFuture.final+"."
+                    binding.datos.text = lista[0].workFuture.inicio+
+                            " ${getText(R.string.tf_nudo)} "+lista[1].workFuture.nudo+
+                            " ${getText(R.string.tl_final)} "+lista[2].workFuture.final+"."
                 }
                 if(tematica == "spirituality"){
-                    binding.datos.text = "Estás "+lista[0].spiritualityFuture.inicio+", debes cruzar "+lista[1].spiritualityFuture.nudo+" y el resultado será "+lista[2].spiritualityFuture.final+"."
+                    binding.datos.text = "${getText(R.string.tfe_inicio)} "+lista[0].spiritualityFuture.inicio+
+                            "${getText(R.string.tfe_nudo)} "+lista[1].spiritualityFuture.nudo+
+                            " ${getText(R.string.tl_final)} "+lista[2].spiritualityFuture.final+"."
                 }
             }
             "special" -> {
                 if(tematica == "love"){
-                    binding.datos.text = "Siente "+lista[0].loveSpecial.inicio+", piensa "+lista[1].loveSpecial.nudo+" y actuará contigo "+lista[2].loveSpecial.final+"."
+                    binding.datos.text = "${getText(R.string.tlt_inicio)} "+lista[0].loveSpecial.inicio+
+                            "${getText(R.string.tlt_nudo)} "+lista[1].loveSpecial.nudo+
+                            " ${getText(R.string.tlt_final)} "+lista[2].loveSpecial.final+"."
                 }
                 if(tematica == "money"){
-                    binding.datos.text = "El primer camino "+lista[0].moneySpecial.inicio+", el segundo camino "+lista[1].moneySpecial.nudo+". El tarot te aconseja "+lista[2].moneySpecial.final+"."
+                    binding.datos.text = "${getText(R.string.tt_inicio)} "+lista[0].moneySpecial.inicio+
+                            "${getText(R.string.tt_nudo)} "+lista[1].moneySpecial.inicio+
+                            "${getText(R.string.tt_final)} "+lista[2].moneySpecial.final+"."
                 }
                 if(tematica == "work"){
-                    binding.datos.text = "El primer camino "+lista[0].workSpecial.inicio+", el segundo camino "+lista[1].workSpecial.nudo+". El tarot te aconseja "+lista[2].workSpecial.final+"."
-                }
-                if(tematica == "friends"){
-                    binding.datos.text = "Siente "+lista[0].friendsSpecial.inicio+", piensa "+lista[1].friendsSpecial+" y actuará contigo "+lista[2].friendsSpecial+"."
+                    binding.datos.text = "${getText(R.string.tt_inicio)} "+lista[0].moneySpecial.nudo+
+                            "${getText(R.string.tt_nudo)} "+lista[1].moneySpecial.nudo+
+                            "${getText(R.string.tt_final)} "+lista[2].moneySpecial.final+"."
                 }
                 if(tematica == "spirituality"){
-                    binding.datos.text = "Tu misión ahora es "+lista[0].spiritualitySpecial.inicio+", transitas en él "+lista[1].spiritualitySpecial.nudo+" y al final encontarás "+lista[2].spiritualitySpecial.final+"."
+                    binding.datos.text = "${getText(R.string.tet_inicio)} "+lista[0].spiritualitySpecial.inicio+
+                            "${getText(R.string.tet_nudo)} "+lista[1].spiritualitySpecial.nudo+
+                            " ${getText(R.string.tet_final)} "+lista[2].spiritualitySpecial.final+"."
                 }
             }
         }

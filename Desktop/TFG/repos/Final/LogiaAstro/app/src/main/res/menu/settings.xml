@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
     <item
-        android:icon="@drawable/logo2"
+        android:icon="@drawable/logo1"
         android:title="title"
         app:showAsAction="ifRoom" />
     <item
@@ -14,9 +14,5 @@
     <item
         android:id="@+id/action_logout"
         android:title="@string/menu_logout"
-        app:showAsAction="never" />
-    <item
-        android:id="@+id/action_settings"
-        android:title="@string/menu_setting"
         app:showAsAction="never" />
 </menu>
